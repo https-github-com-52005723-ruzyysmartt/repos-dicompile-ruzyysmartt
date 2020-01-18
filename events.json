@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "11305908579",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 219864855,
+      "name": "ruzyysmartt/explore",
+      "url": "https://api.github.com/repos/ruzyysmartt/explore"
+    },
+    "payload": {
+      "push_id": 4516196157,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/patch-2",
+      "head": "7d407342893a0e69d5c6c7e118761757634c504b",
+      "before": "8a7b7a402df6f756bb0c83c2ede9fed7dac641fe",
+      "commits": [
+        {
+          "sha": "7d407342893a0e69d5c6c7e118761757634c504b",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Update and rename CONTRIBUTING.md to github/ruzyysmartt/CONTRIBUTING.md\n\n# Contributing\r\n\r\nHi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.\r\n\r\nThis project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.\r\n\r\nThere are a few ways you can contribute:\r\n\r\n- Improving an existing topic or collection\r\n- Curating a new topic or collection\r\n\r\nAs you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.\r\n\r\nNote: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.\r\n\r\n## Improving an existing topic or collection\r\n\r\nIf a topic or collection already exists, it will be listed in its respective directory:\r\n\r\n- [topics/](https://github.com/ruzyysmartt/explore/branches/master/topics)\r\n- [collections/](https://github.com/ruzyysmartt/explore/branches/master/collections)\r\n\r\nThe topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/master/topics/rails).\r\n\r\nTo make an improvement, please **open a pull request** with your proposed changes:\r\n\r\n### Update the image\r\n\r\nTo update the image, simply replace the image inside the directory for the topic or collection.\r\n\r\n### Update text and links\r\n\r\nTo update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.\r\n\r\nFor **topics**, you'll notice that, in examples like the topic \"[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md),\" data like the its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.\r\n\r\n_/topics/algorithm/index.md_:\r\n```\r\n---\r\naliases: algorithms\r\ndisplay_name: Algorithm\r\nshort_description: Algorithms are self-contained sequences that carry out a variety of tasks.\r\ntopic: algorithm\r\nwikipedia_url: https://en.wikipedia.org/wiki/Algorithm\r\n---\r\nAlgorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.\r\n```\r\n\r\n---\r\n\r\nSimilarly, **collections** like \"[music](https://raw.githubusercontent.com/ruzyysmartt/explore/master/collections/music/index.md)\" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key \"items.\"\r\n\r\n_/collections/music/index.md_:\r\n\r\n```\r\n---\r\nitems:\r\n - beetbox/beets\r\n - scottschiller/SoundManager2\r\n - CreateJS/SoundJS\r\n - musescore/MuseScore\r\n - tomahawk-player/tomahawk\r\n - cashmusic/platform\r\n - mopidy/mopidy\r\n - AudioKit/AudioKit\r\n - Soundnode/soundnode-app\r\n - gillesdemey/Cumulus\r\n - metabrainz/picard\r\n - overtone/overtone\r\n - samaaron/sonic-pi\r\ndisplay_name: Music\r\ncreated_by: jonrohan\r\n---\r\nDrop the code bass with these musically themed repositories.\r\n```\r\n\r\n---\r\n\r\nThe [pull request template](./.github/ruzyysmartt/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.\r\n\r\n**Please fill out the pull request template completely.** If you do not fill out the template, your PR will be closed.\r\n\r\n## Curating a new topic or collection\r\n\r\nIf a topic or collection is not yet curated, it will NOT be listed in its respective directory.\r\n\r\nWe are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/), or a topic that currently lacks important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.\r\n\r\nPlease note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.\r\n\r\nTo propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.\r\n\r\nThis repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).\r\n\r\n**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.\r\n\r\n## Guidelines\r\n\r\n* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.\r\n\r\n## Running tests\r\n\r\nThere are some lint tests in place to ensure each topic is formatted in the way we expect. Travis\r\nCI will run the tests automatically. If you want to run the tests yourself locally, you will need\r\nRuby and Bundler installed.\r\n\r\nYou can run the tests using:\r\n\r\n```bash\r\nscript/cibuild\r\n```",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/explore/commits/7d407342893a0e69d5c6c7e118761757634c504b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T09:51:30Z"
+  },
+  {
+    "id": "11305885753",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 219864855,
+      "name": "ruzyysmartt/explore",
+      "url": "https://api.github.com/repos/ruzyysmartt/explore"
+    },
+    "payload": {
+      "push_id": 4516181007,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/patch-1",
+      "head": "c498bdc086f6947f02191806eab302f316781d34",
+      "before": "8a7b7a402df6f756bb0c83c2ede9fed7dac641fe",
+      "commits": [
+        {
+          "sha": "c498bdc086f6947f02191806eab302f316781d34",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Update CONTRIBUTING md\n\n# Contributing\r\n\r\nHi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.\r\n\r\nThis project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.\r\n\r\nThere are a few ways you can contribute:\r\n\r\n- Improving an existing topic or collection\r\n- Curating a new topic or collection\r\n\r\nAs you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.\r\n\r\nNote: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.\r\n\r\n## Improving an existing topic or collection\r\n\r\nIf a topic or collection already exists, it will be listed in its respective directory:\r\n\r\n- [topics/](https://github.com/ruzyysmartt/explore/branches/master/topics)\r\n- [collections/](https://github.com/ruzyysmartt/explore/branches/master/collections)\r\n\r\nThe topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/master/topics/rails).\r\n\r\nTo make an improvement, please **open a pull request** with your proposed changes:\r\n\r\n### Update the image\r\n\r\nTo update the image, simply replace the image inside the directory for the topic or collection.\r\n\r\n### Update text and links\r\n\r\nTo update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.\r\n\r\nFor **topics**, you'll notice that, in examples like the topic \"[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md),\" data like the its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.\r\n\r\n_/topics/algorithm/index.md_:\r\n```\r\n---\r\naliases: algorithms\r\ndisplay_name: Algorithm\r\nshort_description: Algorithms are self-contained sequences that carry out a variety of tasks.\r\ntopic: algorithm\r\nwikipedia_url: https://en.wikipedia.org/wiki/Algorithm\r\n---\r\nAlgorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.\r\n```\r\n\r\n---\r\n\r\nSimilarly, **collections** like \"[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)\" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key \"items.\"\r\n\r\n_/collections/music/index.md_:\r\n\r\n```\r\n---\r\nitems:\r\n - beetbox/beets\r\n - scottschiller/SoundManager2\r\n - CreateJS/SoundJS\r\n - musescore/MuseScore\r\n - tomahawk-player/tomahawk\r\n - cashmusic/platform\r\n - mopidy/mopidy\r\n - AudioKit/AudioKit\r\n - Soundnode/soundnode-app\r\n - gillesdemey/Cumulus\r\n - metabrainz/picard\r\n - overtone/overtone\r\n - samaaron/sonic-pi\r\ndisplay_name: Music\r\ncreated_by: jonrohan\r\n---\r\nDrop the code bass with these musically themed repositories.\r\n```\r\n\r\n---\r\n\r\nThe [pull request template](./.github/ruzyysmartt/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.\r\n\r\n**Please fill out the pull request template completely.** If you do not fill out the template, your PR will be closed.\r\n\r\n## Curating a new topic or collection\r\n\r\nIf a topic or collection is not yet curated, it will NOT be listed in its respective directory.\r\n\r\nWe are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/), or a topic that currently lacks important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.\r\n\r\nPlease note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.\r\n\r\nTo propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.\r\n\r\nThis repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).\r\n\r\n**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.\r\n\r\n## Guidelines\r\n\r\n* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.\r\n\r\n## Running tests\r\n\r\nThere are some lint tests in place to ensure each topic is formatted in the way we expect. Travis\r\nCI will run the tests automatically. If you want to run the tests yourself locally, you will need\r\nRuby and Bundler installed.\r\n\r\nYou can run the tests using:\r\n\r\n```bash\r\nscript/cibuild\r\n```",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/explore/commits/c498bdc086f6947f02191806eab302f316781d34"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T09:40:14Z"
+  },
+  {
+    "id": "11305768733",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2020-01-18T08:41:18Z"
+  },
+  {
+    "id": "11305767266",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4516105590,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "e971bfd9438846c39a4fff2b9df0853cbcfc9df9",
+      "before": "9c49e481df85d17ea076a9431e89b3a1e5e7ce3a",
+      "commits": [
+        {
+          "sha": "e971bfd9438846c39a4fff2b9df0853cbcfc9df9",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "github\n\nhttps://github.com/ruzyysmartt/owned-wallet.git\r\n## Welcome to GitHub Pages\r\n\r\nYou can use the [editor on GitHub](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n\r\n- Bulleted\r\n- List\r\n\r\n1. Numbered\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/e971bfd9438846c39a4fff2b9df0853cbcfc9df9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T08:40:33Z"
+  },
+  {
+    "id": "11305752275",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4516095941,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "9c49e481df85d17ea076a9431e89b3a1e5e7ce3a",
+      "before": "32a4c8673fbef5286828ef482db5b34abc7b0b2f",
+      "commits": [
+        {
+          "sha": "9c49e481df85d17ea076a9431e89b3a1e5e7ce3a",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Ruzyysmartt assets doc\n\ne616fa0e07ac3268b9ea49b35a5ef857-5a7bec7c1fd43b7e448f0e72e429762604e95743 (1).zip\t\r\ne616fa0e07ac3268b9ea49b35a5ef857-5a7bec7c1fd43b7e448f0e72e429762604e95743.zip\t\r\nexport-ruzyysmartt-1579331671.json\t\r\nexport-ruzyysmartt-1579331466.csv\t\r\nexport-ruzyysmartt-1579330549.json\t\r\ngithub-recovery-codes.txt",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/9c49e481df85d17ea076a9431e89b3a1e5e7ce3a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T08:32:20Z"
+  },
+  {
+    "id": "11305548306",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2020-01-18T06:40:14Z"
+  },
+  {
+    "id": "11305546478",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4515961516,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "32a4c8673fbef5286828ef482db5b34abc7b0b2f",
+      "before": "f176aed7246ec4a13f77dbc4b8dc1a52fd9baa68",
+      "commits": [
+        {
+          "sha": "32a4c8673fbef5286828ef482db5b34abc7b0b2f",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Mainnet\n\n$# panoramix decompile complite                          code json source  ABI           Owned by:ruzyysmartt\r\n ruzyysmartt@gmail.com\r\nApp ID: 50572\r\nUrl: https://github.com/ruzyysmartt/panoramix\r\nCreate Login from:ruzyysmartt                id:52005723+ruzyysmartt email: ruzyysmartt@gmail. com                            account: github.com/ruzyysmartt                     https://github.com/ruzyysmartt.gits       content: panoramix decompile reposentory node: json sourse code  web 3 ABI                             owned : ruzyysmartt  ( news owned contract)                                                                        ##                           Panoramix JSON output\r\nfor easy automated analysis\r\n\r\naddr: 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe\r\nnetwork: mainnet\r\nver: 26 Apr 2019\r\nproblems: {'0x173825d9': 'removeOwner(address _owner)', '0x7065cb48': 'addOwner(address _owner)'}\r\nsource: /code/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe.json\r\nalso available through BigQuery\r\n\r\nstor_defs:\r\n\r\n  [def, \"m_required\", 0, [mask, 256, 0]]\r\n  [def, \"m_numOwners\", 1, [mask, 256, 0]]\r\n  [def, \"stor2\", 2, [array, \"struct\"]]\r\n  [def, \"stor258\", 258, [mapping, 256]]\r\n  [def, \"stor259\", 259, [mapping, \"struct\"]]\r\n  [def, \"stor260\", 260, [array, 256]]\r\n  [def, \"m_dailyLimit\", 261, [mask, 256, 0]]\r\n  [def, \"stor262\", 262, [mask, 256, 0]]\r\n  [def, \"stor263\", 263, [mask, 256, 0]]\r\n  [def, \"stor264\", 264, [mapping, \"struct\"]]\r\n\r\nfunctions:\r\n\r\n  def m_required(): # 0x746c9171 payable\r\n    [return, [stor, 256, 0, [name, \"m_required\", 0]]], \r\n\r\n  def m_numOwners(): # 0x4123cb6b payable\r\n    [return, [stor, 256, 0, [name, \"m_numOwners\", 1]]], \r\n\r\n  def m_dailyLimit(): # 0xf1736d86 payable\r\n    [return, [stor, 256, 0, [name, \"m_dailyLimit\", 261]]], \r\n\r\n  def isOwner(address _owner): # 0x2f54bf6e payable\r\n    [return, [gt, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, [param, \"_owner\"]], [loc, 258]]], 0]], \r\n\r\n  def _fallback(): # payable\r\n    [if, [le, \"callvalue\", 0], [\r\n      [stop], \r\n    ],[\r\n      [log, [data, \"caller\", \"callvalue\"], 0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c], \r\n      [stop], \r\n    ] \r\n\r\n  def hasConfirmed(bytes32 _operation, address _owner): # 0xc2cf7326 payable\r\n    [if, [iszero, [eq, 0, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, [param, \"_owner\"]], [loc, 258]]]]], [\r\n      [if, [iszero, [eq, 0, [and, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, [param, \"_owner\"]], [loc, 258]]]], [stor, 256, 256, [map, [param, \"_operation\"], [loc, 259]]]]]], [\r\n        [return, 1], \r\n      ],[\r\n        [return, 0], \r\n      ] \r\n    ],[\r\n      [return, 0], \r\n    ] \r\n\r\n  def revoke(bytes32 _operation): # 0xb75c7dc6 payable\r\n    [if, [iszero, [eq, 0, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]]], [\r\n      [if, [le, [and, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]], [stor, 256, 256, [map, [param, \"_operation\"], [loc, 259]]]], 0], [\r\n        [stop], \r\n      ],[\r\n        [store, 256, 0, [map, [param, \"_operation\"], [loc, 259]], [add, 1, [stor, 256, 0, [map, [param, \"_operation\"], [loc, 259]]]]], \r\n        [store, 256, 256, [map, [param, \"_operation\"], [loc, 259]], [add, [stor, 256, 256, [map, [param, \"_operation\"], [loc, 259]]], [mul, -1, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]]]]], \r\n        [log, [data, \"caller\", [param, \"_operation\"]], 0xc7fb647e59b18047309aa15aad418e5d7ca96d173ad704f1031a2c3d7591734b], \r\n        [stop], \r\n      ] \r\n    ],[\r\n      [stop], \r\n    ] \r\n\r\n  def kill(address _to): # 0xcbf0b0c0 payable\r\n    [if, [iszero, [eq, 0, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]]], [\r\n      [if, [iszero, [iszero, [stor, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]], [\r\n        [if, [iszero, [eq, 0, [and, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]], [stor, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]]], [\r\n          [stop], \r\n        ],[\r\n          [log, [data, \"caller\", [sha3, [call.data, 0, \"calldatasize\"]]], 0xe1c52dc63b719ade82e8bea94cc41a0d5d28e4aaf536adb5e9cccc9ff8c1aeda], \r\n          [if, [gt, [stor, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]], 1], [\r\n            [store, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [add, -1, [stor, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]], \r\n            [store, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [or, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]], [stor, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]], \r\n            [stop], \r\n          ],[\r\n            [if, [ge, [stor, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]], [stor, 256, 0, [length, [loc, 260]]]], [\r\n              [invalid, \"jump\"], \r\n            ],[\r\n              [store, 256, 0, [add, [code.data, 3859, 32], [stor, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]], 0], \r\n              [store, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n              [store, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n              [store, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n              [selfdestruct, [param, \"_to\"]], \r\n            ] \r\n          ] \r\n        ] \r\n      ],[\r\n        [store, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [stor, 256, 0, [name, \"m_required\", 0]]], \r\n        [store, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n        [store, 256, 0, [length, [loc, 260]], [add, 1, [stor, 256, 0, [length, [loc, 260]]]]], \r\n        [if, [gt, [iszero, [stor, 256, 0, [length, [loc, 260]]]], [add, 1, [stor, 256, 0, [length, [loc, 260]]]]], [\r\n          [store, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [stor, 256, 0, [length, [loc, 260]]]], \r\n          [if, [ge, [stor, 256, 0, [length, [loc, 260]]], [stor, 256, 0, [length, [loc, 260]]]], [\r\n            [invalid, \"jump\"], \r\n          ],[\r\n            [store, 256, 0, [add, [code.data, 3859, 32], [stor, 256, 0, [length, [loc, 260]]]], [sha3, [call.data, 0, \"calldatasize\"]]], \r\n            [if, [iszero, [eq, 0, [and, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]], [stor, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]]], [\r\n              [stop], \r\n            ],[\r\n              [log, [data, \"caller\", [sha3, [call.data, 0, \"calldatasize\"]]], 0xe1c52dc63b719ade82e8bea94cc41a0d5d28e4aaf536adb5e9cccc9ff8c1aeda], \r\n              [if, [gt, [stor, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]], 1], [\r\n                [store, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [add, -1, [stor, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]], \r\n                [store, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [or, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]], [stor, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]], \r\n                [stop], \r\n              ],[\r\n                [if, [ge, [stor, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]], [stor, 256, 0, [length, [loc, 260]]]], [\r\n                  [invalid, \"jump\"], \r\n                ],[\r\n                  [store, 256, 0, [add, [code.data, 3859, 32], [stor, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]], 0], \r\n                  [store, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n                  [store, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n                  [store, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n                  [selfdestruct, [param, \"_to\"]], \r\n                ] \r\n              ] \r\n            ] \r\n          ] \r\n        ],[\r\n          [while, [gt, [stor, 256, 0, [length, [loc, 260]]], [var, 0]], [\r\n            [store, 256, 0, [array, [var, 0], [loc, 260]], 0], \r\n            [continue, \"id2230\", [[setvar, 0, [add, 1, [var, 0]]]]], \r\n          \"id2230\" , [[setvar, 0, [add, 1, [stor, 256, 0, [length, [loc, 260]]]]]] ], # end of while, setvars here go in front of the loop\r\n          [store, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [stor, 256, 0, [length, [loc, 260]]]], \r\n          [if, [ge, [stor, 256, 0, [length, [loc, 260]]], [stor, 256, 0, [length, [loc, 260]]]], [\r\n            [invalid, \"jump\"], \r\n          ],[\r\n            [store, 256, 0, [add, [code.data, 3859, 32], [stor, 256, 0, [length, [loc, 260]]]], [sha3, [call.data, 0, \"calldatasize\"]]], \r\n            [if, [iszero, [eq, 0, [and, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]], [stor, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]]], [\r\n              [stop], \r\n            ],[\r\n              [log, [data, \"caller\", [sha3, [call.data, 0, \"calldatasize\"]]], 0xe1c52dc63b719ade82e8bea94cc41a0d5d28e4aaf536adb5e9cccc9ff8c1aeda], \r\n              [if, [gt, [stor, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]], 1], [\r\n                [store, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [add, -1, [stor, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]], \r\n                [store, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], [or, [exp, 2, [stor, 256, 0, [map, [mask_shl, 160, 0, 96, \"caller\"], [loc, 258]]]], [stor, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]]], \r\n                [stop], \r\n              ],[\r\n                [if, [ge, [stor, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]], [stor, 256, 0, [length, [loc, 260]]]], [\r\n                  [invalid, \"jump\"], \r\n                ],[\r\n                  [store, 256, 0, [add, [code.data, 3859, 32], [stor, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]]]], 0], \r\n                  [store, 256, 0, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n                  [store, 256, 256, [map, [data, [call.data, 0, \"calldatasize\"]], [loc, 259]], 0], \r\n                  [store, 256, 512, [map, [data, [call.data, 0, \"calldatasize\"]], [loc,\r\nClient ID: Iv1.8a73b28dfeeeac4d\r\ncontent:true\r\nClient secret: f96f98ac47e0b993834443a59b8ec85018785855",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/32a4c8673fbef5286828ef482db5b34abc7b0b2f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T06:39:14Z"
+  },
+  {
+    "id": "11305537860",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4515956049,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f176aed7246ec4a13f77dbc4b8dc1a52fd9baa68",
+      "before": "a0b7ae2a67a6f77d33d0f49fade806e8fb3db9c2",
+      "commits": [
+        {
+          "sha": "f176aed7246ec4a13f77dbc4b8dc1a52fd9baa68",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "decompile complite\n\n0eveem all address decompile source json =CODE /ABI  /DATA /AVM/ METADATA",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/f176aed7246ec4a13f77dbc4b8dc1a52fd9baa68"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T06:34:35Z"
+  },
+  {
+    "id": "11305519126",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4515943971,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "a0b7ae2a67a6f77d33d0f49fade806e8fb3db9c2",
+      "before": "3ec19c3e72c23153c9b0e0aa2392053eb2358bf4",
+      "commits": [
+        {
+          "sha": "a0b7ae2a67a6f77d33d0f49fade806e8fb3db9c2",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Octocit image and detail\n\n/storage/emulate/0/KodeDownloads/687474703a2f2f636c2e6c792f696d6167652f3359303133483041327a337a2f67756e64616d2d727562792e706e67.png209 KB\r\n\r\n(214,181 byte)687474703a2f2f636c2e6c792f696d6167652f3359303133483041327a337a2f67756e64616d2d727562792e706e67.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/a0b7ae2a67a6f77d33d0f49fade806e8fb3db9c2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T06:23:50Z"
+  },
+  {
+    "id": "11305452416",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4515900609,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "3ec19c3e72c23153c9b0e0aa2392053eb2358bf4",
+      "before": "f40575df43bebb1e64b9e4dce376cd66141f2721",
+      "commits": [
+        {
+          "sha": "3ec19c3e72c23153c9b0e0aa2392053eb2358bf4",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Markdown\n\nhttps://github.com/ruzyysmartt/owned-wallet/new/master\r\nMarkdown\r\n========\r\n\r\nVersion 1.0.1 - Tue 14 Dec 2004\r\n\r\nby John Gruber  \r\n<http://daringfireball.net/>\r\n\r\nto:Owned by: @ruzyysmartt\r\n\r\nApp ID: 50572\r\n\r\nClient ID: Iv1.8a73b28dfeeeac4d\r\n\r\nClient secret: f96f98ac47e0b993834443a59b8ec85018785855\r\n\r\nIntroduction\r\n------------\r\n\r\nMarkdown is a text-to-HTML conversion tool for web writers. Markdown\r\nallows you to write using an easy-to-read, easy-to-write plain text\r\nformat, then convert it to structurally valid XHTML (or HTML).\r\n\r\nThus, \"Markdown\" is two things: a plain text markup syntax, and a\r\nsoftware tool, written in Perl, that converts the plain text markup \r\nto HTML.\r\n\r\nMarkdown works both as a Movable Type plug-in and as a standalone Perl\r\nscript -- which means it can also be used as a text filter in BBEdit\r\n(or any other application that supporst filters written in Perl).\r\n\r\nFull documentation of Markdown's syntax and configuration options is\r\navailable on the web: <http://daringfireball.net/projects/markdown/>.\r\n(Note: this readme file is formatted in Markdown.)\r\n\r\n\r\n\r\nInstallation and Requirements\r\n-----------------------------\r\n\r\nMarkdown requires Perl 5.6.0 or later. Welcome to the 21st Century.\r\nMarkdown also requires the standard Perl library module `Digest::MD5`. \r\n\r\n\r\n### Movable Type ###\r\n\r\nMarkdown works with Movable Type version 2.6 or later (including \r\nMT 3.0 or later).\r\n\r\n1.  Copy the \"Markdown.pl\" file into your Movable Type \"plugins\"\r\n    directory. The \"plugins\" directory should be in the same directory\r\n    as \"mt.cgi\"; if the \"plugins\" directory doesn't already exist, use\r\n    your FTP program to create it. Your installation should look like\r\n    this:\r\n\r\n        (mt home)/plugins/Markdown.pl\r\n\r\n2.  Once installed, Markdown will appear as an option in Movable Type's\r\n    Text Formatting pop-up menu. This is selectable on a per-post basis.\r\n    Markdown translates your posts to HTML when you publish; the posts\r\n    themselves are stored in your MT database in Markdown format.\r\n\r\n3.  If you also install SmartyPants 1.5 (or later), Markdown will offer\r\n    a second text formatting option: \"Markdown with SmartyPants\". This\r\n    option is the same as the regular \"Markdown\" formatter, except that\r\n    automatically uses SmartyPants to create typographically correct\r\n    curly quotes, em-dashes, and ellipses. See the SmartyPants web page\r\n    for more information: <http://daringfireball.net/projects/smartypants/>\r\n\r\n4.  To make Markdown (or \"Markdown with SmartyPants\") your default\r\n    text formatting option for new posts, go to Weblog Config ->\r\n    Preferences.\r\n\r\nNote that by default, Markdown produces XHTML output. To configure\r\nMarkdown to produce HTML 4 output, see \"Configuration\", below.\r\n\r\n\r\n### Blosxom ###\r\n\r\nMarkdown works with Blosxom version 2.x.\r\n\r\n1.  Rename the \"Markdown.pl\" plug-in to \"Markdown\" (case is\r\n    important). Movable Type requires plug-ins to have a \".pl\"\r\n    extension; Blosxom forbids it.\r\n\r\n2.  Copy the \"Markdown\" plug-in file to your Blosxom plug-ins folder.\r\n    If you're not sure where your Blosxom plug-ins folder is, see the\r\n    Blosxom documentation for information.\r\n\r\n3.  That's it. The entries in your weblog will now automatically be\r\n    processed by Markdown.\r\n\r\n4.  If you'd like to apply Markdown formatting only to certain posts,\r\n    rather than all of them, see Jason Clark's instructions for using\r\n    Markdown in conjunction with Blosxom's Meta plugin:\r\n    \r\n    <http://jclark.org/weblog/WebDev/Blosxom/Markdown.html>\r\n\r\n\r\n### BBEdit ###\r\n\r\nMarkdown works with BBEdit 6.1 or later on Mac OS X. (It also works\r\nwith BBEdit 5.1 or later and MacPerl 5.6.1 on Mac OS 8.6 or later.)\r\n\r\n1.  Copy the \"Markdown.pl\" file to appropriate filters folder in your\r\n    \"BBEdit Support\" folder. On Mac OS X, this should be:\r\n\r\n        BBEdit Support/Unix Support/Unix Filters/\r\n\r\n    See the BBEdit documentation for more details on the location of\r\n    these folders.\r\n\r\n    You can rename \"Markdown.pl\" to whatever you wish.\r\n\r\n2.  That's it. To use Markdown, select some text in a BBEdit document,\r\n    then choose Markdown from the Filters sub-menu in the \"#!\" menu, or\r\n    the Filters floating palette\r\n\r\n\r\n\r\nConfiguration\r\n-------------\r\n\r\nBy default, Markdown produces XHTML output for tags with empty elements.\r\nE.g.:\r\n\r\n    <br />\r\n\r\nMarkdown can be configured to produce HTML-style tags; e.g.:\r\n\r\n    <br>\r\n\r\n\r\n### Movable Type ###\r\n\r\nYou need to use a special `MTMarkdownOptions` container tag in each\r\nMovable Type template where you want HTML 4-style output:\r\n\r\n    <MTMarkdownOptions output='html4'>\r\n        ... put your entry content here ...\r\n    </MTMarkdownOptions>\r\n\r\nThe easiest way to use MTMarkdownOptions is probably to put the\r\nopening tag right after your `<body>` tag, and the closing tag right\r\nbefore `</body>`.\r\n\r\nTo suppress Markdown processing in a particular template, i.e. to\r\npublish the raw Markdown-formatted text without translation into\r\n(X)HTML, set the `output` attribute to 'raw':\r\n\r\n    <MTMarkdownOptions output='raw'>\r\n        ... put your entry content here ...\r\n    </MTMarkdownOptions>\r\n\r\n\r\n### Command-Line ###\r\n\r\nUse the `--html4tags` command-line switch to produce HTML output from a\r\nUnix-style command line. E.g.:\r\n\r\n    % perl Markdown.pl --html4tags foo.text\r\n\r\nType `perldoc Markdown.pl`, or read the POD documentation within the\r\nMarkdown.pl source code for more information.\r\n\r\n\r\n\r\nBugs\r\n----\r\n\r\nTo file bug reports or feature requests please send email to:\r\n<markdown@daringfireball.net>.\r\n\r\n\r\n\r\nVersion History\r\n---------------\r\n\r\n1.0.1 (14 Dec 2004):\r\n\r\n+\tChanged the syntax rules for code blocks and spans. Previously,\r\n\tbackslash escapes for special Markdown characters were processed\r\n\teverywhere other than within inline HTML tags. Now, the contents\r\n\tof code blocks and spans are no longer processed for backslash\r\n\tescapes. This means that code blocks and spans are now treated\r\n\tliterally, with no special rules to worry about regarding\r\n\tbackslashes.\r\n\r\n\t**NOTE**: This changes the syntax from all previous versions of\r\n\tMarkdown. Code blocks and spans involving backslash characters\r\n\twill now generate different output than before.\r\n\r\n+\tTweaked the rules for link definitions so that they must occur\r\n\twithin three spaces of the left margin. Thus if you indent a link\r\n\tdefinition by four spaces or a tab, it will now be a code block.\r\n\t\r\n\t\t   [a]: /url/  \"Indented 3 spaces, this is a link def\"\r\n\r\n\t\t    [b]: /url/  \"Indented 4 spaces, this is a code block\"\r\n\t\r\n\t**IMPORTANT**: This may affect existing Markdown content if it\r\n\tcontains link definitions indented by 4 or more spaces.\r\n\r\n+\tAdded `>`, `+`, and `-` to the list of backslash-escapable\r\n\tcharacters. These should have been done when these characters\r\n\twere added as unordered list item markers.\r\n\r\n+\tTrailing spaces and tabs following HTML comments and `<hr/>` tags\r\n\tare now ignored.\r\n\r\n+\tInline links using `<` and `>` URL delimiters weren't working:\r\n\r\n\t\tlike [this](<http://example.com/>)\r\n\r\n+\tAdded a bit of tolerance for trailing spaces and tabs after\r\n\tMarkdown hr's.\r\n\r\n+\tFixed bug where auto-links were being processed within code spans:\r\n\r\n\t\tlike this: `<http://example.com/>`\r\n\r\n+\tSort-of fixed a bug where lines in the middle of hard-wrapped\r\n\tparagraphs, which lines look like the start of a list item,\r\n\twould accidentally trigger the creation of a list. E.g. a\r\n\tparagraph that looked like this:\r\n\r\n\t\tI recommend upgrading to version\r\n\t\t8. Oops, now this line is treated\r\n\t\tas a sub-list.\r\n\r\n\tThis is fixed for top-level lists, but it can still happen for\r\n\tsub-lists. E.g., the following list item will not be parsed\r\n\tproperly:\r\n\r\n\t\t+\tI recommend upgrading to version\r\n\t\t\t8. Oops, now this line is treated\r\n\t\t\tas a sub-list.\r\n\r\n\tGiven Markdown's list-creation rules, I'm not sure this can\r\n\tbe fixed.\r\n\r\n+\tStandalone HTML comments are now handled; previously, they'd get\r\n\twrapped in a spurious `<p>` tag.\r\n\r\n+\tFix for horizontal rules preceded by 2 or 3 spaces.\r\n\r\n+\t`<hr>` HTML tags in must occur within three spaces of left\r\n\tmargin. (With 4 spaces or a tab, they should be code blocks, but\r\n\tweren't before this fix.)\r\n\r\n+\tCapitalized \"With\" in \"Markdown With SmartyPants\" for\r\n\tconsistency with the same string label in SmartyPants.pl.\r\n\t(This fix is specific to the MT plug-in interface.)\r\n\r\n+\tAuto-linked email address can now optionally contain\r\n\ta 'mailto:' protocol. I.e. these are equivalent:\r\n\r\n\t\t<mailto:user@example.com>\r\n\t\t<user@example.com>\r\n\r\n+\tFixed annoying bug where nested lists would wind up with\r\n\tspurious (and invalid) `<p>` tags.\r\n\r\n+\tYou can now write empty links:\r\n\r\n\t\t[like this]()\r\n\r\n\tand they'll be turned into anchor tags with empty href attributes.\r\n\tThis should have worked before, but didn't.\r\n\r\n+\t`***this***` and `___this___` are now turned into\r\n\r\n\t\t<strong><em>this</em></strong>\r\n\r\n\tInstead of\r\n\r\n\t\t<strong><em>this</strong></em>\r\n\r\n\twhich isn't valid. (Thanks to Michel Fortin for the fix.)\r\n\r\n+\tAdded a new substitution in `_EncodeCode()`: s/\\$/&#036;/g; This\r\n\tis only for the benefit of Blosxom users, because Blosxom\r\n\t(sometimes?) interpolates Perl scalars in your article bodies.\r\n\r\n+\tFixed problem for links defined with urls that include parens, e.g.:\r\n\r\n\t\t[1]: http://sources.wikipedia.org/wiki/Middle_East_Policy_(Chomsky)\r\n\r\n\t\"Chomsky\" was being erroneously treated as the URL's title.\r\n\r\n+\tAt some point during 1.0's beta cycle, I changed every sub's\r\n\targument fetching from this idiom:\r\n\r\n\t\tmy $text = shift;\r\n\r\n\tto:\r\n\r\n\t\tmy $text = shift || return '';\r\n\r\n\tThe idea was to keep Markdown from doing any work in a sub\r\n\tif the input was empty. This introduced a bug, though:\r\n\tif the input to any function was the single-character string\r\n\t\"0\", it would also evaluate as false and return immediately.\r\n\tHow silly. Now fixed.\r\n\r\n\r\n\r\nDonations\r\n---------\r\n\r\nDonations to support Markdown's development are happily accepted. See:\r\n<http://daringfireball.net/projects/markdown/> for details.\r\n\r\n\r\n\r\nCopyright and License\r\n---------------------\r\n\r\nCopyright (c) 2003-2004 John Gruber   \r\n<http://daringfireball.net/>   \r\nAll rights reserved.\r\n\r\nRedistribution and use in source and binary forms, with or without\r\nmodification, are permitted provided that the following conditions are\r\nmet:\r\n\r\n* Redistributions of source code must retain the above copyright notice,\r\n  this list of conditions and the following disclaimer.\r\n\r\n* Redistributions in binary form must reproduce the above copyright\r\n  notice, this list of conditions and the following disclaimer in the\r\n  documentation and/or other materials provided with the distribution.\r\n\r\n* Neither the name \"Markdown\" nor the names of its contributors may\r\n  be used to endorse or promote products derived from this software\r\n  without specific prior written permission.\r\n\r\nThis software is provided by the copyright holders and contributors \"as\r\nis\" and any express or implied warranties, including, but not limited\r\nto, the implied warranties of merchantability and fitness for a\r\nparticular purpose are disclaimed. In no event shall the copyright owner\r\nor contributors be liable for any direct, indirect, incidental, special,\r\nexemplary, or consequential damages (including, but not limited to,\r\nprocurement of substitute goods or services; loss of use, data, or\r\nprofits; or business interruption) however caused and on any theory of\r\nliability, whether in contract, strict liability, or tort (including\r\nnegligence or otherwise) arising in any way out of the use of this\r\nsoftware, even if advised of the possibility of such damage.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/3ec19c3e72c23153c9b0e0aa2392053eb2358bf4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T05:44:19Z"
+  },
+  {
+    "id": "11305388625",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4515859504,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f40575df43bebb1e64b9e4dce376cd66141f2721",
+      "before": "2348efc4b368243394155a815a9063fb603d1a1e",
+      "commits": [
+        {
+          "sha": "f40575df43bebb1e64b9e4dce376cd66141f2721",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "New LICENSE  (MIT) \n\nRuzyysmartt- my-wallet-ethereum\r\nethereum wallet\r\nhttps://github.com/ruzyysmartt/owned-wallet.git\r\nruzyysmartt-github-panoramix\r\n\r\nruzyysmartt/panoramix decompile\r\n\r\n## Welcome to GitHub Pages\r\nOwned by: @ruzyysmartt\r\n\r\nApp ID: 50572\r\n\r\nClient ID: Iv1.8a73b28dfeeeac4d\r\n\r\nClient secret: f96f98ac47e0b993834443a59b8ec85018785855\r\n\r\nYou can use the [editor on GitHub](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\n\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n\r\n## Header 2\r\n\r\n### Header 3\r\n\r\n- Bulleted\r\n\r\n- List\r\n\r\n1. Numbered\r\n\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.\r\n\r\nOwner\r\n\r\nAs an owner, ruzyysmartt has admin access to all repositories that belong to the https-github-com-52005723-ruzyysmartt organization. Manage your owners on the People page.\r\n\r\nruzyysmartt has access to 13 repositories\r\n\r\nFind a repository they have access to…\r\n\r\n https-github-com-52005723-ruzyysmartt / My-ethereum-Wallet-reposentory\r\n\r\nAdmin on this repository\t \r\n\r\n https-github-com-52005723-ruzyysmartt / opensource.guide\r\n\r\nAdmin on this repository\t \r\n\r\n https-github-com-52005723-ruzyysmartt / Octokit-rb--ruzyysmartt\r\nLicense\r\nhttps://github.com/ruzyysmartt/ panoramix. gits\r\nCopyright (c) 2019 eveem-org\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\nUpdate LICENSE\r\n\r\n#License\r\nhttps://github.com/ruzyysmartt/aveem.com/panoramix\r\nCopyright (c) 2019 eveem-org\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/f40575df43bebb1e64b9e4dce376cd66141f2721"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T05:05:39Z"
+  },
+  {
+    "id": "11305358024",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "push_id": 4515840251,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "2348efc4b368243394155a815a9063fb603d1a1e",
+      "before": "9fd1f4cdfe4ee8c5338848c81a6a69f7c95b3ad7",
+      "commits": [
+        {
+          "sha": "2348efc4b368243394155a815a9063fb603d1a1e",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Update README md\n\nRuzyysmartt- my-wallet-ethereum\r\nethereum wallet\r\nhttps://github.com/ruzyysmartt/owned-wallet.git\r\nruzyysmartt-github-panoramix\r\n\r\nruzyysmartt/panoramix decompile\r\n\r\n## Welcome to GitHub Pages\r\n\r\nYou can use the [editor on GitHub](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\n\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n\r\n## Header 2\r\n\r\n### Header 3\r\n\r\n- Bulleted\r\n\r\n- List\r\n\r\n1. Numbered\r\n\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.\r\n\r\nOwner\r\n\r\nAs an owner, ruzyysmartt has admin access to all repositories that belong to the https-github-com-52005723-ruzyysmartt organization. Manage your owners on the People page.\r\n\r\nruzyysmartt has access to 13 repositories\r\n\r\nFind a repository they have access to…\r\n\r\n https-github-com-52005723-ruzyysmartt / My-ethereum-Wallet-reposentory\r\n\r\nAdmin on this repository\t \r\n\r\n https-github-com-52005723-ruzyysmartt / opensource.guide\r\n\r\nAdmin on this repository\t \r\n\r\n https-github-com-52005723-ruzyysmartt / Octokit-rb--ruzyysmartt",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet/commits/2348efc4b368243394155a815a9063fb603d1a1e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T04:47:48Z"
+  },
+  {
+    "id": "11305322621",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "ref": "master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "ruzyysmartt-github-panoramix ruzyysmartt/panoramix decompile ## Welcome to GitHub Pages  You can use the [editor on GitHub](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.  Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.  ### Markdown  Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for  ```markdown Syntax highlighted code block  # Header 1 ## Header 2 ### Header 3  - Bulleted - List  1. Numbered 2. List  **Bold** and _Italic_ and `Code` text  [Link](url) and ![Image](src) ```  For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  ### Jekyll Themes  Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.  ### Support or Contact  Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2020-01-18T04:26:11Z"
+  },
+  {
+    "id": "11305322540",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234680963,
+      "name": "ruzyysmartt/owned-wallet",
+      "url": "https://api.github.com/repos/ruzyysmartt/owned-wallet"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "master",
+      "description": "ruzyysmartt-github-panoramix ruzyysmartt/panoramix decompile ## Welcome to GitHub Pages  You can use the [editor on GitHub](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.  Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.  ### Markdown  Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for  ```markdown Syntax highlighted code block  # Header 1 ## Header 2 ### Header 3  - Bulleted - List  1. Numbered 2. List  **Bold** and _Italic_ and `Code` text  [Link](url) and ![Image](src) ```  For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  ### Jekyll Themes  Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.  ### Support or Contact  Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2020-01-18T04:26:08Z"
+  },
+  {
+    "id": "11305255509",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 233576512,
+      "name": "https-github-com-52005723-ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/https-github-com-52005723-ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4515774122,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "2cd7851a379cdb49ea22ab16ecd4873f211c1ab1",
+      "before": "38b38d1a8c56c4cecfe5608ca81eca9014d41b18",
+      "commits": [
+        {
+          "sha": "2cd7851a379cdb49ea22ab16ecd4873f211c1ab1",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "README. md\n\nruzyysmartt-52005723-github-panoramix-decompile\r\nruzyysmartt-panoramix decompile - complite\r\n## Welcome to GitHub Pages\r\n\r\nYou can use the [editor on GitHub](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n\r\n- Bulleted\r\n- List\r\n\r\n1. Numbered\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/https-github-com-52005723-ruzyysmartt/panoramix/commits/2cd7851a379cdb49ea22ab16ecd4873f211c1ab1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T03:47:05Z",
+    "org": {
+      "id": 59521234,
+      "login": "https-github-com-52005723-ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59521234?"
+    }
+  },
+  {
+    "id": "11305220664",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4515751490,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "83cdb500181a486da3113879215875e779b13df2",
+      "before": "7f42e7b33cc81129cbd91d9e3bf546c8748ac108",
+      "commits": [
+        {
+          "sha": "83cdb500181a486da3113879215875e779b13df2",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "bulk dicompile py\n\n$# panoramix decompile complite                          code json source  ABI           Owned by:ruzyysmartt\r\n ruzyysmartt@gmail.com\r\nApp ID: 50572\r\nUrl: https://github.com/ruzyysmartt/panoramix\r\nClient ID: Iv1.8a73b28dfeeeac4d\r\ncontent:true\r\nClient secret: f96f98ac47e0b993834443a59b8ec85018785855\r\n\r\n$\r\n \r\n@ruzyysmartt \r\nSettings Developer settings GitHub Apps https://github.com/ruzyysmartt\r\n\r\nOwned by: @ruzyysmartt\r\n\r\nApp ID: 50572\r\n\r\nClient ID: Iv1.8a73b28dfeeeac4d\r\n\r\nClient secret: f96f98ac47e0b993834443a59b8ec85018785855\r\n\r\nRevoke all user tokens  Reset client secret\r\nGitHub Apps can use OAuth credentials to identify users. Learn more about identifying users by reading our integration developer documentation.\r\n\r\nBasic information\r\nGitHub App name\r\nhttps://github.com/ruzyysmartt\r\n\r\nThe name of your GitHub App.\r\nWrite Preview\r\n\r\n# Commit-remix-debungge-Complite-set-reposentory\r\nCommit reposentory Complite Update\r\n👑/my ethereum wallet/ ruzyysmartt\r\n\r\n**  *Submitted for verification at Etherscan.io on 2019-07-28 */  pragma solidity 0.5.10; \r\ncontract Alec {   \r\naddress payable public owner;0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7         \r\nint256 public guesses_allowed;         \r\nbytes32 public answer;         \r\nstring public quiz;          \r\nconstructor() payable public {        \r\nowner = tx.origin;                 \r\nquiz = \"What runs but never walks, has a mouth but never talks, \r\nhas a choice he cannot make, and is wrong for his own sake?\";        \r\nanswer = 0x33a9640cbe967f2bd7a3eff25df2f6e818e74919f3ecb842a0a766dac2479231;               \r\nguesses_allowed = 1;     }        \r\nfunction buy_guess() payable external {      \r\nrequire(msg.value >= .2 ether);       \r\nguesses_allowed++;     }        \r\nfunction guess(string calldata attempt) external {       \r\nif(guesses_allowed <= 0) {         \r\nreturn;         }               \r\nif(owner != tx.origin) {             return;         }                 \r\nif(keccak256(abi.encode(\"saltysaltsalt\", attempt)) == answer) {           \r\n// send ether for winning     \r\n\r\n0x6080604052326000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506040518060a00160405280607381526020016106fa60739139600390805190602001906100729291906100a9565b507f33a9640cbe967f2bd7a3eff25df2f6e818e74919f3ecb842a0a766dac247923160001b6002819055506001808190555061014e565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100ea57805160ff1916838001178555610118565b82800160010185558215610118579182015b828111156101175782518255916020019190600101906100fc565b5b5090506101259190610129565b5090565b61014b91905b8082111561014757600081600090555060010161012f565b5090565b90565b61059d8061015d6000396000f3fe6080604052600436106100705760003560e01c806385bb7d691161004e57806385bb7d69146101b65780638da5cb5b146101e1578063b533fee714610238578063cd3d1d891461024257610070565b8063130a8acd14610075578063187e167c146100a05780634eee59b314610130575b600080fd5b34801561008157600080fd5b5061008a610259565b6040518082815260200191505060405180910390f35b3480156100ac57600080fd5b506100b561025f565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100f55780820151818401526020810190506100da565b50505050905090810190601f1680156101225780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561013c57600080fd5b506101b46004803603602081101561015357600080fd5b810190808035906020019064010000000081111561017057600080fd5b82018360208201111561018257600080fd5b803590602001918460018302840111640100000000831117156101a457600080fd5b90919293919293905050506102fd565b005b3480156101c257600080fd5b506101cb610481565b6040518082815260200191505060405180910390f35b3480156101ed57600080fd5b506101f6610487565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102406104ac565b005b34801561024e57600080fd5b506102576104d5565b005b60015481565b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102f55780601f106102ca576101008083540402835291602001916102f5565b820191906000526020600020905b8154815290600101906020018083116102d857829003601f168201915b505050505081565b60006001541361030c5761047d565b3273ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16146103655761047d565b60025482826040516020018080602001806020018381038352600d8152602001807f73616c747973616c7473616c74000000000000000000000000000000000000008152506020018381038252858582818152602001925080828437600081840152601f19601f820116905080830192505050945050505050604051602081830303815290604052805190602001201415610469573373ffffffffffffffffffffffffffffffffffffffff166702c68af0bb14000060405180600001905060006040518083038185875af1925050503d8060008114610460576040519150601f19603f3d011682016040523d82523d6000602084013e610465565b606091505b5050505b600160008154809291906001900391905055505b5050565b60025481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6702c68af0bb1400003410156104c157600080fd5b600160008154809291906001019190505550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163273ffffffffffffffffffffffffffffffffffffffff161461052e57600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16fffea265627a7a72305820a984122903a16032ddd1da221217186c5b76ef62644bb285a70956d71c2e740e64736f6c634300050a0032576861742072756e7320627574206e657665722077616c6b732c206861732061206d6f75746820627574206e657665722074616c6b732c2068617320612063686f6963652068652063616e6e6f74206d616b652c20616e642069732077726f6e6720666f7220686973206f776e2073616b653f\r\nCommit-remix-debungge-Complite-set-reposentory-569160bd23f7b17eb3a40499304b5031e16ddade\r\n# Commit-remix-debungge-Complite-set-reposentory\r\nCommit reposentory Complite Update\r\n\r\n### Welcome to GitHub Pages\r\n\r\nYou can use the [editor on GitHub](https://github.com/ruzyysmartt/0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7/edit/master/README.md)\r\n to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n\r\n- Bulleted\r\n- List\r\n\r\n1. Numbered\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.\r\n Fork1https-github-com-ruzyysmartt/fuzzy-enigma\r\nforked from ruzyysmartt/fuzzy-enigma\r\n Code Pull requests 0 Actions Projects 0 Wiki Security Insights Settings\r\nOptions\r\nCollaborators & teams\r\nBranches\r\nWebhooks\r\nNotifications\r\nIntegrations & services\r\nDeploy keys\r\nSecrets\r\nActions\r\nModeration\r\nInteraction limits\r\nReported content\r\nWebhooks / Manage webhook\r\nWe’ll send a POST request to the URL below with details of any subscribed events. You can also specify which data format you’d like to receive (JSON, x-www-form-urlencoded, etc). More information can be found in our developer documentation.\r\n\r\nPayload URL\r\n\r\nContent type\r\n\r\nSecret\r\n∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗ — Edit\r\nSSL verification\r\n By default, we verify SSL certificates when delivering payloads.\r\n\r\n Enable SSL verification \r\nDisable (not recommended)\r\nWhich events would you like to trigger this webhook?\r\n\r\nJust the push event.\r\nSend me everything.\r\nLet me select individual events.\r\nActive\r\nWe will deliver event details when this hook is triggered.\r\n\r\nUpdate webhookDelete webhook\r\nRecent Deliveries\r\n  9833ea00-296b-11ea-829e-d034d8c0f07b…2019-12-28 12:14:28\r\n Completed in 0.04 seconds.\r\n\r\nRedeliver\r\nRequest 422 Response\r\nHeaders\r\nRequest URL: https://github.com/ruzyysmartt/fuzzy-enigma\r\nRequest method: POST\r\n\r\ncontent-type: application/json\r\nExpect: \r\nUser-Agent: GitHub-Hookshot/a6f2714\r\nX-GitHub-Delivery: 9833ea00-296b-11ea-829e-d034d8c0f07b\r\n\r\nX-GitHub-Event: ping\r\nX-Hub-Signature: sha1=ed9b7fc52fcecdc777e196526c536a643c53ccd7\r\nPayload\r\n{\r\n  \"zen\": \"Practicality beats purity.\",\r\n  \"hook_id\": 170352388,\r\n  \"hook\": {\r\n    \"type\": \"Repository\",\r\n    \"id\": 170352388,\r\n    \"name\": \"web\",\r\n    \"active\": true,\r\n    \"events\": [\r\n      \"*\"\r\n    ],\r\n    \"config\": {\r\n      \"content_type\": \"json\",\r\n      \"insecure_ssl\": \"0\",\r\n      \"secret\": \"********\",\r\n      \"url\": \"https://github.com/ruzyysmartt\"\r\n    },\r\n    \"updated_at\": \"2019-12-28T12:14:28Z\",\r\n    \"created_at\": \"2019-12-28T12:14:28Z\",\r\n    \"url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388\",\r\n    \"test_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/test\",\r\n    \"ping_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/pings\",\r\n    \"last_response\": {\r\n      \"code\": null,\r\n      \"status\": \"unused\",\r\n      \"message\": null\r\n    }\r\n  },\r\n  \"repository\": {\r\n    \"id\": 230604630,\r\n    \"node_id\": \"MDEwOlJlcG9zaXRvcnkyMzA2MDQ2MzA=\",\r\n    \"name\": \"fuzzy-enigma\",\r\n    \"full_name\": \"https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"private\": false,\r\n    \"owner\": {\r\n      \"login\": \"https-github-com-ruzyysmartt\",\r\n      \"id\": 59094606,\r\n      \"node_id\": \"MDEyOk9yZ2FuaXphdGlvbjU5MDk0NjA2\",\r\n      \"avatar_url\": \"https://avatars2.githubusercontent.com/u/59094606?v=4\",\r\n      \"gravatar_id\": \"\",\r\n      \"url\": \"https://api.github.com/users/https-github-com-ruzyysmartt\",\r\n      \"html_url\": \"https://github.com/https-github-com-ruzyysmartt\",\r\n      \"followers_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/followers\",\r\n      \"following_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/following{/other_user}\",\r\n      \"gists_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/gists{/gist_id}\",\r\n      \"starred_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/starred{/owner}{/repo}\",\r\n      \"subscriptions_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/subscriptions\",\r\n      \"organizations_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/orgs\",\r\n      \"repos_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/repos\",\r\n      \"events_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/events{/privacy}\",\r\n      \"received_events_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/received_events\",\r\n      \"type\": \"Organization\",\r\n      \"site_admin\": false\r\n    },\r\n    \"html_url\": \"https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"description\": \"# # Eveem.org 26 Apr 2019 # Decompiled source of 0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7 # # Let's make the world open source # def storage: owner is addr at storage 0 unknown130a8acd is uint256 at storage 1 answer is uint256 at storage 2 unknown187e167c is array of uint256 at storage 3 def unknown130a8acd(): # not payable return unknown130a8acd def unknown187e167c(): # not payable return unknown187e167c[0 len unknown187e167c.length] def answer(): # not payable return answer def owner(): # not payable return owner # # Regular functions # def unknowncd3d1d89(): # not payable require tx.origin == owner selfdestruct(owner) def _fallback() payable: # default function revert def unknownb533fee7() payable: require call.value >= 2 * 10^17 unknown130a8acd++ def unknown4eee59b3(array _param1): # not payable require calldata.size - 4 >= 32 require _param1 <= 4294967296 require _param1 + 36 <= calldata.size require _param1.length <= 4294967296 and _param1 + _param1.length + 36 <= calldata.size if unknown130a8acd >′ 0: if owner == tx.origin: mem[288 len _param1.length] = _param1[all] mem[_param1.length + 288] = 0 if sha3(64, 128, 13, 'saltysaltsalt', _param1.length, _param1[all], mem[_param1.length + 288 len ceil32(_param1.length) - _param1.length]) == answer: call caller with: value 2 * 10^17 wei gas gas_remaining wei unknown130a8acd--\",\r\n    \"fork\": true,\r\n    \"url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"forks_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/forks\",\r\n    \"keys_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/keys{/key_id}\",\r\n    \"collaborators_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/collaborators{/collaborator}\",\r\n    \"teams_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/teams\",\r\n    \"hooks_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks\",\r\n    \"issue_events_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/events{/number}\",\r\n    \"events_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/events\",\r\n    \"assignees_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/assignees{/user}\",\r\n    \"branches_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/branches{/branch}\",\r\n    \"tags_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/tags\",\r\n    \"blobs_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/blobs{/sha}\",\r\n    \"git_tags_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/tags{/sha}\",\r\n    \"git_refs_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/refs{/sha}\",\r\n    \"trees_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/trees{/sha}\",\r\n    \"statuses_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/statuses/{sha}\",\r\n    \"languages_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/languages\",\r\n    \"stargazers_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/stargazers\",\r\n    \"contributors_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contributors\",\r\n    \"subscribers_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscribers\",\r\n    \"subscription_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscription\",\r\n    \"commits_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/commits{/sha}\",\r\n    \"git_commits_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/commits{/sha}\",\r\n    \"comments_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/comments{/number}\",\r\n    \"issue_comment_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/comments{/number}\",\r\n    \"contents_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contents/{+path}\",\r\n    \"compare_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/compare/{base}...{head}\",\r\n    \"merges_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/merges\",\r\n    \"archive_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/{archive_format}{/ref}\",\r\n    \"downloads_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/downloads\",\r\n    \"issues_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues{/number}\",\r\n    \"pulls_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/pulls{/number}\",\r\n    \"milestones_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/milestones{/number}\",\r\n    \"notifications_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/notifications{?since,all,participating}\",\r\n    \"labels_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/labels{/name}\",\r\n    \"releases_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/releases{/id}\",\r\n    \"deployments_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/deployments\",\r\n    \"created_at\": \"2019-12-28T12:05:13Z\",\r\n    \"updated_at\": \"2019-12-28T12:05:16Z\",\r\n    \"pushed_at\": \"2019-12-28T12:03:30Z\",\r\n    \"git_url\": \"git://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git\",\r\n    \"ssh_url\": \"git@github.com:https-github-com-ruzyysmartt/fuzzy-enigma.git\",\r\n    \"clone_url\": \"https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git\",\r\n    \"svn_url\": \"https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"homepage\": null,\r\n    \"size\": 0,\r\n    \"stargazers_count\": 0,\r\n    \"watchers_count\": 0,\r\n    \"language\": null,\r\n    \"has_issues\": false,\r\n    \"has_projects\": true,\r\n    \"has_downloads\": true,\r\n    \"has_wiki\": true,\r\n    \"has_pages\": false,\r\n    \"forks_count\": 0,\r\n    \"mirror_url\": null,\r\n    \"archived\": false,\r\n    \"disabled\": false,\r\n    \"open_issues_count\": 0,\r\n    \"license\": null,\r\n    \"forks\": 0,\r\n    \"open_issues\": 0,\r\n    \"watchers\": 0,\r\n    \"default_branch\": \"master\"\r\n  },\r\n  \"sender\": {\r\n    \"login\": \"ruzyysmartt\",\r\n    \"id\": 52005723,\r\n    \"node_id\": \"MDQ6VXNlcjUyMDA1NzIz\",\r\n    \"avatar_url\": \"https://avatars0.githubusercontent.com/u/52005723?v=4\",\r\n    \"gravatar_id\": \"\",\r\n    \"url\": \"https://api.github.com/users/ruzyysmartt\",\r\n    \"html_url\": \"https://github.com/ruzyysmartt\",\r\n    \"followers_url\": \"https://api.github.com/users/ruzyysmartt/followers\",\r\n    \"following_url\": \"https://api.github.com/users/ruzyysmartt/following{/other_user}\",\r\n    \"gists_url\": \"https://api.github.com/users/ruzyysmartt/gists{/gist_id}\",\r\n    \"starred_url\": \"https://api.github.com/users/ruzyysmartt/starred{/owner}{/repo}\",\r\n    \"subscriptions_url\": \"https://api.github.com/users/ruzyysmartt/subscriptions\",\r\n    \"organizations_url\": \"https://api.github.com/users/ruzyysmartt/orgs\",\r\n    \"repos_url\": \"https://api.github.com/users/ruzyysmartt/repos\",\r\n    \"events_url\": \"https://api.github.com/users/ruzyysmartt/events{/privacy}\",\r\n    \"received_events_url\": \"https://api.github.com/users/ruzyysmartt/received_events\",\r\n    \"type\": \"User\",\r\n    \"site_admin\": false\r\n  }\r\n}\r\n© 2019 GitHub, Inc.\r\nTerms\r\nPrivacy\r\nSecurity\r\nStatus\r\nHelp\r\nContact GitHub\r\nPricing\r\nAPI\r\nTraining\r\nBlog\r\nAbout\r\nSkip to content\r\nSearch\r\nPull requests\r\nIssues\r\nMarketplace\r\nExplore\r\n \r\n@ruzyysmartt \r\nOkay, the hook was successfully updated.\r\n0\r\n01https-github-com-ruzyysmartt/fuzzy-enigma\r\nforked from ruzyysmartt/fuzzy-enigma\r\n Code Pull requests 0 Actions Projects 0 Wiki Security Insights Settings\r\nOptions\r\nCollaborators & teams\r\nBranches\r\nWebhooks\r\nNotifications\r\nIntegrations & services\r\nDeploy keys\r\nSecrets\r\nActions\r\nModeration\r\nInteraction limits\r\nReported content\r\nWebhooks / Manage webhook\r\nWe’ll send a POST request to the URL below with details of any subscribed events. You can also specify which data format you’d like to receive (JSON, x-www-form-urlencoded, etc). More information can be found in our developer documentation.\r\n\r\nPayload URL\r\nhttps://github.com/ruzyysmartt/fuzzy-enigma\r\nContent type\r\n\r\nSecret\r\n∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗ — \r\nSSL verification\r\n By default, we verify SSL certificates when delivering payloads.\r\n\r\n Enable SSL verification \r\nDisable (not recommended)\r\nWhich events would you like to trigger this webhook?\r\nJust the push event.\r\nSend me everything.\r\nLet me select individual events.\r\nActive\r\nWe will deliver event details when this hook is triggered.\r\n\r\nRecent Deliveries\r\n  9833ea00-296b-11ea-829e-d034d8c0f07b…2019-12-28 12:14:28\r\n Completed in 0.04 seconds.\r\nRequest 422 Response\r\nHeaders\r\nRequest URL: https://github.com/ruzyysmartt/fuzzy-enigma\r\nRequest method: POST\r\ncontent-type: application/json\r\nExpect: \r\nUser-Agent: GitHub-Hookshot/a6f2714\r\nX-GitHub-Delivery: 9833ea00-296b-11ea-829e-d034d8c0f07b\r\nX-GitHub-Event: ping\r\nX-Hub-Signature: sha1=ed9b7fc52fcecdc777e196526c536a643c53ccd7\r\nPayload\r\n{\r\n  \"zen\": \"Practicality beats purity.\",\r\n  \"hook_id\": 170352388,\r\n  \"hook\": {\r\n    \"type\": \"Repository\",\r\n    \"id\": 170352388,\r\n    \"name\": \"web\",\r\n    \"active\": true,\r\n    \"events\": [\r\n      \"*\"\r\n    ],\r\n    \"config\": {\r\n      \"content_type\": \"json\",\r\n      \"insecure_ssl\": \"0\",\r\n      \"secret\": \"********\",\r\n      \"url\": \"https://github.com/ruzyysmartt\"\r\n    },\r\n    \"updated_at\": \"2019-12-28T12:14:28Z\",\r\n    \"created_at\": \"2019-12-28T12:14:28Z\",\r\n    \"url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388\",\r\n    \"test_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/test\",\r\n    \"ping_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/pings\",\r\n    \"last_response\": {\r\n      \"code\": null,\r\n      \"status\": \"unused\",\r\n      \"message\": null\r\n    }\r\n  },\r\n  \"repository\": {\r\n    \"id\": 230604630,\r\n    \"node_id\": \"MDEwOlJlcG9zaXRvcnkyMzA2MDQ2MzA=\",\r\n    \"name\": \"fuzzy-enigma\",\r\n    \"full_name\": \"https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"private\": false,\r\n    \"owner\": {\r\n      \"login\": \"https-github-com-ruzyysmartt\",\r\n      \"id\": 59094606,\r\n      \"node_id\": \"MDEyOk9yZ2FuaXphdGlvbjU5MDk0NjA2\",\r\n      \"avatar_url\": \"https://avatars2.githubusercontent.com/u/59094606?v=4\",\r\n      \"gravatar_id\": \"\",\r\n      \"url\": \"https://api.github.com/users/https-github-com-ruzyysmartt\",\r\n      \"html_url\": \"https://github.com/https-github-com-ruzyysmartt\",\r\n      \"followers_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/followers\",\r\n      \"following_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/following{/other_user}\",\r\n      \"gists_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/gists{/gist_id}\",\r\n      \"starred_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/starred{/owner}{/repo}\",\r\n      \"subscriptions_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/subscriptions\",\r\n      \"organizations_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/orgs\",\r\n      \"repos_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/repos\",\r\n      \"events_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/events{/privacy}\",\r\n      \"received_events_url\": \"https://api.github.com/users/https-github-com-ruzyysmartt/received_events\",\r\n      \"type\": \"Organization\",\r\n      \"site_admin\": false\r\n    },\r\n    \"html_url\": \"https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"description\": \"# # Eveem.org 26 Apr 2019 # Decompiled source of 0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7 # # Let's make the world open source # def storage: owner is addr at storage 0 unknown130a8acd is uint256 at storage 1 answer is uint256 at storage 2 unknown187e167c is array of uint256 at storage 3 def unknown130a8acd(): # not payable return unknown130a8acd def unknown187e167c(): # not payable return unknown187e167c[0 len unknown187e167c.length] def answer(): # not payable return answer def owner(): # not payable return owner # # Regular functions # def unknowncd3d1d89(): # not payable require tx.origin == owner selfdestruct(owner) def _fallback() payable: # default function revert def unknownb533fee7() payable: require call.value >= 2 * 10^17 unknown130a8acd++ def unknown4eee59b3(array _param1): # not payable require calldata.size - 4 >= 32 require _param1 <= 4294967296 require _param1 + 36 <= calldata.size require _param1.length <= 4294967296 and _param1 + _param1.length + 36 <= calldata.size if unknown130a8acd >′ 0: if owner == tx.origin: mem[288 len _param1.length] = _param1[all] mem[_param1.length + 288] = 0 if sha3(64, 128, 13, 'saltysaltsalt', _param1.length, _param1[all], mem[_param1.length + 288 len ceil32(_param1.length) - _param1.length]) == answer: call caller with: value 2 * 10^17 wei gas gas_remaining wei unknown130a8acd--\",\r\n    \"fork\": true,\r\n    \"url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"forks_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/forks\",\r\n    \"keys_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/keys{/key_id}\",\r\n    \"collaborators_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/collaborators{/collaborator}\",\r\n    \"teams_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/teams\",\r\n    \"hooks_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks\",\r\n    \"issue_events_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/events{/number}\",\r\n    \"events_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/events\",\r\n    \"assignees_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/assignees{/user}\",\r\n    \"branches_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/branches{/branch}\",\r\n    \"tags_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/tags\",\r\n    \"blobs_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/blobs{/sha}\",\r\n    \"git_tags_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/tags{/sha}\",\r\n    \"git_refs_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/refs{/sha}\",\r\n    \"trees_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/trees{/sha}\",\r\n    \"statuses_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/statuses/{sha}\",\r\n    \"languages_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/languages\",\r\n    \"stargazers_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/stargazers\",\r\n    \"contributors_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contributors\",\r\n    \"subscribers_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscribers\",\r\n    \"subscription_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscription\",\r\n    \"commits_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/commits{/sha}\",\r\n    \"git_commits_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/commits{/sha}\",\r\n    \"comments_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/comments{/number}\",\r\n    \"issue_comment_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/comments{/number}\",\r\n    \"contents_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contents/{+path}\",\r\n    \"compare_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/compare/{base}...{head}\",\r\n    \"merges_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/merges\",\r\n    \"archive_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/{archive_format}{/ref}\",\r\n    \"downloads_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/downloads\",\r\n    \"issues_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues{/number}\",\r\n    \"pulls_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/pulls{/number}\",\r\n    \"milestones_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/milestones{/number}\",\r\n    \"notifications_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/notifications{?since,all,participating}\",\r\n    \"labels_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/labels{/name}\",\r\n    \"releases_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/releases{/id}\",\r\n    \"deployments_url\": \"https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/deployments\",\r\n    \"created_at\": \"2019-12-28T12:05:13Z\",\r\n    \"updated_at\": \"2019-12-28T12:05:16Z\",\r\n    \"pushed_at\": \"2019-12-28T12:03:30Z\",\r\n    \"git_url\": \"git://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git\",\r\n    \"ssh_url\": \"git@github.com:https-github-com-ruzyysmartt/fuzzy-enigma.git\",\r\n    \"clone_url\": \"https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git\",\r\n    \"svn_url\": \"https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma\",\r\n    \"homepage\": null,\r\n    \"size\": 0,\r\n    \"stargazers_count\": 0,\r\n    \"watchers_count\": 0,\r\n    \"language\": null,\r\n    \"has_issues\": false,\r\n    \"has_projects\": true,\r\n    \"has_downloads\": true,\r\n    \"has_wiki\": true,\r\n    \"has_pages\": false,\r\n    \"forks_count\": 0,\r\n    \"mirror_url\": null,\r\n    \"archived\": false,\r\n    \"disabled\": false,\r\n    \"open_issues_count\": 0,\r\n    \"license\": null,\r\n    \"forks\": 0,\r\n    \"open_issues\": 0,\r\n    \"watchers\": 0,    \"default_branch\": \"master\"\r\n  },\r\n  \"sender\": {\r\n    \"login\": \"ruzyysmartt\",\r\n    \"id\": 52005723,\r\n    \"node_id\": \"MDQ6VXNlcjUyMDA1NzIz\",\r\n    \"avatar_url\": \"https://avatars0.githubusercontent.com/u/52005723?v=4\",\r\n    \"gravatar_id\": \"\",\r\n    \"url\": \"https://api.github.com/users/ruzyysmartt\",\r\n    \"html_url\": \"https://github.com/ruzyysmartt\",\r\n    \"followers_url\": \"https://api.github.com/users/ruzyysmartt/followers\",\r\n    \"following_url\": \"https://api.github.com/users/ruzyysmartt/following{/other_user}\",\r\n    \"gists_url\": \"https://api.github.com/users/ruzyysmartt/gists{/gist_id}\",\r\n    \"starred_url\": \"https://api.github.com/users/ruzyysmartt/starred{/owner}{/repo}\",\r\n    \"subscriptions_url\": \"https://api.github.com/users/ruzyysmartt/subscriptions\",\r\n    \"organizations_url\": \"https://api.github.com/users/ruzyysmartt/orgs\",\r\n    \"repos_url\": \"https://api.github.com/users/ruzyysmartt/repos\",\r\n    \"events_url\": \"https://api.github.com/users/ruzyysmartt/events{/privacy}\",\r\n    \"received_events_url\": \"https://api.github.com/users/ruzyysmartt/received_events\",\r\n    \"type\": \"User\",\r\n    \"site_admin\": false\r\n  }\r\n}\r\n© 2019 GitHub, Inc.\r\nTerms\r\nPrivacy\r\nSecurity\r\nStatus\r\nHelp\r\nContact GitHub\r\nPricing\r\nAPI\r\nTraining\r\nBlog\r\nAbout\r\ncommit master:PK\u0003\u0004\r\n‘+œO6\tCommit-remix-debungge-Complite-set-reposentory-master/UT\u0005\u0001ƒX\u0007^PK\u0003\u0004\r\n‘+œO“\u0006×2\u0001\u0001R\tCommit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUT\u0005\u0001ƒX\u0007^\r\nPK\u0003\u0004\r\n\b‘+œO\u0019Ç%\u0007²\u0005Ë\fE\tCommit-remix-debungge-Complite-set-reposentory-master/Code of conduceUT\u0005\u0001ƒX\u0007^…WÁŽÛ6\u0010½ë+x.\\/\u0002ä\u0014 ‡ Ù\u0002i’\"Èî­èalÑÒ˜\")PdŒí×÷Í’½›-º'É\"93ï½yÃíÞ›Ï±·æ>³3¿Å\u0013\u001FJŽ\tÏ?l »îý{óÉ%Jæ3yîº4‘7ž\u0003eãð‹)!\u0017g¼\r\nÅ\u001FÊè(˜‰ÃàJ\u0018ðøDa0Ù¦CqdzüÈÓ¸«;\u0017{ ¸s7qeÍlÃ`§8‘9Øt¦p¾\u0006A\bÄ)e^x¦…±Aò™S|²Níä\b\u0017}\tœi©‘\u000Eˆ´`ib\u001C>Ù£\u001D±\u0006Á%\u0007_ÈÄ„<w&S˜I¢Pè%ñ²0íºâ\r\n>›\\PÞÎô¼Ð'9\u001Be M?Ggl\u000EŒwîmÈ\u001Av°¡·µ\u001Cë–9Ù…Ã\u0013!„`#% FÉœÂNž{îÙÉó’)—Å,\u0011¡'l!z–@\u0017JÔ\u000E”¨í!?ó$p\u0001;ê±(IJ@Ô#\u000Ee*7éH\u001E11^\u0005³\u0005)\u0015šöJîC–jWzE\u0003qÄñ\tg»Òà\u0005\u000F+IØ®¤\u001E\bŠÙ¸?òœI¸\u0007§…ÆŸ$0£žÌ',x.™Í»®ûÅ|\u0005ÒŽ@\u000F´P]©\u0002Ñ|9¸\táNº0\fcLž°s)}\u0011\tTŠV½T,[jÐ›í©îC!žŒK,\r\nG\u0011KNÅI*½Õô¤\u000E¬ü=:À\u000E¥ŽÔÓlh¦«v¥R\u0015Ë¦ªzt\tçâ¤hëgÉÌÙ\u0019›\r\n¶\r\n1Ó\u0006õ¤‰8üŒo\r\nÂ=9”‚S ¯\\SŽ“\u001D¯J\u000F/ û†ì‡\u0012H+Pô”ñ#çD+¿\r\n\u001C””Y©©¿Þ†dð\u0004œ)ìqæcŠ“\u0010·“ÔE*I¨\u001DFôú·\t*¥QEÚëiÒ3Ò\u0017+f\f\u0015ÿà^Bh.\"É!N\u0002ÿ^óFûÑ¨\u0007\u001C¡eS|ñm}ÕñJÛ³S\u0015œ„xÈ®}¯Íªp¢],ê\u0003&J6'`åêiˆãrŠÝÚ×ü\u000F‡šBÃ^Ž¨h´\\.t¦´ñ <¢¬ŠÔbÝê67ê†ñœÐÛ1Ð¤ÝôHÊË`þ \u000B\u001DZS}Û\f­ù\u0014\u0014š×…g]¸uÒà&ØÔ\tn Úzó¹\\^\bEØèyD\u0001³¶ž$ëå\u001DŽÓkkº˜¬*¿\t[\u000FÁïÀtj…yñ|©Z<\u0002¢™aŸ\u000Búâÿåº¥J\u0018é\\àzlF]\u001FÌ\u0016=Ò\\`^òhqdõ¯\u000E¯8ÎmrÜ™cô^>;\f-°\u0003Xi¸°ƒ\u0001òRª8oÌJHF\u000EÝMæ+—Õ®ó\u00037ã¼b˜ª<j|êôkS\u000B@åX¨ð¹=V(G´Áü³Ò ßgºB“è$ñšÌ‘¼>>qÅ©¥#††žy¢êØ_T~s×=K]Vi0õ«þÅdôTÀ…üœŠ\u001Ar9L0>\u0007–\u0018Æbk[y\f\u001A‡ñ¶îÓø›“\u0001È½i\u0016&Ó´Û–7ßu—X\u0004:¸¸«ÊÔ»D”­q1\b BLI¿FÞÉÌ\u0010v•†©7´\u001C^Ð˜ëxÔõWŒªÒ×kEó\t Þ‹JÕ¬%ôY<\u0004ÌhâÚ:†”Ï\u0018Ð×¶ž\u0016O'yÙ›ïVfw››+–`Æ±8\u0018öŸK\u0006*8¥·'°°È\u0018o-yÛÉÕÍ_tH¥\u0013}ƒ±Žm ÔJvÕµ«r°Yt¿ÝZZµ¯NŒu`É\u0019Ýúm¢9&mÿ:2{¨%oÅ ü¿>ýùpÿýÑÜýðé‹ùðñã÷û‡‡¿÷æAïF¸ã\u0014\u0004î”.Äb Xô\u001E„„\"¹šˆÓ\u0011%¼ðäÖ^§™6á7Ý£´©tu„Üö¡³H\u000FƒÈ<¾ÈPº\u000B2;ÃýC%p¬’Œ=&\u0005K‹Ü†¿³:\u0017Û¹úM¢áæˆ+QXäV\u0004b\u0019—\u0016ùl\u000FŒûŠ\u0012\tð‚¤Ó\u000F|Ö’æ•\u001CãÆ\"VØ`¨ýC•îf\b€~Æíp|Í\u000BoìGPb'“\\©T§^¨¶Ãµ£[ö27©ï´§WÝÝ`Ý‹U÷¸\tªî›KµqÚìi›‘\u0006©Q\u0006C·^0®7\u0016µ©zKf\\.Co›P?Ô[úKß\u0001³H#×Ë8ö¾öoÄÎü°\t\u000BÞìßî:à´h\u001BC{cÎóòîîîr¹ì×¿\u001EÛÆ}LÃîáîÍÝÛ»#bÿ\u001AOX\u0010úrÌû1{L^üý\u000BPK\u0003\u0004\r\n\b‘+œO¾‰Iýó\u0002œ\u0005<\tCommit-remix-debungge-Complite-set-reposentory-master/GithubUT\u0005\u0001ƒX\u0007^­TÛnÓ@\u0010}÷W\fÊKSÕv.U\u001Bñ‚HHiQ‹\u0010\u0005U(ªšµ=‰—¬½Ö^’˜'~ƒßãK˜]Ûi*xä¡•wgvæÌ9gÒƒ™,\r\nnB…\u0005ß‡\u0019&¶\\¯1¤ÛJpƒ¡F\u0017«¤ÆÒHU\u0007M:\u001C]A—\u000B_«Œ\u0019\fz=x@‘Ê\u0002ÁHxÏÍµMà\u0013[£\u000E‚oÒBÊJ°š‚9Â\u00023NE@–mâãInL¥_Çñš›Ü&\u0011Õ‰•ýQ×º`Ê˜x°\u001F\u000FFãÉÅä|<¾º\u0018L.Òl2›\u000FfçƒÉx…£ùp8\u001D_¦8˜^Æ®v\\0mPÅŸçoßÝÍ£\"ë;P\u0005ã¥¡?`e\u0006•Â-ÇÇ“ÊÒÐX°\"Lµ´\r\nv˜h7\u001BåÞ1µÉä®„\u0015\u0017¨£ xÈ±Ä-úLzé‰¡â&çº!ÈVŸ½ v\\\bP¶„Å\u0007ÜÔB<\u000FüÝŸU3²‡©H\u000E.2¬ò¯\t†‡å0ÁJÉâ\u0005ì.ü\u0017Ô\u001E‰Ò]\u0006Á!L@\u0019\b¾ÎÍ\u000EÝÏ\u00072]‡F†N#]\u0013O{O‡6µàåº¥EqC‡\bn\\ÓTØŒÀ\u0011Š-¡à²ÔîE\u0010,—ËâÐô¾)•S\u001Fß\u00113z!$B¦\u001BB\b×È2\"sèÐv‡Q\u0003½=ƒ „©\u0015\u0002éµû¾åÚ\u0004Á0‚¶HP¹ËQÔÞžžN¥ÈNOýLO7†\tž>ùÃrF}—`pOi‹[^n\u001EO¬\u0012}\u001F|µ¸)ˆêÇ\u0013­Ò¾\u001F!\b®hüB*„\fÉ5BƒF²n+ë•`[Še\u0007~,l9ñ\u0012\u001D9y…ÌX…ºµ%Q\u0018v\fÅýV§Æ\u0017ð%Ç¢]\u0019ÕzÇ;Ñ\u001B¨Û\u001FÁHŽF6§\u000Få\u001C<Ñ–1®ŒwhÎ¶$(\r\nL\u001D÷U\u0016ÏN¥ qªêÿ¹„]Í~ä&‚’\u0011\u001A¹j–¤ÁF\u001Fš yHGÀ—Oä§\u0015_Gu!–Ð|[Åœ½¼­[¶îmUIe€$šÑ\u0016°”4½f[çT£¤M„cÌä\r\nƒo`–cº\u0001Ç™\u001F>“©-È³¾ìóØ9ŠêX¶”~×ÖRq\u0012®¹\r\ný:†\tÓ<Õ´¬Ô}‘6íA7ˆþIb›ÓXm‡¿þ¢I]7¯vƒp\u0007ÍÐtPK\u0003\u0004\r\n\b‘+œOD˜0Ym\u0002!\u0004=\tCommit-remix-debungge-Complite-set-reposentory-master/LicenceUT\u0005\u0001ƒX\u0007^]RKÚ0\u0010¾ûWŒ8íJÑöqko&1‹Õ$Ž\u001C³”cH\fq\u0015b\u0014›¢ý÷\tìn[\t)òÌ|¯\u0019\r\ni w­\u001Dƒe,õç×É\u001Dû\b\u000Fí#|ýüå\u001B0VÙéäBp~\u0004\u0017 ·“Ý¿ÂqjÆh»\u0004\u000E“µà\u000FÐöÍt´\tD\u000FÍø\r\ng;\u0005\u0004ø}lÜèÆ#4Ð\"9ÃÉØ#Mð‡xm&‹Ã\u001D4!øÖ5È\u0007o/';Æ&’ÞÁ\r\n6ÀCì-,ê;bñ8‹t¶\u0019˜\u001Bzo-¸ºØûK„É†8¹–8\u0012pc;\\:òðÖ\u001EÜÉÝ\u0015\b>'\u000E\fI/\u0001\u0013Ï\u0004N¾s\u0007úÚ9Öù²\u001F\\è\u0013è\u001CQï/\u0011‹Šóê\u0012ÊñÉO\u0010ì00dpè{Îúánž!ëgZh¼¯(PåÚûÓ¿I\\`‡Ë4¢¤1Ç•ÍŠ¿l\u001B©Bã\u0007?\fþJÑZ?vŽ\u0012…ïŒ\u0019l5{ÿÛÎYn\u0007\u001D}D«7\u000Bt€óÇUï­Ð7Ã{{_\u0018êâz›¿âL$\u001F\"\u001EÞ5\u0003œý4ëý\u001Fó\tõ×\u0002jµ2[®\u0005È\u001A*­^d&2Xð\u001Aß‹\u0004¶Ò¬ÕÆNh^š\u001D¨\u0015ðr\u0007?d™% ~VZÔ5(ÍdQåR`M–i¾Édù\fKÄ•\r\nÿµ²\u0006I\u0002\u0012¼SIQ\u0013Y!tºÆ'_Ê\\š]ÂVÒ”Ä¹R\u001A8T\\\u001B™nr®¡ÚèJÕ\u0002å3¤-e¹Ò¨\"\r\nQš'TÅ\u001Aˆ\u0017|@½æyNRŒoÐ½&ªj§åóÚÀZå™ÀâR 3¾ÌÅM\r\nC¥9—E\u0002\u0019/ø³˜Q\r\nY4£±›;Ø®\u0005•Hã/5R•\u0014#U¥ÑøL0¥6ïÐ­¬E\u0002\\Ëš\u0016²ÒªH\u0018­\u0013\u0011j&A\\)n,´jøç\"8BïM-Þ\t!\u0013<G®šÀ\u0014ñmø‰ý\u0001PK\u0003\u0004\r\n\b‘+œO·¤\u0015î¯\u0002\u001F\u0006H\tCommit-remix-debungge-Complite-set-reposentory-master/License History mdUT\u0005\u0001ƒX\u0007^T]oÓ0\u0014}Ï¯°Â\u000BHMš~ÐVÓ6MëŠ6\u0004LbC\bM<¸É]âÖ_ØN×0ßŽí$U:ŠÐxô½ç\u001EŸ{îµ_¡¹`Œ˜H\u0001#Û(ƒeÉó\u001C\"\u001B•”\u0018ˆ4¸œ\u0014\u001A¸\u0011ª\r\nj8ê\u0004Év”\fG³Él<\u001A½›$³IšÍæ‹d>Nf£{\u0018.\u0006ƒóÑ4…ä|\u001A\u0004\b…\u001C3\bPˆÓ\u0014¤ÑaÏG3Ð©\"Ò\u0010Á]ò’ä\u0005¨ˆÂ\u0006(J\u00057örÄ!\u0017†`©«6 tS1ˆGñ´\t»\u0002E–¥Õ«mîÎ\u0005møB”9Å\u001AÍ\u000BE´\u0011ÒÞ€¾\u0012ª\u0005GÇ™ÍiÁÀ\u0014„çî\u0014§‚Ö„¶ö½àØ\u0014˜£kž£c\u0006g+Ás\r\nKPªòHôº0F\u001EõûÏ\u0012oBÇð½\u0016FI\r\n\\ûö?^Ý6j½¹Äyëâ+íxúÏÝ‘À3à)\u0001×Ð£*V•fX\u0019Óèc„Ad*éóá¯a<ˆ‡ãúÖ9¡\\6‰'ñÐËzjé7\u0017ÿ¼!\u0003\u0011ü(1­íNâÁŽ\u001F4%Ü¸øÛx0‰“g‰È\u000Eäžä‘6˜gXež`h\u0019þJZæ„G„I¡<ŸmdjÅ\u001E†YyëL<ðV£k6ö\u0010œ‹Ì[?; ½ÅH%\u0018©'4¶\u001Eþ\r\nÖíd¼×\b\u0013i]xbË;\u0013¨R¯²\u0006w¼¿'Ô;~÷Â—YÓ~¸š/>Ý,Âž]§&tyus{ýù[Ì²ÝåÄNv\u001B¯tw\u0015Û>êY#.\u0019ª\u0018m¥66ž »)]­õ\u0013õ5\u000E„Vº)i§_›„¢Æ&Ô\u000EÈF`k,¾Ç2\u0014ït\u0019Ð¾Ì{f1®?eì«Ô\u0012R{N\u000BH×ö\u0013ÀkmOKL(r%ý=\u0002»\\\u001BGb\u001DîPœ\u0014†ÑîÙ8\u0001®Qé\u001EQxCô\u0001ŽýšŽ\u0011k¨\u001E„ÊüÜ^öý5¿“\u001DbØs\u000F]Û\u001F#'¦(—î³èwž]ÿ¿\u0016bïä%m‡Zÿ'aÏ¨\u0012öBÍR\u0004ÁS\u0010ü\u0006PK\u0003\u0004\r\n\b‘+œO—ÌN¾Õ\u0002ä\u0005>\tCommit-remix-debungge-Complite-set-reposentory-master/MarkdownUT\u0005\u0001ƒX\u0007^TËn\u00141\u0010¼û+Z9$Ä\u0001\u0004\u0007Ä\u000Fxìž\u0016\u001E{ðc7û÷T{²d\u0013Â…K2;mwUWUÏÇ´ž²ìçJ/Ü5½~õêÍ@_Ò\u001CéSn#g\"ón®u½½¹ñ6KÜO’y´!ì\"×›÷(\bzƒB™\u000Bç\u0003û1ßÙK©YÆV%E²ÑS+L\u0012©¤–\u001D÷7£D›O4¥¼”ŽRgJ¹ÿO­š%y™ÄYm0ÍL+çEjeOkN\u0007ñx¨³­øÃh\u0012B:‚ ¹\u0014½è¥¢—ÌÂõÖ˜—ô˜Q¡4©¸ä™–V*\u0006¨\u0016\u0014µŸ\u001DÓAKgubªâx0„ª\u0014\r\nè¥-.Á¢Â\u0004€.XY8ïžc¤\u000B\u0005Î\f0šo`õ\f\t€ßÓø/\u0012´†.>¹¶p¬ölÎ\r\ntO¨eZlå,6”\u0007»1Úô’~Ÿè\u001BK¿¤Åh\u0017¦«¯6ÿôé\u0018¯Àôá}W[\u00100Ý:¤\\u\u0002—‘5\u0019`ˆ£Ç{Ö\u0010|I•iS\u00037=X!Z4¡°M_ÒTê0#Cee§™Á5Ñ$eMKÜrSÊÆúÇå]’‹9ÇS'üàùœ\u0002`7Q\u001F1¿²ÅH¹ê\u0005\u001BOÄw+²_”¸,k\u0010\u0015Íælc\u0015F²%ºÐ<Ì\u0018\b\r\nÔCX‡$³75\r\n\u001Dôïk*\u0019Ls3~ÚQ‚ÔSÇ›¤FÅBfÈšÕf\u0004¢\u0005\u000BÉZ^\u0013ÔÓ±þ˜îwô9\u0002‘ø¿©ÌXÝ'SÂ-Î\u0006Ý\u001E\b[‚Ø1ð\u0006„!=6ßUæáÉA8Ð\u000BÃ&=\u001E\fß1fAª\u0007Úz\u0016þÕp\bEòv±{ŒöâßŠ \u0007ƒ%®eÖˆö=mc©R\u001Bò°OÉwõKƒM(o)¤ÒÅBŠ\u0006 T«ÀÚ\u0002J¡Œ³c+Ò5“ˆpç¶j€¯aï\u0011ª€£í\u0001Tqû6ô\u0018$¬ešŒjÐµÇ÷iæ\u001EvlQWÊª\u0004º\u0010®ÒÅ1}ÊõbF\u0013y\u001FdÏÑõh÷=;JákX%EwT6Ø£\u0005fë#«EúÁìRÌ9°C7’d\"ë\u000F¢´ï\u000FÃú\"÷1é’¹ù^îù\r\nPK\u0003\u0004\r\n\b‘+œO{ïsñ\u001A\u0007v\u0013H\tCommit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUT\u0005\u0001ƒX\u0007^½WkrãÆ\u0011þÏSLÖ¤õJš÷µÙ¤â­Í\u0005R©üt\r\n€„Z\u0012T@Ð\u0012íò!|‚\\1GÈ×=\tJÙXŠ\u001FdñÕÝÓ¯_Ã¯ÄÇífÓWCÚtWMªöýímº\u0002õ~Ýéj—ˆw¿Ý¥~Ü\u000E‡U\u0016\u0017\u000B’˜eÅßï›8¦Õ¿ÿõÓO7›ƒHã]\u001AÒ~#\u001EâzÆ\u001B1ì¿?\u001Cv›8Œãjõö­\u0010oÿ¶¯ mLh·ƒø.\r\n]ÛÕqì¶½ˆ£øD\r\nvuì¯»­IKU^Ép¥\u000BñöFˆû!Þn¢Øm×]Ó\u0007!¯Ýµ’ïÅªÞöã\u0010ëQüejñƒ\u0010b\u0015›fH»¸‡X­“¸ßWë®\u0016Û‡>\r\nïå£‘Ú\u0014¾°ÆüÕËÂ×Mññ“üheaÚ¤?)õ\tu’ß\u00041?V]?jçg=·{(O»o\u0011èö!5ïOrÕaL;£gÁØï\u001E`ñÄßC×ßÎìî»ïOLŽ\u0004\u0002û\u001A8_\\>uþ‡£\u0018‡!>ˆññz;t·]¿Ð1Ëjˆ¼ùÇ\u001D\u001DöýNTûQô\t S‚>ïÞ‰»¸\u0013Ql¶ûñnÁ\u001C3s•¹õÝ¶«“¸K\u0002yé·£ØÄÏé\u001DâjD·\u0013\u000FÃ\u0016ÁP.ïð\u000Bn‰\u001DØ~sôg•\u0001€#ÝÄÒ[YW©ô¡ÕU\u0013¢Im«]ÓêÖ§B\u0015)ØR•­IuUX\u001De\fÞ7±Ö6”Ú¨§A®žd\u0001F&™\u001F\"í¾¯¹¼ªýá[–_àš\u001EÇ4ôq=#»\u001A\u0012P\u001BÒÅfw{ý]\\ï“øÓ\u0007q­se_¾ÿ‚Ý¯¿þ¢ÕlqÊy\r\ny4LD©is?^>seÖ^<êÀîò”|òrÜ\u000F‹”\u001Fí.”ä\r\nùÃ¢D–*èñsZ²žÏ©®ãgTþE¬ºëÔ×Û&]¼ÙÅõx 7z½yw\fèR|ø0•ü¹¹ÕÍÀøh2’\\0\u000F]ß\u0013*Ì^ÉGô¡ôÒJ§öRÒ/%\u0015¾ÄB9[¨`Ú\u0017>¤V¥ò%šùåg”Ç©PJç\\öB‘7QJ•}¢_ÁÀ\u0013ø¦‰ª¤o#ÑJeJøk`\u000F§J™ù%y/ƒ.u9}¥ó®r2´¿´\u000F\b\u001DUá]\u0017jöXÂßã/àf\u0013Y+à·³Ì¥S\r\nn»\tU-¡ˆt”RZòZÊ\u001C›g&QTKÑÓw\tü\u0011“.4Q\u0015Ç“¢\u000B\u0014±—@\u000Fx\u0017¦ \u000B¡€\u000BdC\u0015³\u0007’mÃ\u0007p\r\n­fn(U\tÏ2\r\nL\u000FÐª¾v®T\u0013–Œ*iÈH¶5#\t,\u0011/G«Ý„²Ò\u0013Êàà“‘¨ˆ\u0007+\u0012¶'+\u0016V¸Æ\u0018Ë\u0013†œW¥Û¥Ž£&W6¹&]C§8ë²ÅÂ8U.(ÖøŒOÙ†q^&©jÈ˜ÂUUh|I‰€h\"\u0004\u0017TKÚ+?Q›èjD™©Iejå\f,¦ÀTì°L­\u001BÓ¨¦È\u001A´Õ°œ= \f€¯\fº(Ö\r\nóepù”*BR>Ô™\u001Ae¦Ú”’++“í\u001AP]•û±m\\el!\u0019C`7aÈtÎƒ,\"Ùwœƒ¹‹(»s×”ÊÉS•Šº¦5K­±~®µr¬µ=Ó:õ\u0019i—\u0006Õ¢Q¨r§Î­÷$Î™Âp­W$¯&«-#ÂÕˆó…•“\u000E®ú\\c\u0012éàªÈÏ’_™Ï=á§\b”Ö“.“»\u0003>\u001A¶oæy†Î£~9G…êMgÝÿ\u0003\u001Fežã£*êpHÀŒÉ^Oq)g–ÒÙ[ÂÎ¸Åœ²ì\u0015?N}8WïtRÏQÐ·Y¦Ðg2K­À0GŽ\u0019eéÄ™\u0015\u0003BÈ:¢]ê(\u00113&¦™Þ'¬)ûà\u0002}ÊÛ\t‹Z?Ç¢¦NÅ´ú¿+P¥æ¹ÖÖ³Öp®õ5Ûå5²?ï-w9yfcý\f\u0017MsåI\u0004y\"ØÆÍÒ”\u001DwÄ‰kõ\u0005{¢Xl\u0005öÇÊy\u001F²¹#æ™w_±èÈ—î£9’Ü—Ç£ëÈqÐ¤A\u00159Köñ©O›b:åsÍN›ãÉf£NàØõb¯dÿ¸6IGC“•|1Sw³¶Sÿ;yÄNf,\u0015õ·‘uF:p½šWÕHÎ\u0019ü³åñîChüVuÆ\u0013Þx·ô˜2lxÓ[ž_\u0013.G„¦OÃs×ðÎk\u0016\u0019Æý&\t_\u0007\\VŽß¦Où¢\u0007isçvh¾;<õ²šh^rw[3móyr#c%½ó´ò4G(³ù\u0004Oo{Êã)Î‚æ\u0015žseä*>í\u000F(³\\—Ö—.˜WÝ.}@õú\"¶²ÂF—\\5ó-SÊiË,¨\u0005ûˆƒ‹íÑoÓdyÌiË~ð”æÎSNÎq›Ö4\u00147E?Ý¨\u001BBÐ4Ù\u0002\"\u0005N&±\u0006—³îå¼…øÉó![B5LìÙOiø>Åw¦IþT7Çžø¥u<iz†š±Ón³õÙýãKþæ\u00190yû+ùö\u001AÙ×MÎªÓéId¿«ÇxKQ{çuˆxjÜQH±,,®6¥4\u00118\u001BÝ4¸pF­\u0015þ5©Â×®\r\n>µ^{k«\r\n½\u001AƒÄ-°\tXÒø3#“§\u0019Ðú\u001A÷KC\u0003™þZ\u0019ÚJ…WÁjüSÂrMÁ`Jã\u001BQ|ÂEØã¥Á\r\n4?|\u0005~\r\n\u000E!It¤o|KòTìÿõ¤ýâIƒ_­/ñé˜ã˜¦p:A§eÝÊã:Î'‰N´’Î‡\u00104Î&\u001F@ñÖ¬yø\u0005( còiÓ®Vÿ\u0001PK\u0003\u0004\r\n\b‘+œOìB9«\u001C\u0006\u0010O\tCommit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UT\u0005\u0001ƒX\u0007^½WmoÛ6\u0010þ®_qM\u0006X\u001E\"«À¾em‡,\u000BÐmQ4é€!\b Z¢%&\u0012é‘” èßCRov’¶ù°\u0002†%\u001Dïõ¹ãñxH§ªi„M4oÄ]Rðe+Ë’' ®kayb¸[[+Ã¥Uú>\r\nì4!QÏKŸ×\u0005³<:$–ç|mM\u0014]½¸úðñ=ýÍµ\u0011J^_Éu“lÂG\"\u001AVòë@ku}=pÿ¥¶²V¬0a­è?ŸP\u0005_Ü˜‰\r\n\u0010\u001E\u001A™\u0012\u0007Ù?[Q\u0017ta™maÌj¶\u0011£•îs`¾äÆ\"V(qëW¹«ëQ`¤\u0004™·¢¬¸¦šoxM¹’\u0016x‘ä¥²‚YøAKfxAx¹ê©J_Ç•µksœ¦ÛívHoÌ\"WMºfù-Ì¤#ç|\u0011Egwð2·Ð²Òª¡«[Å¾§,sZ)M%—Î]j\r\n‡¦sI¬(„÷Ë*\u001AÍ\u001C\u0011Ò¨ÔÖ\u001CGQB'þ•ìýš\u001BbøAPkvOPÉtÙ6ˆÒP-Œ…$§,¾šY~gÓÊ6õìˆflbÉ=éQrv=Ï¢ˆœª-¯k÷ÌâïˆÌ³Åž+d*¥mÅdaÈ´yåÕ8ÞÀù‰ÛVKV¬6<£mÅ%IÕEÑ0›WŽíRs\u0006ç%j„ß!\u0002—°Š³\u0002uã\u0015þ\r\nO\u000F\u000Fé\\\u001A\u000BD¼CQtY\tCø1êkqL+;à¯t™r™Î©QE[sb\u001B&j¶Ä›­´jË\r\nOŽ\"C¶°³JXÖ÷Oåq¾Ø±ï,\u0017Jr¤QÈ²Ó“9E\"pe(½¦\u00010£ÂBåf¢±äÖB6\u0001»F)¥ #¹Ö\u0015ŽIj•ƒ|?G\u0019dYf€Ø/414îz¬zœN>žGÑ«\u0017Ia|ÔR%­DÝ\u0015É†\u0001Ú$yã…n \u000BB¯ˆ^\u0003Œ[¡y<ëH³ù }è21˜@>u¹\u0003´(Ý-e'a-#µ¼á¹õ\u0005\u000Fl¨\u0014\u001Bd>ƒˆ+ŒC§f‘Wp‚Û¸{\u001A(\u000Bõâ%VBcß\u0007[Øg\u001D\u0013’°B\u0018¶r \u000Bhì…3_\r\n\u001D÷Q\u0014YWi}ÙaI{Í¼Ø·nâ]³=\u0019\u001FÌzŠÃ‚\u000F®˜#gÖÑ•F}’Z\u0005±Z hgr­ùŠk.sNq£ \u0017\bÚõ\r\n\u0017Ò|ð<ª@\u001Cqÿòm\u0004z®\u0007\u0010\fâÏÆ`Ü\u0003a ÿ\u0004\u0014j&Ë\u0016u\u001E÷/ßF¡çz€Â þl\u0014\u0006É=\u0014\u0006úO@Á5ÄØwÅoFï[nŒ¦â\u000E‡I,®K:vÃ\u001Aô6ôpßÖáu\u0014¡‰s·Ù;O3o$\u000BgÇü\u0001ŠÝê\u0014Aš\u0002\u0018E»\b^î«¤\u001C\u0007“;t\u0019Ô­Z´§÷çïÏº†f°\u0012èCpK7\u0012˜\u0005È{Ú°ºå.SÌG\u0005‡ÐOö…±°fÆÜ8'³¡C5¢á‰ç˜Í\u0017µR·í:Ûu?­AÛÿ›R:»c\u0018Î¸\t\u001DóB¸½É Òa&¬ò âNT\u001C®øsq¢YSÆú¦\r\nBÀ\u001Eð\u0014bå\u001D±^m\u0011Eš›µBe,Uq?Ž8Û>Î\u0010\u0002m™\u001B\u0013 ((]Ë ázã&&\u001C€Ày/N_:\u0001\r\nWx[´àè‚‰üÖk^:øüYŽW»å\\N\r\nB&Š‚Å3N\u001BÇáÎÍé²ûvk«Væþ\fFm“;†ŽÀcæôÅÍ3£jˆî\u001EUDiºŸ[\u0011f&òy(¥Xaà‘öw—…\u00163êrgÌ³—vÚÌV¸ ã\u000EJ¿‡¯f~RÂôä§¨ëyç\u0016ac —aõ8PÈ¹½ÀióÖÏ:ñì4\f«É%4=>€M\u0005·\u001AÃ<ûrPa~S\u0007Ç\u0007[¥ëâÅÁ×‘m‰ÃùvjÞ;õ£æÇað1»¯–o¼á#\r\nv_¥Ë7Z.øŠµµ\u001D¬vI@C©}\r\n\u0001zoi]£g\u001C‘QnB”<lt³æ¹XÝûax‰Aÿ9®{…ú¾ãø#NuŽŸËÂµ\u000F|»â[ä~Ø¹ð\u0015\u0011#;è8~\\{ùòe?#ý£Zß\u0005­Û\u0017¾ÂT‹'l\u0015öÅçOïPMªÔ¬\u0019Gº\u001Cw\u0017JÎ)y;\u000B3Ô1ðû€\u0001ÒO‚\u0015ºÎ±³—Ž\u0013ß;‘£¡º\u0011ôýùåuüîüôìÃÅ\u0019\u001Czp]:¦~\u001A]²\u0002W‘…ä6\u001D˜Ò<-ág»D¹9¾´Û@iÃ\u0010¦ÞÑç.[£¶¾\u0010*Õ{â,5“yõzÐòÈ]ñQÇ0æúY>\u001Do¶\u000Fn”£àîÔßß_Ã|ÿà:û¤½¢™Zë®¼\u0013#~~w6ú›Ý.÷\u000FFµ™ˆí\\€\u001F•\b\u001CO&ere\u001EÅ;b.¼³»¢Qô\u001FPK\u0003\u0004\r\n\b‘+œO'Á8Ñn\u0005\"\u0014B\tCommit-remix-debungge-Complite-set-reposentory-master/Package jsonUT\u0005\u0001ƒX\u0007^¥WMoã6\u0010½ûW\u0010(Ð\u0002éÊ\u0011%ÙŽ\u0017X Å¢-\r\n,¶@\u0017½›–Æ6[‰TH*‰{ÈoïPÔ§c*Uê›%ŽÞ\fçÍ›™ïÈgY\u0014Ü\u0004\r\n\r\nþ\u001Cd°¯Äñ\b\u0001>-sn Ð`ß•Rƒ0R\u0017î8\u0019<\"íYòg™1\u0003\u000BºŒ—\u001BrK¢nƒ0\t¢íbñéÕo± ä†dPêDÀQ\u001AÎðk÷ár½Œì;B\u0002ò\u000B&Z*ÃÅ‘¤'¦Ð™\u000F\u0004D*3|ò0‘‘œ‰cÅŽ@ž¸9\u0011x6Š‘’)V€\u0001¥\u0017µ3ë¡3wo9Sð\u0002\u0002s.Aß¿DKºŒ’ÖÁûlÿB—I¸\f\u001DÄÊAÜ\u0005aô\u000E\bzç…ˆã\u0016\"q\u0010› ¼\u000B¢h6ÄÚ\u000B\u0011m[ˆØA¬ƒp…Ì† ~ˆ:\r\noÂ;Ã\u0012Ôá#áE©ä#ÝOi\r\n¥ÙÙ„jË\u0001]\u0002d“gƒÏŽ&³l~n\u00185ËèKC¼WFö\"£î\"cL×ì‹\f‡\u0005€œ\u0006¡¹\u0014D\u001EÈŽ•Xk)3øÿ6cúôãs‘ïÚã®I©xÁ°0{ËƒThZe\\Þ\u0016e²óç)j©@»\bh@ß,àË\b¶~\u0004Ú\"„\u000E\u0001™¶ý\u000F\u0012q‰°ñ\"Ðí$×FwËEšW6õÄ~º¿0o\u00062bÿ]’qø™–\u0001Ã3­i­K\u000F•4\u0011x¨X®ßc©QžS™£g­õ\u0017öÏ9È%ËH!³*\u0007M\u000EJ\u0016¤`è+\r\n3¦¿”\\˜1‰3ÈÙÙÅšJ4\u0002QS‰TÂð\u001C¯\r\n²KÞã‰}\u000ED\u001BÅSc±`üþ$¹¶ýàXåLá\r\n–\r\nt}…ãcØ_lõ¤¹Ô\u0015ž G0¦)š\u0014\t+ñ”ápÝˆµfMˆqæ‚¸ÈÅÈªùèÙ\u0006\u0017ê·ER.i<`c¸¾ÆÆI:úÕ•Þ9Âã©¨ÃØ\u0004q8\u001BÃß‡èºÃ \u0003\f:?ŽØ±ê0Â\u0001FHgcD~Œ¤ÅØv\u0010ë÷\bè˜\u0010\u0007,´\fdiHV)Kº\u0002U´KýÝ\u0010j3\u0017*ô\u0007Óõ<ç\u0005{”<#L\u001D«\u0002ë\u0013YÊ°NŽ¢þó}ÿ\\£¼Ãk»^ÅÐ2­ºu\r\nc]V©-á¡Éõš½\u0019×G%\u0004¤X«¶Sì¹yâ\u001Aˆ­\u0018‹áWùêÕÙUÏ$+sã²s\u0002‡Y0é©Ö^Iö\u0018\fÓ\u0010p¡­\u0002\u001BŒÎù°\u001Eø07;áÔH²u,ñx?\u001AAS\u001Cp™#N\u0017ÇXž\u001FY^ÁHØµ\u001D‰Í”\r\n~µ`ÚE¹ê¢Œ\u0003\u001AÏŽÒOÂN|’\u000E!\r\nhâGøV•%NÜä+’fù—&¡“6\u001F´¿Ño&ºðª¯Ðº\t*8€Â¹\u001EºißQB›šÇvzÁÖw$¬n’õ³\u001C»Nsy½tÓ ¾*GS\u0011øGïNT\u001BÝN\u0002\u001Ayt{\r\nÀ?©ôŠú¿VþåÁÞ³\u0005\b\u0007oOs\u0017¹\u001AML¹ëö¦R8ª\fËøé\u0004\u0002×0…;˜Ë\u000FrÛž\u001AÕ?×õ˜Ã3”8Ž=¹]âœõÃ§\u0010'\u0007—Qgô‡Ó¨ì,\u0018\u000E>d_ñ¼>Ž#ð×^\tÓ\u001C5ÔFH[~»\bg_¡¿µ6ë\u0017mY†\u0014g„¹þ¾\u001Aµ=ËÂÉ\r\n½’£¤¯ÃzcPJ6y\u0019\bï‰Ù9\u0016•\r\n»I'Â\u000EºãŸ\u001DÅgvÛpªŸOh@ÒWžõ™åy÷¾\u001EÀ}MÁ™|s*`åb \u001FÚòCcdÄ\u000EÚ–gÈHdi£(iÎm‡­ië\u0002\u000F\u0007O-¼•[¬v}è;û°m‘I=\r\nM$Í†ø¤d»h¸\u0002ÂB©‡Ò}¶k\u0012f›\"a\u0007Û +ñ·O¢_K\u001CæºÃ\\\u0007Ñ\\¢lÜ7VÃoøÊå¦žœR…k¦sî•Cäˆ9iÜJ\u0006ŸœÒ˜J_»Èxhý¦ˆ_\u0004ÕMß¿×Š´?×k\u0005?ðÔrÀILC\bŽÌ:AM\u0012\u0007Ü•\u001D\u000E\u0018Sk¨[\u00171-H7ã–¦úÃ'`\u0016SHc·D…+\u001E8ík}ÅIóÒß•ƒîË\u000Ewì‰²ûí•jr-~0X3Oì¬\u0007]ÑsE/\u00163t˜\r\nãc«“ÑÄ<õ+\bÐ\u001CÅõ_PK\u0003\u0004\r\n\b‘+œO¤ÛÙx \u000E·_?\tCommit-remix-debungge-Complite-set-reposentory-master/README.mdUT\u0005\u0001ƒX\u0007^í[én\u001BÉ\u0011þ?OÑ‘€¬d‹äð\u0010I\u0011ÑîÊ–lË°l­dÇŽ\u0005‡nÎ4É6çàvÏ¦\b\u0001þ™\u0007\b\u0010ä\u0005\u0002äo\u001E!â'IU÷\\<dIö(¿faId\u001F_U×ÕGÕn’Ç¾ëò $˜Ë?—lÖ\u000B½Á€• uìð€•$Ã¾±/™\u0017øbfèá$ÓDâ±äÍØ¦\u00013ŒÍÍMò–9–ï2\u0012øä)\u000Fž…=rJ\u0007L\u001AÆ_üXÔ#¡„Î!#\u0017ÌæC|/\u001Aøak\u0018\u0004cÙ©T\u0006<\u0018†½2àTDx9›I—Š ¨˜Ÿëf­Þn¶\u001Bõú“¦ÙnZvûñ‘ù¸a¶ë}V;ªV\u001FÕ[\u00163\u001Fµ*ˆ]q©\f˜¨œ\u001D\u001D\u001Cž\u001C•]{Û@®\\Ê½~\bõl2\u0016lÂÙT1dù^+#}`jæ‡‚LYOâò`ì\t\u0015#ÛŸz¤Ï\u001D&Ë†ñvÈ<6aj$ÌT²\u0001ð`È¥–\u0011®m¶³ \u00032åŽCDè‘‹çl4sœtÅŸÔw¡×¼H\u00024Â\u001D[q6V³\r\nÅ\u0016ò´CúÂw\u0017ØŽ»WXE­Ä†‘t\u0003£”8|0\f¦\f+y0*g¥À/¡’ä\fäôY‰C\u00063‡{ƒH,‚\u0007ð¥LŽ‘¨å„60\u0007\\L€\u000Bî{\u0012g\u0018ÆÇ\u001FÝ˜è¹F\u001A\u0002\u0019EÙ0Þf¤çøÖ\b\u0018$Ï\u0018µA–Uà5þ\\S|G_ê†Q\"BÇa0\u0017>¾à20Œj™¼\fÝ\u001E\u0013ÐV+G\u000F\u001E<ò\u001DûÁ\u0003µœîq@\u001DnuÕ—æG\u0012°Ï0ìâ\u0005÷F\u001F¶Bál«Î?\\\u001C» å\u000F[RXÛÈ¼a<…»¾`Äf`/Ž$’ÕF\r\n}âÐ\tôÙ‰d3Ö\u001BrH9cÄ}FƒP0\u0019Y$\b¯\u0014Ë¦²\u001DiH[\u0004y=dnä-\"²\u001AeƒÊtb×q((B+\f5\u0003c\u0012kˆ`\u0002„Q¶9¤\u0013P%s˜…bä\"µQè\fPŸ2Oÿ‹1·Ë¸\"âQàÆïk÷Ð¼Á\u0007\t¬)–2Œì‚%õù <sD\u000E\u0005EÃR\u0006\u001DIë<\u001C}\u0011\u0010PÑc°jJŸÑ\tÚh ü°ç Ä‚¡–à/äñY#‚2S‹·}+tÁZ\u0015lºì!sÆYµY\u0010Ô\u0006¾à 8ÝZRŽXêQÉ-\tn\r\nÔ/,MžHÍÑZ!Fc´¥MÙ×/ÿ„•\"5¥!‰\u000BáÈZP6\bXÝ¨ª0J\u0011Q@(eÕÐ\u000F//g%æñK\r\nðµ\u0011\bQéÿÚA\u0004-Ÿœ†\u0018}Øï!“$&9°´»ž\r\nÿ\u0013X\u00076½å#NÎ™\u0015‚‹ÏÈ±'Ñ[%´hm\u001A¯Æj\r\nl\u0006ŽC{>èÅ\u0017’ü\u0011|ŠºÒx$¨g\r\nÁzß²ÞÐ÷GÒxé\u0007¼Ï-ªg\u001DC \u001Ah]â$ÉÄ„[0ü\u001DFFl&\r\n .X ˆ9ã\u00048×SÔtAU;Ä-\b¸Ò8c(s\u0015NT\u0010L(“\r\n8¦\u0007ÚÂ Ž-Ð£Å\u000E›—\r\nïôÕùëX\u0018:pÃ6vö‚ô˜ãOµíÄn\u000FvK=p“°'-Á{@a¨“e\u0012oiÔ‘>‘cfñþŒL‡Ü‚É4 \u0018\b]\u001A ’¶\r\nL˜\u000Eí\u0016ãà•[ÏÏ_½Ü!ŸKÓé´„cK\u0010Ž˜‡¡ÑÞ!,°À{N0qO#áÊ‘^\u0001tè)ßAƒ¶!Ç\u001FC \\°lð•S:s|jãÒ\fãq´S\u0004³1lÖZÒÆ×¿ýãNÿÈ×/'G°½\u001Açç/\bì€‰‚\r\nòh\u0006¬ôiè\u0004; wÝ9#8Îb\"²\u0004Ü\u0006aï„\u000EŸ¨X\bÛ›b\u0012÷*räQtÞelb\u001Cr©z¶<\u001FO!¸å‚&\u0019lêo•ÀµNÈÔ\u000FaÓD·Š¥\u001D\b\u000E\u0007\u001B¡cOd\r\n¿\u0018ÏCÔ;î­¡Œ&—A$ SˆM¸±Ï`<lrÆ\u000B\u0016`“Ž  p›O¸\u001DR'6\u0002e©\u0013\u0006ö¥ct´.ÝØZ²âÉcð‹Øb6¬ZŸŸbæ\u000E\u0019ns‰ážµÒa$/ð\u0017BöÚõ:£¦Yªí5{¥j•ÑR»¶ÇJ¶YoØmËì›­Þ×/ÿª™Õ½RµVªµIµÖ©6:µ¶¡Om,Ú\fÌ²Ù€µû øÏXÄ=|ÒžÑ¨ÕÈ\u0019“cpEfèÍX&`T\u001DrÃž±\u0010‡â‰.\u000B†¾ÝQNhD®[B«ì\u0010:†#¥Öyå“\u0004£:ú\f~\u0015tˆñ\u0006âEé`C;Ñ©ªô\f]}è\u0007\u0015Úì×ZÕ†ñ®\u0014õDÒšun%ªtÞÑDáAõÐˆ-ç|à©Ý»CäV÷™½×kõ­ÝZßb–mµZ-VÝkîÖšÖn½I›:üµ,»\u0015»ž1\u0007}m\\2o£C6NUü²àL\u0002áµ\u0007§\u0002\tö‡±¶¼±ƒÃPá]nÃÐjË¬ïÂfÛNÚ¡\u0011¡à\u001BJ\r\nÑÎ’=\\Í†žÕ©Ðˆ›/\u000E\u0007ƒŠÇQe³Ð\u0018ˆEmÚž¡íB}‡–\u0007\u001BêÓ‡h€ÞŒ\u00136t\u000Bª®\u001B3„\r\n‹H 3`3°“°®”\u000Eöši—T±\u0007\u001B\u001FDÿ¥}\u0010\u0003±ãÛv¥9»Š8\u000B•ÿØ]ª S«\u001D[ýûxá@ö–#—Ø cž=\u001A¨ãSåÖÛtEmJ•D31\u0011ˆ†A÷^)UDL\u000EÍúžÉ!\t\u0019Ósà¸Û\u0015QøX4\u001C\u001B¿{p\"Im\u00026­\u0010ío#ôà k§\u0016\u0001\u0007b\t[y4AkÞˆ´¿‘\u001EdS\u0007QnP«›M³Ñ¬›±\u001BMí[\u001B'‡GÓWÎsÇzºwIßM,o4;¹<¨\u001CþVƒ¿û\u001BKž“]qÜ×\u0007Vºñ€[Ë+Ñ„à\u00130D˜Û‡ÃCì‚p\u001F`\"+'Ç\u001Fpï&\u0002\u0019ÃÕíî™{¦ÙLZ\u0017\u0017>{5Ú›½¯=\té»ñÐ~êLzŸÞìž\u001CŽÌ—Ÿ\u000Ej)\u0014\u0005ö¨X1\u0016Õ*k‘Å€šD\u0014\u0003”ñ„•˜ø/“ýF\r\n\u0006‡>\r\n§¹¸Ö×—l\u0011á¿m‹)Ò0pen3P·\u0003éÃ±ÖŸ\u0002Ñ\u001BœäfÆ*\tÔ2úÍ.xkt€šW|8Ä€ž`ÎUFàp\u0015Îa\u0011\r\nf®þ€ê2øà«\u0002Ž.?N!\u0002‚e é_ÍUüÉ\u0012Ò‡n}íÈ\\\u0016.¥â‹\u0001õø%Í‰\r\nÀeÀU€úqP\u0005“¢êÝúÇa5Î¼¢\u0002’5»Êò­n)v7/RK€)¥øð€u©íª@¨¢åÂÞÿ\u0003Ž¿62Û,±\u0010„Ü$›\u0004\u000E…Ì-ƒVI­I\u000EÆ‚à¹\u0001Ú\u000Fñ\u00162æ\u000E\u001C¥%\\Ã,õÄqûG\u0012‚Øp½øI\u0012—ŽôËÎÔ\u0017p}«œ\u0017Cnâ•ŠHØà`\u000Bì\u0010å'êíÎ¶\u0005ËeÔ\u0003—÷Ð\u001ByÐ]­›´M-\u001B\u0007…Ü\u000Bj»Íì¸*\\fåTc¬é®%0m8Ø6[–¢%\u0004áâÖL¨+þ–homw€q¼©ÁÝN]Ûà¸\u0017\r\no…ÇìÜˆàs£q\u0017&Ëòrk\u0019Ú\u0006ÁðƒBÖ+½\u00160\u0012\u0004ŽTb½v \u0016:ªëŒ\r\nB‡\r\nÒ\u000F½èõd3»\u0006Ë®ÛU»½·\u000Eé÷ÃU>ø\f†ÄaW'ûû\u0011.\\-û`up\u0014·‚-Õ´­0»`ìNZ£­í\u0018¦£Éá\r\n;a\u0001 á¦\u0013dÙèíÖÁÖX+;1f.\u001FNyB‘Ÿ÷AÝ\u000FHÕükµµ¬™‡\u000F³€\r\nÆØî^¯¾¥-¡;¦‚ºÕk\u0017‰4ð\u0001¤,ù%#%Ò@RõZÒ\u001FÍ'Ú‡\u000Bæ^c¯Ù‚ËÙJïCRoâE´¥Q‘¾— ÔÛo\u0002³4t=._1bòó×/ÿ!f\u0007»´¦@e‰þ:p‹u/jí¶²ÂE\u0012\u001FÈ~Ür\u0001D>¨¡+\\À\\\u001Ch\">\\-ë[ÍÆ\u000EÜÓÛð«¾C~’Ô\tfø\u000B~ÚY\"±³@`çZ\r\nŠ;ˆ»N½¶µØ¿\r\nŠYb{\u001BW¨½¢£Ä£~ÁÂñ=¬C´Õ¤&3eœ\f¨Ä\u001F8åc^\u0005_s°uI’¥RrjöÅhñÚ™ëu$Kæ¦\u001Dë®7\u001D…\u0019\u0013À·Êœñ\u0011rŽ¿3G-¸(e\u001EZs&¸€=_øz•^P©›7]…\u0019\u0013P÷Çû¸“&O\"R†ìvg˜»ÒQÐ29By*\u0017•ˆî^H.\u001C6¨”|à1–7•\u0004w^É^,6zÑ\u0003ÎäbØyô)µ>:ÈÝøhú<Ñsü^Þø0¦¢pç\u0015ˆéÉJ ¹{\u000F«Aj\b»JL°þ}\u0010CØEbÈßþÔ²„²¿,)ýB”;µ\u0018¶2Ï\u0012s¨7\b1Ý—3µ\u00047³*¸÷\\Þüêð\u001DëŠ€ÓÝÄ\u000B\u0004ï…÷²™¤ÐÉÊâŒYþKK‘—ˆ©‹ÛýP\u001Bgî¥\u001Bºä#)*ÔUw¾\u001FrègkIêìÚ½,oí^©7é¨û~vékiG\u000F˜÷á\u0010\b[™?\u001CÓ`˜\u0015-\u001CºYþ’EÔÊ¼G%»*—Ëó!£é1Òe\"ÿH¦A“³ˆ°†|’÷ºæ1¬N€«\u0007Â~²,, Q™ãœ©&¸\u000Böy?ÇÇ\u0015{\u001C‡Ž“7)…¹BÉÅ\u0002±À÷ò·Œ\u0004x…¦—­\bÉ™ì\u0002öü\u0017É=‹íÀ\u0005v\u0007\\#à\u0016\u0007?„\u000Bjf‡ï±Ü%­AaÙÔe\t%Á\u001CFó?¸Ä°óJæÆh«bšûˆÞ\u0019äÛ¤SÍÝNµž¦S¿‘¢Å‘Í÷©ýËáu\u0003ëºù>»/F+„ßùì‹\u0002IŽ\u0010r˜\u0001ü5…ë|\u0017œå€\u0007äñ4½Àãdåtó#¯ÝCßeã4·\u001A\u0013á—Øb®žP-?ô‚L×”\u0006ps[Ó\u0011\u001Fs\u0017‡TvuØ[Ê|bÇ8ªC[|\u001FÂž4\u001E¯tMùˆ¯¶ª:½%\u0012úMh™O—\u000BáÇyÎ\f§Ñ¾c/Øº\r\ni¹\u0019\u001Fì£…­J‚[L§¿3ðú1)\u001D”\u0001X#ÝLSôúÛÕ7e4\u0003]Sº‘$Ä±À-“ENsÈ«)Ï(a\\3ÍÝV­¾.Oþ[óÏï^:Ö§7³“ÃƒêËËãËd¿ÿV‚Ø¼>A\u001C\u0011Ë$ˆ¯I\u000Fß*9¼fM7$„ÖÌ¸[Ú÷[YÞ;æxoÒ½CB÷æüí²··NÖ~Gªö¦Ììwäe¯IÃÞ!\t{]Îõ.\u0019×[$X¿+½zs65É¥bµ\\¢™u\u0019Ô+ãÊøï¿u*ó©*~Û!ÇžU6^3áJãT³kÄÅÀÆ¹z%1ž1glD%×Ñ<\u001CkaÁÜÁé±ñZè4€ñ\bâŽqÐóÃÀ8\u001Fñ1VbÆEºç\f£«±Pl\u001C«à§þ÷\u0004\u0016Œ\u001Dj1,ýs|\u0001Ì\u001A¿fVNŒW#:ÛQéRUL9¥’ÈÐ²˜”X”3#ÑY£l˜†Y”R\u0017¥Ôù—Rß¥è5¿ªë¢â:·ŠëÿkQuQJ]”R\u0017¥ÔE)uQJ]”R\u0017¥ÔE)uQJ]”ŠRê¢”º(¥.J©‹Rê¢”º(¥.J©IQJ]”R\u0017¥Ô?F­(¥.J©‹Rê¢”º(¥.J©‹Rê|ŠF‹Rê¢”º(¥.J©‡E)5)J©‹Rê¢”z-É¢”º(¥.J©o,¥þ\u001FPK\u0003\u0004\r\n\b‘+œOß„ïÁ\u000E\u0007q\u0013X\tCommit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UT\u0005\u0001ƒX\u0007^½W[rãÆ\u0015ýç*:“\u001Fi<Òô»R&©xj¼\u0001W*Ÿ®\u0006ÐPC\r\n\tZR\\^„Wà-z\t>÷vƒ\u0004%;‘âØ`\u0011\u0004nßçéûhþY|ÜÜÞ\u000EÓÅ6Ý\u000E\u000F\u0017]jöãõuºõn=Léb—hín³Kã´Ù>®2»XÄÌ+þq×Å)­~úñ‡\u001FÞ¿}+ÄÛ¯÷\r\n˜§Ô‰~³\u0015ß¦íÐ\u000Fmœ†Í(â$>M7i»kãx9l\u0004HZªúB†\u000B]‰·ï…¸ÛÆëÛ(v›õÐ\r\nÓ£—îRÉ«•\u0010ífœ¶±Äß×©\u0015«ï\u0004]±ë¶i·\u0013wñ16ë$îöÍzhÅæ~LÛ+ù`¤6•¯¬1_yYù¶«>~’\u001F­¬LŸô'¥¾4¡MòË \u000E×0NÚùÕ¬èz\u000Fíi÷M\\¯7÷©»:26SÚ\u0019}àŒãî\u001E6\f»i;Œ×óò¿öÃ¿ËâŠnˆ\u0006\fû\u0016Xž?uÿ»ƒ\u0012\u000ED|\u0010ÓÃåf;\\\u000FãÂÀ¬ŠuƒçÍ?o€ïv?îD³ŸÄ˜½¸ëÏ»wâ&îD\u0014·›ýt³Xœ–‹íÍfh“¸I\u0002›3n&q\u001B?§wˆ«\u0013ÃNÜo7\b†6ô\u0006opKì°ü·7W³\u0013¢ G€»‰µ·²mRíC¯›.D“ú^»®×½O•ªR°µª{“Ú¦²:Ê\u0018¼ïb«m¨µQ¿\u0014å“­€ÂöýÁ\u0003!úýØr¦5ûÇoXbnz˜ÒvŒkÆ·Èl\u0013ÐÛ¦³ÛÝõå·q½Oâ¯ôüêèÁ\u0013ó_|1\u001B?\u0002p0ž\r\n—\u0004h!\r\n‰Hþ)ÝÞMç§~”´ëÏžÆ÷\u0017¹:_ðdw§ýv‘\u0004ß?ƒ‰uå´ùÓ\"o^¤huÂBŠ>§¶ŸQ\u0011g±\u0019.ÓØnºtöf\u0017×Ó#ÝèûæÝ!²sñáCIƒ§öÞ¿\u0017è\u001C]Æ•óè~\u0018GÂ‡\r\n¯Vò\u0001\u0015*½´Òi£½”ô¦¤ÂC¬”³•\r\n¦á%µª•¯Qæ/—Q\u001ER¡–Î¹ì…\"o¢”*ûDoÁÀ\u0013ø¦‰ª¤ï#Ñjejøk`\u000FRµÌë5y/ƒ®u]žcí¼kœ\fýo-\u000FBG5¸ëJÍ\u001EKø{x\u0003n6‘µ\r\n~;Ë«$¥à¶+¨j\tE¤£–Ò’×RæØ</\u0012Eõ\u0014==Kà˜t¥‰ª8ž\u0014] ˆ½\u0004zÀ»2\u0015Y\b\u0015\\ \u001Bªš=l\u001B>`¥Òj^\r\nµªÐþ™GáÊô­\u001AèkçjU°dTICF²o\u0019I`‰x9Zí\r\nÊJ\u0017”±‚_F¢¡5X‘°]¬XXá\u001Cc,\u0018ò¾*Ý/u\u001C4¹ºË9é:’â]—=FÉ1sA±Æg|‚Ì6Œó2IÕ‚ÇT®iBçkÚ\b°&BpAµ¤½ñ…ÚE×\"ÊLM*S\u001Bg`1\u0005¦bºejÛ™NuUÖ ­†åì\u0001íÖ•A\u0015Å¶ãu\u0019\\–RUHÊ‡6S£ÌT›Rruc²]\u0003ªkr=ökŒ­$c\bì\r\n†Lç}U$ûŽ÷`®\"ÚÝ¹jjåä±¾jEUÓ›¥ÖØ>×Ú8ÖÚŸh-uFÚ¥A¶hä\u001F²Ü©Sk§5\t9S\u0019Îõ†øU±Ú3\"œ¯¬,:8ësŽIl\u0007gEþÔüÍë\\\u0013¾D ´.ºL®\u000EøhØ¾™û\u0019*êå\u0014\u0015Ê7uÿ\u0007|”yŽj¨ÂÁ\u00013&{]âRÎ,¹³·„q‹>eÙ+¾Žu8go‘Ôs\u0014ô4óTú„g©\u0015\u0018æÈÑ£,IœX1 „¬#Ú¥Ž\u001A1£cšr/XÓîc\u0015èÓ¾\u001D±hõs,ZªTt«ÿ9\u0003Uê§Z_3]^Ãûß½å*'ÏllŸá¢©¯<‰ w\u0004Û¹™›vÇ\u001Dpâ\\}Áœ¨\u0016Sý±rž‡ìc®ˆybæÙW-*ò¥óhŽ$×åaæè6r\u001CÔiEÎ’}üêã¤(R>çl™\u001CO&\u001BU\u0002Ç®\u0017s%ûÇ¹I::ê¬ä‹)ÕÍÚŽõïä\u0001;™±TTßF¶\u0019éÀùj^•#yÏàŸ­\u000Fg\u001FBã÷Ê3îðÆ»¥Ç´\u0003À†'½åþUp9 T~\r\n÷]Ã3¯[ì0Î7\u0001Hø6à°rx*¿òE\u0017is§v¨¿;|ô2›¨_ru[S¦ùÜ¹±c5Ý¹[yê#´³Y‚»·=îã1ÎŠú\u0015>sfä,>Î\u000F(³œ—Ö×.˜W.}@öú*ö²ÁD—œ5ó)SÊ2e\u0016ÔŠý@ÄÁÅþà·é2?ú´e?¸Kså)'ç¸Mo:Š›¢/'êŽ\u00104]¶€H“I¬Áå]÷ržBüáþ-!\u001BJ%{öS\u001A>Oñ™©ð\u001FóæP\u0013¿5‹¦g¨\u0019[f›mOÎ\u001F¿æoî\u0001ÅÛÿ“o¯á}]\u0007à]u:=‰ì\u000Fõ\u0018·\u0014µw^‡ˆÆ\t\u0010‰\u0014ëÊâhSK\u0013³Ñ]‡\u0003gÔZá_“ª|ëšàSïµ·¶iP«1Hœ\u0002»€!?32yê\u0001½oq¾4Ôé¯•¡©Ty\u0015¬Æ?%\f×\u0014\fº4žˆâ\u0013\u000EÂ\u001E_Õ@ýÃ7Xo±B2Ä‰Šôï‰Ÿ’ý\u0017%í¯J\u001A¼õ¾Æ¯ã\u0015Ç4\u0005é\u0004–u+ã8K\u0012h5É‡\u00104d“\u000F xpkÖÀkx\u0003\u0014à1YÚô«Ÿ\u0001PK\u0001\u0002\r\n‘+œO6\t\u0010Commit-remix-debungge-Complite-set-reposentory-master/UT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n‘+œO“\u0006×2\u0001\u0001R\t\u0001]Commit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUT\u0005\u0001ƒX\u0007\b‘+œO\u0019Ç%\u0007²\u0005Ë\fE\t\u0001×Commit-remix-debungge-Complite-set-reposentory-master/Code of conduceUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO¾‰Iýó\u0002œ\u0005<\t\u0001õ\u0006Commit-remix-debungge-Complite-set-reposentory-master/GithubUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œOD˜0Ym\u0002!\u0004=\t\u0001K\r\nCommit-remix-debungge-Complite-set-reposentory-master/LicenceUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO·¤\u0015î¯\u0002\u001F\u0006H\t\u0001\u001C\r\nCommit-remix-debungge-Complite-set-reposentory-master/License History mdUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO—ÌN¾Õ\u0002ä\u0005>\t\u0001:\u0010Commit-remix-debungge-Complite-set-reposentory-master/MarkdownUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO{ïsñ\u001A\u0007v\u0013H\t\u0001t\u0013Commit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œOìB9«\u001C\u0006\u0010O\t\u0001ý\u001ACommit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO'Á8Ñn\u0005\"\u0014B\t\u0001!Commit-remix-debungge-Complite-set-reposentory-master/Package jsonUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO¤ÛÙx \u000E·_?\t\u0001f'Commit-remix-debungge-Complite-set-reposentory-master/README.mdUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œOß„ïÁ\u000E\u0007q\u0013X\t\u0001l6Commit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UT\u0005\u0001ƒX\u0007^PK\u0005\u0006\f\fÐ\u0005ù=(569160bd23f7b17eb3a40499304b5031e16ddade\r\nPK\u0003\u0004\r\n‘+œO6\tCommit-remix-debungge-Complite-set-reposentory-master/UT\u0005\u0001ƒX\u0007^PK\u0003\u0004\r\n‘+œO“\u0006×2\u0001\u0001R\tCommit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUT\u0005\u0001ƒX\u0007^\r\nPK\u0003\u0004\r\n\b‘+œO\u0019Ç%\u0007²\u0005Ë\fE\tCommit-remix-debungge-Complite-set-reposentory-master/Code of conduceUT\u0005\u0001ƒX\u0007^…WÁŽÛ6\u0010½ë+x.\\/\u0002ä\u0014 ‡ Ù\u0002i’\"Èî­èalÑÒ˜\")PdŒí×÷Í’½›-º'É\"93ï½yÃíÞ›Ï±·æ>³3¿Å\u0013\u001FJŽ\tÏ?l »îý{óÉ%Jæ3yîº4‘7ž\u0003eãð‹)!\u0017g¼\r\nÅ\u001FÊè(˜‰ÃàJ\u0018ðøDa0Ù¦CqdzüÈÓ¸«;\u0017{ ¸s7qeÍlÃ`§8‘9Øt¦p¾\u0006A\bÄ)e^x¦…±Aò™S|²Níä\b\u0017}\tœi©‘\u000Eˆ´`ib\u001C>Ù£\u001D±\u0006Á%\u0007_ÈÄ„<w&S˜I¢Pè%ñ²0íºâ\r\n>›\\PÞÎô¼Ð'9\u001Be M?Ggl\u000EŒwîmÈ\u001Av°¡·µ\u001Cë–9Ù…Ã\u0013!„`#% FÉœÂNž{îÙÉó’)—Å,\u0011¡'l!z–@\u0017JÔ\u000E”¨í!?ó$p\u0001;ê±(IJ@Ô#\u000Ee*7éH\u001E11^\u0005³\u0005)\u0015šöJîC–jWzE\u0003qÄñ\tg»Òà\u0005\u000F+IØ®¤\u001E\bŠÙ¸?òœI¸\u0007§…ÆŸ$0£žÌ',x.™Í»®ûÅ|\u0005ÒŽ@\u000F´P]©\u0002Ñ|9¸\táNº0\fcLž°s)}\u0011\tTŠV½T,[jÐ›í©îC!žŒK,\r\nG\u0011KNÅI*½Õô¤\u000E¬ü=:À\u000E¥ŽÔÓlh¦«v¥R\u0015Ë¦ªzt\tçâ¤hëgÉÌÙ\u0019›\r\n¶\r\n1Ó\u0006õ¤‰8üŒo\r\nÂ=9”‚S ¯\\SŽ“\u001D¯J\u000F/ û†ì‡\u0012H+Pô”ñ#çD+¿\r\n\u001C””Y©©¿Þ†dð\u0004œ)ìqæcŠ“\u0010·“ÔE*I¨\u001DFôú·\t*¥QEÚëiÒ3Ò\u0017+f\f\u0015ÿà^Bh.\"É!N\u0002ÿ^óFûÑ¨\u0007\u001C¡eS|ñm}ÕñJÛ³S\u0015œ„xÈ®}¯Íªp¢],ê\u0003&J6'`åêiˆãrŠÝÚ×ü\u000F‡šBÃ^Ž¨h´\\.t¦´ñ <¢¬ŠÔbÝê67ê†ñœÐÛ1Ð¤ÝôHÊË`þ \u000B\u001DZS}Û\f­ù\u0014\u0014š×…g]¸uÒà&ØÔ\tn Úzó¹\\^\bEØèyD\u0001³¶ž$ëå\u001DŽÓkkº˜¬*¿\t[\u000FÁïÀtj…yñ|©Z<\u0002¢™aŸ\u000Búâÿåº¥J\u0018é\\àzlF]\u001FÌ\u0016=Ò\\`^òhqdõ¯\u000E¯8ÎmrÜ™cô^>;\f-°\u0003Xi¸°ƒ\u0001òRª8oÌJHF\u000EÝMæ+—Õ®ó\u00037ã¼b˜ª<j|êôkS\u000B@åX¨ð¹=V(G´Áü³Ò ßgºB“è$ñšÌ‘¼>>qÅ©¥#††žy¢êØ_T~s×=K]Vi0õ«þÅdôTÀ…üœŠ\u001Ar9L0>\u0007–\u0018Æbk[y\f\u001A‡ñ¶îÓø›“\u0001È½i\u0016&Ó´Û–7ßu—X\u0004:¸¸«ÊÔ»D”­q1\b BLI¿FÞÉÌ\u0010v•†©7´\u001C^Ð˜ëxÔõWŒªÒ×kEó\t Þ‹JÕ¬%ôY<\u0004ÌhâÚ:†”Ï\u0018Ð×¶ž\u0016O'yÙ›ïVfw››+–`Æ±8\u0018öŸK\u0006*8¥·'°°È\u0018o-yÛÉÕÍ_tH¥\u0013ÔJvÕµ«r°Yt¿ÝZZµ¯NŒu`É\u0019Ýúm¢9&mÿ:2{¨%oÅ ü¿>ýùpÿýÑÜýðé‹ùðñã÷û‡‡¿÷æAïF¸ã\u0014\u0004î”.Äb Xô\u001E„„\"¹šˆÓ\u0011%¼ðäÖ^§™6á7Ý£´©tu„Üö¡³H\u000FƒÈ<¾ÈPº\u000B2;ÃýC%p¬’Œ=&\u0005K‹Ü†¿³:\u0017Û¹úM¢áæˆ+QXäV\u0004b\u0019—\u0016ùl\u000FŒûŠ\u0012\tð‚¤Ó\u000F|Ö’æ•\u001CãÆ\"VØ`¨ýC•îf\b€~Æíp|Í\u000BoìGPb'“\\©T§^¨¶Ãµ£[ö27©ï´§WÝÝ`Ý‹U÷¸\tªî›KµqÚìi›‘\u0006©Q\u0006C·^0®7\u0016µ©zKf\\.Co›P?Ô[úKß\u0001³H#×Ë8ö¾öoÄÎü°\t\u000BÞìßî:à´h\u001BC{cÎóòîîîr¹ì×¿\u001EÛÆ}LÃîáîÍÝÛ»#bÿ\u001AOX\u0010úrÌû1{L^üý\u000BPK\u0003\u0004\r\n\b‘+œO¾‰Iýó\u0002œ\u0005<\tCommit-remix-debungge-Complite-set-reposentory-master/GithubUT\u0005\u0001ƒX\u0007^­TÛnÓ@\u0010}÷W\fÊKSÕv.U\u001Bñ‚HHiQ‹\u0010\u0005U(ªšµ=‰—¬½Ö^’˜'~ƒßãK˜]Ûi*xä¡•wgvæÌ9gÒƒ™,\r\nnB…\u0005ß‡\u0019&¶\\¯1¤ÛJpƒ¡F\u0017«¤ÆÒHU\u0007M:\u001C]A—\u000B_«Œ\u0019\fz=x@‘Ê\u0002ÁHxÏÍµMà\u0013[£\u000E‚oÒBÊJ°š‚9Â\u00023NE@–mâãInL¥_Çñš›Ü&\u0011Õ‰•ýQ×º`Ê˜x°\u001F\u000FFãÉÅä|<¾º\u0018L.Òl2›\u000FfçƒÉx…£ùp8\u001D_¦8˜^Æ®v\\0mPÅŸçoßÝÍ£\"ë;P\u0005ã¥¡?ÇÇ“ÊÒÐX°\"Lµ´\r\nv˜h7\u001BåÞ1µÉä®„\u0015\u0017¨£ xÈ±Ä-úLzé‰¡â&çº!ÈVŸ½ v\\\bP¶„Å\u0007ÜÔB<\u000FüÝŸU3²‡©H\u000E.2¬ò¯\t†‡å0ÁJÉâ\u0005ì.ü\u0017Ô\u001E‰Ò]\u0006Á!L@\u0019\b¾ÎÍ\u000EÝÏ\u00072]‡F†N#]\u0013O{O‡6µàåº¥EqC‡\bn\\ÓTØŒÀ\u0011Š-¡à²ÔîE\u0010,—ËâÐô¾)•S\u001Fß\u00113z!$B¦\u001BB\b×È2\"sèÐv‡Q\u0003½=ƒ „©\u0015\u0002éµû¾åÚ\u0004Á0‚¶HP¹ËQÔÞžžN¥ÈNOýLO7†\tž>ùÃrF}—`pOi‹[^n\u001EO¬\u0012}\u001F|µ¸)ˆêÇ\u0013­Ò¾\u001F!\b®hüB*„\fÉ5BƒF²n+ë•`[Še\u0007~,l9ñ\u0012\u001D9y…ÌX…ºµ%Q\u0018v\fÅýV§Æ\u0017ð%Ç¢]\u0019ÕzÇ;Ñ\u001B¨Û\u001FÁHŽF6§\u000Få\u001C<Ñ–1®ŒwhÎ¶$(\r\nL\u001D÷U\u0016ÏN¥ qªêÿ¹„]Í~ä&‚’\u0011\u001A¹j–¤ÁF\u001Fš yHGÀ—Oä§\u0015_Gu!–Ð|[Åœ½¼­[¶îmUIe€$šÑ\u0016°”4½f[çT£¤M„cÌä\r\nƒo`–cº\u0001Ç™\u001F>“©-È³¾ìóØ9ŠêX¶”~×ÖRq\u0012®¹\r\ný:†\tÓ<Õ´¬Ô}‘6íA7ˆþIb›ÓXm‡¿þ¢I]7¯vƒp\u0007ÍÐtPK\u0003\u0004\r\n\b‘+œOD˜0Ym\u0002!\u0004=\tCommit-remix-debungge-Complite-set-reposentory-master/LicenceUT\u0005\u0001ƒX\u0007^]RKÚ0\u0010¾ûWŒ8íJÑöqko&1‹Õ$Ž\u001C³”cH\fq\u0015b\u0014›¢ý÷\tìn[\t)òÌ|¯\u0019\r\ni w­\u001Dƒe,õç×É\u001Dû\b\u000Fí#|ýüå\u001B0VÙéäBp~\u0004\u0017 ·“Ý¿ÂqjÆh»\u0004\u000E“µà\u000FÐöÍt´\tD\u000FÍø\r\ng;\u0005\u0004ø}lÜèÆ#4Ð\"9ÃÉØ#Mð‡xm&‹Ã\u001D4!øÖ5È\u0007o/';Æ&’ÞÁ\r\n6ÀCì-,ê;bñ8‹t¶\u0019˜\u001Bzo-¸ºØûK„É†8¹–8\u0012pc;\\:òðÖ\u001EÜÉÝ\u0015\b>'\u000E\fI/\u0001\u0013Ï\u0004N¾s\u0007úÚ9Öù²\u001F\\è\u0013è\u001CQï/\u0011‹Šóê\u0012ÊñÉO\u0010ì00dpè{Îúánž!ëgZh¼¯(PåÚûÓ¿I\\`‡Ë4¢¤1Ç•ÍŠ¿l\u001B©Bã\u0007?\fþJÑZ?vŽ\u0012…ïŒ\u0019l5{ÿÛÎYn\u0007\u001D}D«7\u000Bt€óÇUï­Ð7Ã{{_\u0018êâz›¿âL$\u001F\"\u001EÞ5\u0003œý4ëý\u001Fó\tõ×\u0002jµ2[®\u0005È\u001A*­^d&2Xð\u001Aß‹\u0004¶Ò¬ÕÆNh^š\u001D¨\u0015ðr\u0007?d™% ~VZÔ5(ÍdQåR`M–i¾Édù\fKÄ•\r\nÿµ²\u0006I\u0002\u0012¼SIQ\u0013Y!tºÆ'_Ê\\š]ÂVÒ”Ä¹R\u001A8T\\\u001B™nr®¡ÚèJÕ\u0002å3¤-e¹Ò¨\"\r\nQš'TÅ\u001Aˆ\u0017|@½æyNRŒoÐ½&ªj§åóÚÀZå™ÀâR 3¾ÌÅM\r\nC¥9—E\u0002\u0019/ø³˜Q\r\nY4£±›;Ø®\u0005•Hã/5R•\u0014#U¥ÑøL0¥6ïÐ­¬E\u0002\\Ëš\u0016²ÒªH\u0018­\u0013\u0011j&A\\)n,´jøç\"8BïM-Þ\t!\u0013<G®šÀ\u0014ñmø‰ý\u0001PK\u0003\u0004\r\n\b‘+œO·¤\u0015î¯\u0002\u001F\u0006H\tCommit-remix-debungge-Complite-set-reposentory-master/License History mdUT\u0005\u0001ƒX\u0007^T]oÓ0\u0014}Ï¯°Â\u000BHMš~ÐVÓ6MëŠ6\u0004LbC\bM<¸É]âÖ_ØN×0ßŽí$U:ŠÐxô½ç\u001EŸ{îµ_¡¹`Œ˜H\u0001#Û(ƒeÉó\u001C\"\u001B•”\u0018ˆ4¸œ\u0014\u001A¸\u0011ª\r\nj8ê„P‹E_d†\r\n\u0004Év”\fG³Él<\u001A½›$³IšÍæ‹d>Nf£{\u0018.\u0006ƒóÑ4…ä|\u001A\u0004\b…\u001C3\bPˆÓ\u0014¤ÑaÏG3Ð©\"Ò\u0010Á]ò’ä\u0005¨ˆÂ\u0006(J\u00057örÄ!\u0017†`©«6 tS1ˆGñ´\t»\u0002E–¥Õ«mîÎ\u0005møB”9Å\u001AÍ\u000BE´\u0011ÒÞ€¾\u0012ª\u0005GÇ™ÍiÁÀ\u0014„çî\u0014§‚Ö„¶ö½àØ\u0014˜£kž£c\u0006g+Ás\r\nKPªòHôº0F\u001EõûÏ\u0012oBÇð½\u0016FI\r\n\\ûö?^Ý6j½¹Äyëâ+íxúÏÝ‘À3à)\u0001×Ð£*V•fX\u0019Óèc„Ad*éóá¯a<ˆ‡ãúÖ9¡\\6‰'ñÐËzjé7\u0017ÿ¼!\u0003\u0011ü(1­íNâÁŽ\u001F4%Ü¸øÛx0‰“g‰È\u000Eäžä‘6˜gXež`h\u0019þJZæ„G„I¡<ŸmdjÅ\u001E†YyëL<ðV£k6ö\u0010œ‹Ì[?; ½ÅH%\u0018©'4¶\u001Eþ\r\nÖíd¼×\b\u0013i]xbË;\u0013¨R¯²\u0006w¼¿'Ô;~÷Â—YÓ~¸š/>Ý,Âž]§&tyus{ýù[Ì²ÝåÄNv\u001B¯tw\u0015Û>êY#.\u0019ª\u0018m¥66ž »)]­õ\u0013õ5\u000E„Vº)i§_›„¢Æ&Ô\u000EÈF`k,¾Ç2\u0014ït\u0019Ð¾Ì{f1®?eì«Ô\u0012R{N\u000BH×ö\u0013ÀkmOKL(r%ý=\u0002»\\\u001BGb\u001DîPœ\u0014†ÑîÙ8\u0001®Qé\u001EQxCô\u0001ŽýšŽ\u0011k¨\u001E„ÊüÜ^öý5¿“\u001DbØs\u000F]Û\u001F#'¦(—î³èwž]ÿ¿\u0016bïä%m‡Zÿ'aÏ¨\u0012öBÍR\u0004ÁS\u0010ü\u0006PK\u0003\u0004\r\n\b‘+œO—ÌN¾Õ\u0002ä\u0005>\tCommit-remix-debungge-Complite-set-reposentory-master/MarkdownUT\u0005\u0001ƒX\u0007^TËn\u00141\u0010¼û+Z9\u00114Ú Ä) $Ä\u0001\u0004\u0007Ä\u000Fxìž\u0016\u001E{ðc7û÷T{²d\u0013Â…K2;mwUWUÏÇ´žÜ5½~õêÍ@_Ò\u001CéSn#g\"ón®u½½¹ñ6KÜO’y´!ì\"×›÷(\bzƒB™\u000Bç\u0003û1ßÙK©YÆV%E²ÑS+L\u0012©¤–\u001D÷7£D›O4¥¼”ŽRgJ¹ÿO­š%y™ÄYm0ÍL+çEjeOkN\u0007ñx¨³­øÃh\u0012B:‚ ¹\u0014½è¥¢—ÌÂõÖ˜—ô˜Q¡4©¸ä™–V*\u0006¨\u0016\u0014µŸ\u001DÓAKgubªâx0„ª\u0014\r\nè¥-.Á¢Â\u0004€.XY8ïžc¤\u000B\u0005Î\f0šo`õ\f\t€ßÓø/\u0012´†.>¹¶p¬ölÎ\r\ntO¨eZlå,6”\u0007»1Úô’~Ÿè\u001BK¿¤Åh\u0017¦«¯6ÿôé\u0018¯Àôá}W[\u00100Ý:¤\\u\u0002—‘5\u0019`ˆ£Ç{Ö\u0010|I•iS\u00037=X!Z4¡°M_ÒTê0#Cee§™Á5Ñ$eMKÜrSÊÆúÇå]’‹9ÇS'üàùœ\u0002`7Q\u001F1¿²ÅH¹ê\u0005\u001BOÄw+²_”¸,k\u0010\u0015Íælc\u0015F²%ºÐ<Ì\u0018\b\r\nÔCX‡$³75\r\n\u001Dôïk*\u0019Ls3~ÚQ‚ÔSÇ›¤FÅBfÈšÕf\u0004¢\u0005\u000BÉZ^\u0013ÔÓ±þ˜îwô9\u0002‘ø¿©ÌXÝ'SÂ-Î\u0006Ý\u001E\b[‚Ø1ð\u0006„!=6ßUæáÉA8Ð\u000BÃ&=\u001E\fß1fAª\u0007Úz\u0016þÕp\bEòv±{ŒöâßŠ \u0007ƒ%®eÖˆö=mc©R\u001Bò°OÉwõKƒM(o)¤ÒÅBŠ\u0006 T«ÀÚ\u0002J¡Œ³c+Ò5“ˆpç¶j€¯aï\u0011ª€£í\u0001Tqû6ô\u0018$¬ešŒjÐµÇ÷iæ\u001EvlQWÊª\u0004º\u0010®ÒÅ1}ÊõbF\u0013y\u001FdÏÑõh÷=;JákX%EwT6Ø£\u0005fë#«EúÁìRÌ9°C7’d\"ë\u000F¢´ï\u000FÃú\"÷1é’¹ù^îù\r\nPK\u0003\u0004\r\n\b‘+œO{ïsñ\u001A\u0007v\u0013H\tCommit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUT\u0005\u0001ƒX\u0007^½WkrãÆ\u0011þÏSLÖ¤õJš÷µÙ¤â­Í\u0005R©üt\r\n€„Z\u0012T@Ð\u0012íò!|‚\\1GÈ×=\tJÙXŠ\u001FdñÕÝÓ¯_Ã¯ÄÇífÓWCÚtWMªöýímº\u0002õ~Ýéj—ˆw¿Ý¥~Ü\u000E‡U\u0016\u0017\u000B’˜eÅßï›8¦Õ¿ÿõÓO7›ƒHã]\u001AÒ~#\u001EâzÆ\u001B1ì¿?\u001Cv›8Œãjõö­\u0010oÿ¶¯ mLh·ƒø.\r\n]ÛÕqì¶½ˆ£øD\r\nvuì¯»­IKU^Ép¥\u000BñöFˆû!Þn¢Øm×]Ó\u0007!¯Ýµ’ïÅªÞöã\u0010ëQüejñƒ\u0010b\u0015›fH»¸‡X­“¸ßWë®\u0016Û‡>\r\nïå£‘Ú\u0014¾°ÆüÕËÂ×Mññ“üheaÚ¤?)õ\tu’ß\u00041?V]?jçg=·{(O»o\u0011èö!5ïOrÕaL;£gÁØï\u001E`ñÄßC×ßÎìî»ïOLŽ\u0004\u0002û\u001A8_\\>uþ‡£\u0018‡!>ˆññz;t·]¿Ð1Ëjˆ¼ùÇ\u001D\u001DöýNTûQô\t S‚>ïÞ‰»¸\u0013Ql¶ûñnÁ\u001C3s•¹õÝ¶«“¸K\u0002yé·£ØÄÏé\u001DâjD·\u0013\u000FÃ\u0016ÁP.ïð\u000Bn‰\u001DØ~sôg•\u0001€#ÝÄÒ[YW©ô¡ÕU\u0013¢Im«]ÓêÖ§B\u0015)ØR•­IuUX\u001De\fÞ7±Ö6”Ú¨§A®žd\u0001F&™\u001F\"í¾¯¹¼ªýá[–_àš\u001EÇ4ôq=#»\u001A\u0012P\u001BÒÅfw{ý]\\ï“øÓ\u0007q­se_¾ÿ‚Ý¯¿þ¢ÕlqÊy\r\ny4LD©is?^>seÖ^<êÀîò”|òrÜ\u000F‹”\u001Fí.”ä\r\nùÃ¢D–*èñsZ²žÏ©®ãgTþE¬ºëÔ×Û&]¼ÙÅõx 7z½yw\fèR|ø0•ü¹¹ÕÍÀøh2’\\0\u000F]ß\u0013*Ì^ÉGô¡ôÒJ§öRÒ/%\u0015¾ÄB9[¨`Ú\u0017>¤V¥ò%šùåg”Ç©PJç\\öB‘7QJ•}¢_ÁÀ\u0013ø¦‰ª¤o#ÑJeJøk`\u000F§J™ù%y/ƒ.u9}¥ó®r2´¿´\u000F\b\u001DUá]\u0017jöXÂßã/àf\u0013Y+à·³Ì¥S\r\nn»\tU-¡ˆt”RZòZÊ\u001C›g&QTKÑÓw\tü\u0011“.4Q\u0015Ç“¢\u000B\u0014±—@\u000Fx\u0017¦ \u000B¡€\u000BdC\u0015³\u0007’mÃ\u0007p\r\n­fn(U\tÏ2\r\nL\u000FÐª¾v®T\u0013–Œ*iÈH¶5#\t,\u0011/G«Ý„²Ò\u0013Êàà“‘¨ˆ\u0007+\u0012¶'+\u0016V¸Æ\u0018Ë\u0013†œW¥Û¥Ž£&W6¹&]C§8ë²ÅÂ8U.(ÖøŒOÙ†q^&©jÈ˜ÂUUh|I‰€h\"\u0004\u0017TKÚ+?Q›èjD™©Iejå\f,¦ÀTì°L­\u001BÓ¨¦È\u001A´Õ°œ= \f€¯\fº(Ö\r\nóepù”*BR>Ô™\u001Ae¦Ú”’++“í\u001AP]•û±m\\el!\u0019C`7aÈtÎƒ,\"Ùwœƒ¹‹(»s×”ÊÉS•Šº¦5K­±~®µr¬µ=Ó:õ\u0019i—\u0006Õ¢Q¨r§Î­÷$Î™Âp­W$¯&«-#ÂÕˆó…•“\u000E®ú\\c\u0012éàªÈÏ’_™Ï=á“»\u0003>\u001A¶oæy†Î£~9G…êMgÝÿ\u0003\u001Fežã£*êpHÀŒÉ^Oq)g–ÒÙ[ÂÎ¸Åœ²ì\u0015?N}8WïtRÏQÐ·Y¦Ðg2K­À0GŽ\u0019eéÄ™\u0015\u0003BÈ:¢]ê(\u00113&¦™Þ'¬)ûà\u0002}ÊÛ\t‹Z?Ç¢¦NÅ´ú¿+P¥æ¹ÖÖ³Öp®õ5Ûå5²?ï-w9yfcý\f\u0017MsåI\u0004y\"ØÆÍÒ”\u001DwÄ‰kõ\u0005{¢Xl\u0005öÇÊy\u001F²¹#æ™w_±èÈ—î£9’Ü—Ç£ëÈqÐ¤A\u00159Köñ©O›b:åsÍN›ãÉf£NàØõb¯dÿ¸6IGC“•|1Sw³¶Sÿ;yÄNf,\u0015õ·‘uF:p½šWÕHÎ\u0019ü³åñîChüVuÆ\u0013Þx·ô˜2lxÓ[ž_\u0013.G„¦OÃs×ðÎk\u0016\u0019Æý&\t_\u0007\\VŽß¦Où¢\u0007isçvh¾;<õ²šh^rw[3móyr#c%½ó´ò4G(³ù\u0004Oo{Êã)Î‚æ\u0015žseä*>í\u000F(³\\—Ö—.˜WÝ.}@õú\"¶²ÂF—\\5ó-SÊiË,¨\u0005ûˆƒ‹íÑoÓdyÌiË~ð”æÎSNÎq›Ö4\u00147E?Ý¨\u001BBÐ4Ù\u0002\"\u0005N&±\u0006—³îå¼…øÉó![B5LìÙOiø>Åw¦IþT7Çžø¥u<iz†š±Ón³õÙýãKþæ\u00190yû+ùö\u001AÙ×MÎªÓéId¿«ÇxKQ{çuˆxjÜQH±,,®6¥4\u00118\u001BÝ4¸pF­\u0015þ5©Â×®\r\n>µ^{k«\r\n½\u001AƒÄ-°\tXÒø3#“§\u0019Ðú\u001A÷KC\u0003™þZ\u0019ÚJ…WÁjüSÂrMÁ`Jã\u001BQ|ÂEØã¥Á\r\n4?|\u0005~\r\n\u000E!It¤o|KòTìÿõ¤ýâIƒ_­/ñé˜ã˜¦p:A§eÝÊã:Î'‰N´’Î‡\u00104Î&\u001F@ñÖ¬yø\u0005( còiÓ®Vÿ\u0001PK\u0003\u0004\r\n\b‘+œOìB9«\u001C\u0006\u0010O\tCommit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UT\u0005\u0001ƒX\u0007^½WmoÛ6\u0010þ®_qM\u0006X\u001E\"«À¾em‡,\u000BÐmQ4é€!\b Z¢%&\u0012é‘” èßCRov’¶ù°\u0002†%\u001Dïõ¹ãñxH§ªi„M4oÄ]Rðe+Ë’' ®kayb¸[[+Ã¥Uú>\r\nì4!QÏKŸ×\u0005³<:$–ç|mM\u0014]½¸úðñ=ýÍµ\u0011J^_Éu“lÂG\"\u001AVòë@ku}=pÿ¥¶²V¬0a­è?ŸP\u0005_Ü˜‰\r\n\u0010\u001E\u001A™\u0012\u0007Ù?[Q\u0017ta™maÌj¶\u0011£•îs`¾äÆ\"V(qëW¹«ëQ`¤\u0004™·¢¬¸¦šoxM¹’\u0016x‘ä¥²‚YøAKfxAx¹ê©J_Ç•µksœ¦ÛívHoÌ\"WMºfù-Ì¤#ç|\u0011Egwð2·Ð²Òª¡«[Å¾§,sZ)M%—Î]j\r\n‡¦sI¬(„÷Ë*\u001AÍ\u001C\u0011Ò¨ÔÖ\u001CGQB'þ•ìýš\u001BbøAPkvOPÉtÙ6ˆÒP-Œ…$§,¾šY~gÓÊ6õìˆflbÉ=éQrv=Ï¢ˆœª-¯k÷ÌâïˆÌ³Åž+d*¥mÅdaÈ´yåÕ8ÞÀù‰ÛVKV¬6<£mÅ%IÕEÑ0›WŽíRs\u0006ç%j„ß!\u0002—°Š³\u0002uã\u0015þ\r\nO\u000F\u000Fé\\\u001A\u000BD¼CQtY\tCø1êkqL+;à¯t™r™Î©QE[sb\u001B&j¶Ä›­´jË\r\nOŽ\"C¶°³JXÖ÷Oåq¾Ø±ï,\u0017Jr¤QÈ²Ó“9E\"pe(½¦\u00010£ÂBåf¢±äÖB6\u0001»F)¥ #¹Ö\u0015ŽIj•ƒ|?G\u0019dYf€Ø/414îz¬zœN>žGÑ«\u0017IBÜ@M\r\na|ÔR%­DÝ\u0015É†\u0001Ú$yã…n \u000BB¯ˆ^\u0003Œ[¡y<ëH³ù }è21˜@>u¹\u0003´(Ý-e'a-#µ¼á¹õ\u0005\u000Fl¨\u0014\u001Bd>ƒˆ+ŒC§f‘Wp‚Û¸{\u001A(\u000Bõâ%VBcß\u0007[Øg\u001D\u0013’°B\u0018¶r \u000Bhì…3_\r\n\u001D÷Q\u0014YWi}ÙaI{Í¼Ø·nâ]³=\u0019\u001FÌzŠÃ‚\u000F®˜#gÖÑ•F}’Z\u0005±Z hgr­ùŠk.sNq£ \u0017\bÚõ\r\n\u0017Ò|ð<ª@\u001Cqÿòm\u0004z®\u0007\u0010\fâÏÆ`Ü\u0003a ÿ\u0004\u0014j&Ë\u0016u\u001E÷/ßF¡çz€Â þl\u0014\u0006É=\u0014\u0006úO@Á5ÄØwÅoFï[nŒ¦â\u000E‡I,®K:vÃ\u001Aô6ôpßÖáu\u0014¡‰s·Ù;O3o$\u000BgÇü\u0001ŠÝê\u0014Aš\u0002\u0018E»\b^î«¤\u001C\u0007“;t\u0019Ô­Z´§÷çïÏº†f°\u0012èCpK7\u0012˜\u0005È{Ú°ºå.SÌG\u0005‡ÐOö…±°fÆÜ8'³¡C5¢á‰ç˜Í\u0017µR·í:Ûu?­AÛÿ›R:»c\u0018Î¸\t\u001DóB¸½É Òa&¬ò âNT\u001C®øsq¢YSÆú¦\r\nBÀ\u001Eð\u0014bå\u001D±^m\u0011Eš›µBe,Uq?Ž8Û>Î\u0010\u0002m™\u001B\u0013 ((]Ë ázã&&\u001C€Ày/N_:\u0001\r\nWx[´àè‚‰üÖk^:øüYŽW»å\\N\r\nB&Š‚Å3N\u001BÇáÎÍé²ûvk«Væþ\fFm“;†ŽÀcæôÅÍ3£jˆî\u001EUDiºŸ[\u0011f&òy(¥Xaà‘öw—…\u00163êrgÌ³—vÚÌV¸ ã\u000EJ¿‡¯f~RÂôä§¨ëyç\u0016ac —aõ8PÈ¹½ÀióÖÏ:ñì4\f«É%4=>€M\u0005·\u001AÃ<ûrPa~S\u0007Ç\u0007[¥ëâÅÁ×‘m‰Ãõ£æÇað1»¯–o¼á#\r\nv_¥Ë7Z.øŠµµ\u001D¬vI@C©}\r\n\u0001zoi]£g\u001C‘QnB”<lt³æ¹XÝûax‰Aÿ9®{…ú¾ãø#NuŽŸËÂµ\u000F|»â[ä~Ø¹ð\u0015\u0011#;è8~\\{ùòe?#ý£Zß\u0005­Û\u0017¾ÂT‹'l\u0015öÅçOïPMªÔ¬\u0019Gº\u001Cw\u0017JÎ)y;\u000B3Ô1ðû€\u0001ÒO‚\u0015ºÎ±³—Ž\u0013ß;‘£¡º\u0011ôýùåuüîüôìÃÅ\u0019\u001Czp]:¦~\u001A]²\u0002W‘…ä6\u001D˜Ò<-ág»D¹9¾´Û@iÃ\u0010¦ÞÑç.[£¶¾\u0010*Õ{â,5“yõzÐòÈ]ñQÇ0æúY>\u001Do¶\u000Fn”£àîÔßß_Ã|ÿà:û¤½¢™Zë®¼\u0013#~~w6ú›Ý.÷\u000FFµ™ˆí\\€\u001F•\b\u001CO&ere\u001EÅ;b.¼³»¢Qô\u001FPK\u0003\u0004\r\n\b‘+œO'Á8Ñn\u0005\"\u0014B\tCommit-remix-debungge-Complite-set-reposentory-master/Package jsonUT\u0005\u0001ƒX\u0007^¥WMoã6\u0010½ûW\u0010(Ð\u0002éÊ\u0011%ÙŽ\u0017X Å¢-\r\n,¶@\u0017½›–Æ6[‰TH*‰{ÈoïPÔ§c*Uê›%ŽÞ\fçÍ›™ïÈgY\u0014Ü\u0004\r\n\r\nþ\u001Cd°¯Äñ\b\u0001>-sn Ð`ß•Rƒ0R\u0017î8\u0019<\"íYòg™1\u0003\u000BºŒ—\u001BrK¢nƒ0\t¢íbñéÕo± ä†dPêDÀQ\u001AÎðk÷ár½Œì;B\u0002ò\u000B&Z*ÃÅ‘¤'¦Ð™\u000F\u0004D*3|ò0‘‘œ‰cÅŽ@ž¸9\u0011x6Š‘’)V€\u0001¥\u0017µ3ë¡3wo9Sð\u0002\u0002s.Aß¿DKºŒ’ÖÁûlÿB—I¸\f\u001DÄÊAÜ\u0005aô\u000E\bzç…ˆã\u0016\"q\u0010› ¼\u000B¢h6ÄÚ\u000B\u0011m[ˆØA¬ƒp…Ì† oÂ;Ã\u0012Ôá#áE©ä#ÝOi\r\n¥ÙÙ„jË\u0001]\u0002d“gƒÏŽ&³l~n\u00185ËèKC¼WFö\"£î\"cL×ì‹\f‡\u0005€œ\u0006¡¹\u0014D\u001EÈŽ•Xk)3øÿ6cúôãs‘ïÚã®I©xÁ°0{ËƒThZe\\Þ\u0016e²óç)j©@»\bh@ß,àË\b¶~\u0004Ú\"„\u000E\u0001™¶ý\u000F\u0012q‰°ñ\"Ðí$×FwËEšW6õÄ~º¿0o\u00062bÿ]’qø™–\u0001Ã3­i­K\u000F•4\u0011x¨X®ßc©QžS™£g­õ\u0017öÏ9È%ËH!³*\u0007M\u000EJ\u0016¤`è+\r\n3¦¿”\\˜1‰3ÈÙÙÅšJ4\u0002QS‰TÂð\u001C¯\r\n²KÞã‰}\u000ED\u001BÅSc±`üþ$¹¶ýàXåLá\r\n–\r\nt}…ãcØ_lõ¤¹Ô\u0015ž G0¦)š\u0014\t+ñ”ápÝˆµfMˆqæ‚¸ÈÅÈªùèÙ\u0006\u0017ê·ER.i<`c¸¾ÆÆI:úÕ•Þ9Âã©¨ÃØ\u0004q8\u001BÃß‡èºÃ \u0003\f:?ŽØ±ê0Â\u0001FHgcD~Œ¤ÅØv\u0010ë÷\bè˜\u0010\u0007,´\fdiHV)Kº\u0002U´KýÝ\u0010j3\u0017*ô\u0007Óõ<ç\u0005{”<#L\u001D«\u0002ë\u0013YÊ°NŽ¢þó}ÿ\\£¼Ãk»^ÅÐ2­ºu\r\nc]V©-á¡Éõš½\u0019×G%\u0004¤X«¶Sì¹yâ\u001Aˆ­\u0018‹ánfÓÝÌ* WùêÕÙUÏ$+sã²s\u0002‡Y0é©Ö^Iö\u0018\fÓ\u0010p¡­\u0002\u001BŒÎù°\u001Eø07;áÔH²u,ñx?\u001AAS\u001Cp™#N\u0017ÇXž\u001FY^ÁHØµ\u001D‰Í”\r\n~µ`ÚE¹ê¢Œ\u0003\u001AÏŽÒOÂN|’\u000E!\r\nhâGøV•%NÜä+’fù—&¡“6\u001F´¿Ño&ºðª¯Ðº\t*8€Â¹\u001EºißQB›šÇvzÁÖw$¬n’õ³\u001C»Nsy½tÓ ¾*GS\u0011øGïNT\u001BÝN\u0002\u001Ayt{\r\nÀ?©ôŠú¿VþåÁÞ³\u0005\b\u0007oOs\u0017¹\u001AML¹ëö¦R8ª\fËøé\u0004\u0002×0…;˜Ë\u000FrÛž\u001AÕ?×õ˜Ã3”8Ž=¹]âœõÃ§\u0010'\u0007—Qgô‡Ó¨ì,\u0018\u000E>d_ñ¼>Ž#ð×^\tÓ\u001C5ÔFH[~»\bg_¡¿µ6ë\u0017mY†\u0014g„¹þ¾\u001Aµ=ËÂÉ\r\n½’£¤¯ÃzcPJ6y\u0019\bï‰Ù»I'Â\u000EºãŸ\u001DÅgvÛpªŸOh@ÒWžõ™åy÷¾\u001EÀ}MÁ™|s*`åb \u001FÚòCcdÄ\u000EÚ–gÈHdi£(iÎm‡­ië\u0002\u000F\u0007O-¼•[¬v}è;û°m‘I=\r\nM$Í†ø¤d»h¸\u0002ÂB©‡Ò}¶k\u0012f›\"a\u0007Û +ñ·O¢_K\u001CæºÃ\\\u0007Ñ\\¢lÜ7VÃoøÊå¦žœR…k¦sî•Cäˆ9iÜJ\u0006ŸœÒ˜J_»Èxhý¦ˆ_\u0004ÕMß¿×Š´?×k\u0005?ðÔrÀILC\bŽÌ:AM\u0012\u0007Ü•\u001D\u000E\u0018Sk¨[\u00171-H7ã–¦úÃ'`\u0016SHc·D…+\u001E8ík}ÅIóÒß•ƒîË\u000Ewì‰²ûí•jr-~0X3Oì¬\u0007]ÑsE/\u00163t˜\r\nãc«“ÑÄ<õ+\bÐ\u001CÅõ_PK\u0003\u0004\r\n\b‘+œO¤ÛÙx \u000E·_?\tCommit-remix-debungge-Complite-set-reposentory-master/README.mdUT\u0005\u0001ƒX\u0007^í[én\u001BÉ\u0011þ?OÑ‘€¬d‹äð\u0010I\u0011ÑîÊ–lË°l­dÇŽ\u0005‡nÎ4É6çàvÏ¦\b\u0001þ™\u0007\b\u0010ä\u0005\u0002äo\u001E!â'IU÷\\<dIö(¿faId\u001F_U×ÕGÕn’Ç¾ëò $˜Ë?—lÖ\u000B½Á€• uìð€•$Ã¾±/™\u0017øbfèá$ÓDâ±äÍØ¦\u00013ŒÍÍMò–9–ï2\u0012øä)\u000Fž…=rJ\u0007L\u001AÆ_üXÔ#¡„Î!#\u0017ÌæC|/\u001Aøak\u0018\u0004cÙ©T\u0006<\u0018†½2àTDx9›I—Š ¨˜Ÿëf­Þn¶\u001Bõú“¦ÙnZvûñ‘ù¸a¶ë}V;ªV\u001FÕ[\u00163\u001Fµ*ˆ]q©\f˜¨œ\u001D\u001D\u001Cž\u001C•]{Û@®\\Ê½~\bõl2\u0016lÂÙT1dù^+#}`jæ‡‚LYOâò`ì\t\u0015#ÛŸz¤Ï\u001D&Ë†ñvÈ<6aj$ÌT²\u0001ð`È¥–\u0011®m¶³ \u00032åŽCDè‘‹çl4sœtÅŸÔw¡×¼H\u00024Â\u001D[q6V³\r\nÅ\u0016ò´CúÂw\u0017ØŽ»WXE­Ä†‘t\u0003£”8|0\f¦\f+y0*g¥À/¡’ä\fäôY‰C\u00063‡{ƒH,‚\u0007ð¥LŽ‘¨å„60\u0007\\L€\u000Bî{\u0012g\u0018ÆÇ\u001FÝ˜è¹F\u001A\u0002\u0019EÙ0Þf¤çøÖ\b\u0018$Ï\u0018µA–Uà5þ\\S|G_ê†Q\"BÇa0\u0017>¾à20Œj™¼\fÝ\u001E\u0013ÐV+G\u000F\u001E<ò\u001DûÁ\u0003µœîq@\u001DnuÕ—æG\u0012°Ï0ìâ\u0005÷F\u001F¶Bál«Î?\\\u001C» å\u000F[RXÛÈ¼a<…»¾`Äf`/Ž$’ÕF\r\n}âÐ\tôÙ‰d3Ö\u001BrH9cÄ}FƒP0\u0019Y$\b¯\u0014Ë¦²\u001DiH[\u0004y=dnä-\"²\u001AeƒÊtb×q((B+\f5\u0003c\u0012kˆ`\u0002„Q¶9¤\u0013P%s˜…bä\"µQè\fPŸ2Oÿ‹1·Ë¸\"âQàÆïk÷Ð¼Á\u0007\t¬)–2Œì‚%õù <sD\u000E\u0005EÃR\u0006\u001DIë<\u001C}\u0011\u0010PÑc°jJŸÑ\tÚh ü°ç Ä‚¡–à/äñY#‚2S‹·}+tÁZ\u0015lºì!sÆYµY\u0010Ô\u0006¾à 8ÝZRŽXêQÉ-\tn\r\nÔ/,MžHÍÑZ!Fc´¥MÙ×/ÿ„•\"5¥!‰\u000BáÈZP6\bXÝ¨ª0J\u0011Q@(eÕÐ\u000F//g%æñK\r\nðµ\u0011\bQéÿÚA\u0004-Ÿœ†\u0018}Øï!“$&9°´»ž\r\nÿ\u0013X\u00076½å#NÎ™\u0015‚‹ÏÈ±'Ñ[%´hm\u001A¯Æj\r\nl\u0006ŽC{>èÅ\u0017’ü\u0011|ŠºÒx$¨g\r\nÁzß²ÞÐ÷GÒxé\u0007¼Ï-ªg\u001DC \u001Ah]â$ÉÄ„[0ü\u001DFFl&\r\n .X ˆ9ã\u00048×SÔtAU;Ä-\b¸Ò8c(s\u0015NT\u0010¦\u0007ÚÂ Ž-Ð£Å\u000E›—\r\nïôÕùëX\u0018:pÃ6vö‚ô˜ãOµíÄn\u000FvK=p“°'-Á{@a¨“e\u0012oiÔ‘>‘cfñþŒL‡Ü‚É4 \u0018\b]\u001A ’¶\r\nL˜\u000Eí\u0016ãà•[ÏÏ_½Ü!ŸKÓé´„cK\u0010Ž˜‡¡ÑÞ!,°À{N0qO#áÊ‘^\u0001tè)ßAƒ¶!Ç\u001FC \\°lð•S:s|jãÒ\fãq´S\u0004³1lÖZÒÆ×¿ýãNÿÈ×/'G°½\u001Açç/\bì€‰‚\r\nòh\u0006¬ôiè\u0004; wÝ9#8Îb\"²\u0004Ü\u0006aï„\u000EŸ¨X\bÛ›b\u0012÷*räQtÞelb\u001Cr©z¶<\u001FO!¸å‚&\u0019lêo•ÀµNÈÔ\u000FaÓD·Š¥\u001D\b\u000E\u0007\u001B¡cOd\r\n¿\u0018ÏCÔ;î­¡Œ&—A$ SˆM¸±Ï`<lrÆ\u000B\u0016`“Ž  p›O¸\u001DR'6\u0002e©\u0013\u0006ö¥ct´.ÝØZ²âÉcð‹Øb6¬ZŸŸbæ\u000E\u0019ns‰ážµÒa$/ð\u0017BöÚõ:£¦Yªí5{¥j•ÑR»¶ÇJ¶YoØmËì›­Þ×/ÿª™Õ½RµVªµIµÖ©6:µ¶¡Om,Ú\fÌ²Ù€µû øÏXÄ=|ÒžÑ¨ÕÈ\u0019“cpEfèÍX&`T\u001DrÃž±\u0010‡â‰.\u000B†¾ÝQNhD®[B«ì\u0010:†#¥Öyå“\u0004£:ú\f~\u0015tˆñ\u0006âEé`C;Ñ©ªô\f]}è\u0007\u0015Úì×ZÕ†ñ®\u0014õDÒšun%ªtÞÑDáAõÐˆ-ç|à©Ý»CäV÷™½×kõ­ÝZßb–mµZ-VÝkîÖšÖn½I›:üµ,»\u0015»ž1\u0007}m\\2o£C6NUü²àL\u0002áµ\u0007§\u0002\tö‡±¶¼±ƒÃPá]nÃÐjË¬ïÂfÛNÚ¡\u0011¡à\u001BJ\r\nÑÎ’=\\Í†žÕ©Ðˆ›/\u000E\u0007ƒŠÇQe³Ð\u0018ˆEmÚž¡íB}‡–\u0007\u001BêÓ‡h€ÞŒ\u00136t\u000Bª®\u001B3„\r\n‹H 3`3°“°®”\u000Eöši—T±\u0007\u001B\u001FDÿ¥}\u0010\u0003±ãÛv¥9»Š8\u000B•ÿØ]ª S«\u001D[ýûxá@ö–#—Ø cž=\u001A¨ãSåÖÛtEmJ•D31\u0011ˆ†A÷^)UDL\u000EÍúžÉ!\t\u0019Ósà¸Û\u0015QøX4\u001C\u001B¿{p\"Im\u00026­\u0010ío#ôà k§\u0016\u0001\u0007b\t[y4AkÞˆ´¿‘\u001EdS\u0007QnP«›M³Ñ¬›±\u001BMí[\u001B'‡GÓWÎsÇzºwIßM,o4;¹<¨\u001CþVƒ¿û\u001BKž“]qÜ×\u0007Vºñ€[Ë+Ñ„à\u00130D˜Û‡ÃCì‚p\u001F`\"+'Ç\u001Fpï&\u0002\u0019ÃÕíî™{¦ÙLZ\u0017\u0017>{5Ú›½¯=\té»ñÐ~êLzŸÞìž\u001CŽÌ—Ÿ\u000Ej)\u0014\u0005ö¨X1\u0016Õ*k‘Å€šD\u0014\u0003”ñ„•˜ø/“ýF\r\n\u0006‡>\r\n§¹¸Ö×—l\u0011á¿m‹)Ò0pen3P·\u0003éÃ±ÖŸ\u0002Ñ\u001BœäfÆ*\tÔ2úÍ.xkt€šW|8Ä€ž`ÎUFàp\u0015Îa\u0011\r\nf®þ€ê2øà«\u0002Ž.?N!\u0002‚e é_ÍUüÉ\u0012Ò‡n}íÈ\\\u0016.¥â‹\u0001õø%Í‰\r\nÀeÀU€úqP\u0005“¢êÝúÇa5Î¼¢\u0002’5»Êò­n)v7/RK€)¥øøð*£†Œ\tð€u©íª@¨¢åÂÞÿ\u0003Ž¿62Û,±\u0010„Ü$›\u0004\u000E…Ì-ƒVI­I\u000EÆ‚à¹\u0001Ú\u000Fñ\u00162æ\u000E\u001C¥%\\Ã,õÄqûG\u0012‚Øp½øI\u0012—ŽôËÎÔ\u0017p}«œ\u0017Cnâ•ŠHØà`\u000Bì\u0010å'êíÎ¶\u0005ËeÔ\u0003—÷Ð\u001ByÐ]­›´M-\u001B\u0007…Ü\u000Bj»Íì¸*\\fåTc¬é®%0m8Ø6[–¢%\u0004áâÖL¨+þ–homw€q¼©ÁÝN]Ûà¸\u0017\r\no…ÇìÜˆàs£q\u0017&Ëòrk\u0019Ú\u0006ÁðƒBÖ+½\u00160\u0012\u0004ŽTb½v \u0016:ªëŒ\r\nB‡\r\nÒ\u000F½èõd3»\u0006Ë®ÛU»½·\u000Eé÷ÃU>ø\f†ÄaW'ûû\u0011.\\-û`up\u0014·‚-Õ´­0»`ìNZ£­í\u0018¦£Éá\r\n;a\u0001 á¦\u0013dÙèíÖÁÖX+;1f.\u001FNyB‘Ÿ÷AÝ\u000FHÕükµµ¬™‡\u000F³€\r\nÆØî^¯¾¥-¡;¦‚ºÕk\u0017‰4ð\u0001¤,ù%#%Ò@RõZÒ\u001FÍ'Ú‡\u000Bæ^c¯Ù‚ËÙJïCRoâE´¥Q‘¾— ÔÛo\u0002³4t=._1bòó×/ÿ!f\u0007»´¦@e‰þ:p‹u/jí¶²ÂE\u0012\u001FÈ~Ür\u0001D>¨¡+\\À\\\u001Ch\">\\-ë[ÍÆ\u000EÜÓÛð«¾C~’Ô\tfø\u000B~ÚY\"±³@`çZ\r\nŠ;ˆ»N½¶µØ¿\r\nŠYb{\u001BW¨½¢£Ä£~ÁÂñ=¬C´Õ¤&3eœ\f¨Ä\u001F8åc^\u0005_s°uI’¥RrjöÅhñÚ™ëu$Kæ¦\u001Dë®7\u001D…\u0019\u0013À·Êœñ\u0011rŽ¿3G-¸(e\u001EZs&¸€=_øz•^P©›7]…\u0019\u0013P÷Çû¸“&O\"R†ìvg˜»ÒQÐ29By*\u0017•ˆî^H.\u001C6¨”|à1–7•\u0004w^É^,6zÑ\u0003ÎäbØyô)µ>:ÈÝøhú<Ñsü^Þø0¦¢pç\u0015ˆéÉJ ¹{\u000F«Aj\b»JL°þ}\u0010CØEbÈßþÔ²„²¿,)ýB”;µ\u0018¶2Ï\u0012s¨7\b1Ý—3µ\u00047³*¸÷\\Þüêð\u001DëŠ€ÓÝÄ\u000B\u0004ï…÷²™¤ÐÉÊâŒYþKK‘—ˆ©‹ÛýP\u001Bgî¥\u001Bºä#)*ÔUw¾\u001FrègkIêìÚ½,oí^©7é¨û~vékiG\u000F˜÷á\u0010\b[™?\u001CÓ`˜\u0015-\u001CºYþ’EÔÊ¼G%»*—Ëó!£é1Òe\"ÿH¦A“³ˆ°†|’÷ºæ1¬N€«\u0007Q™ãœ©&¸\u000Böy?ÇÇ\u0015{\u001C‡Ž“7)…¹BÉÅ\u0002±À÷ò·Œ\u0004x…¦—­\bÉ™ì\u0002öü\u0017É=‹íÀ\u0005v\u0007\\#à\u0016\u0007?„\u000Bjf‡ï±Ü%­AaÙÔe\t%Á\u001CFó?¸Ä°óJæÆh«bšûˆÞ\u0019äÛ¤SÍÝNµž¦S¿‘¢Å‘Í÷©ýËáu\u0003ëºù>»/F+„ßùì‹\u0002IŽ\u0010r˜\u0001ü5…ë|\u0017œå€\u0007äñ4½Àãdåtó#¯ÝCßeã4·\u001A\u0013á—Øb®žP-?ô‚L×”\u0006ps[Ó\u0011\u001Fs\u0017‡TvuØ[Ê|bÇ8ªC[|\u001FÂž4\u001E¯tMùˆ¯¶ª:½%\u0012úMh™O—\u000BáÇyÎ\f§Ñ¾c/Øº\r\ni¹\u0019\u001Fì£…­J‚[L§¿3ðú1)\u001D”\u0001X#ÝLSôúÛÕ7e4\u0003]Sº‘$Ä±À-“ENsÈ«)Ï(a\\3ÍÝV­¾.Oþ[óÏï^:Ö§7³“ÃƒêËËãËd¿ÿV‚Ø¼>A\u001C\u0011Ë$ˆ¯I\u000Fß*9¼fM7$„ÖÌ¸[Ú÷[YÞ;æxoÒ½CB÷æüí²··NÖ~Gªö¦Ììwäe¯IÃÞ!\t{]Îõ.\u0019×[$X¿+½zs65É¥bµ\\¢™u\u0019Ô+ãÊøï¿u*ó©*~Û!ÇžU6^3áJãT³kÄÅÀÆ¹z%1ž1glD%×Ñ<\u001CkaÁÜÁé±ñZè4€ñ\bâŽqÐóÃÀ8\u001Fñ1VbÆEºç\f£«±Pl\u001C«à§þ÷\u0004\u0016Œ\u001Dj1,ýs|\u0001Ì\u001A¿fVNŒW#:ÛQéRUL9¥’ÈÐ²˜”X”3#ÑY£l˜†Y”R\u0017¥Ôù—Rß¥è5·ŠëÿkQuQJ]”R\u0017¥ÔE)uQJ]”R\u0017¥ÔE)uQJ]”Rÿè\r\nŠRê¢”º(¥.J©‹Rê¢”º(¥.J©IQJ]”R\u0017¥Ô?F­(¥.J©‹Rê¢”º(¥.J©‹Rê|ŠF‹Rê¢”º(¥.J©‡E)5)J©‹Rê¢”z-É¢”º(¥.J©o,¥þ\u001FPK\u0003\u0004\r\n\b‘+œOß„ïÁ\u000E\u0007q\u0013X\tCommit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UT\u0005\u0001ƒX\u0007^½W[rãÆ\u0015ýç*:“\u001Fi<Òô»R&©xj¼\u0001W*Ÿ®\u0006ÐPC\r\n\tZR\\^„Wà-z\t>÷vƒ\u0004%;‘âØ`\u0011\u0004nßçéûhþY|ÜÜÞ\u000EÓÅ6Ý\u000E\u000F\u0017]jöãõuºõn=Léb—hín³Kã´Ù>®2»XÄÌ+þq×Å)­~úñ‡\u001FÞ¿}+ÄÛ¯÷\r\n˜§Ô‰~³\u0015ß¦íÐ\u000Fmœ†Í(â$>M7i»kãx9l\u0004HZªúB†\u000B]‰·ï…¸ÛÆëÛ(v›õÐ\r\nÓ£—îRÉ«•\u0010ífœ¶±Äß×©\u0015«ï\u0004]±ë¶i·\u0013wñ16ë$îöÍzhÅæ~LÛ+ù`¤6•¯¬1_yYù¶«>~’\u001F­¬LŸô'¥¾4¡MòË \u000E×0NÚùÕ¬èz\u000Fíi÷M\\¯7÷©»:26SÚ\u0019}àŒãî\u001E6\f»i;Œ×óò¿öÃ¿ËâŠnˆ\u0006\fû\u0016Xž?uÿ»ƒ\u0012\u000ED|\u0010ÓÃåf;\\\u000FãÂÀ¬ŠuƒçÍ?o€ïv?îD³ŸÄ˜½¸ëÏ»wâ&îD\u0014·›ýt³Xœ–‹íÍfh“¸I\u0002›3n&q\u001B?§wˆ«\u0013ÃNÜo\u0006opKì°ü·7W³\u0013¢ G€»‰µ·²mRíC¯›.D“ú^»®×½O•ªR°µª{“Ú¦²:Ê\u0018¼ïb«m¨µQ¿\u0014å“­€ÂöýÁ\u0003!úýØr¦5ûÇoXbnz˜ÒvŒkÆ·Èl\u0013ÐÛ¦³ÛÝõå·q½Oâ¯\u001FÄ¥\u0016‰ÒôüêèÁ\u0013ó_|1\u001B?\u0002p0ž\r\n—\u0004h!\r\n‰Hþ)ÝÞMç§~”´ëÏžÆ÷\u0017¹:_ðdw§ýv‘\u0004ß?ƒ‰uå´ùÓ\"o^¤huÂBŠ>§¶ŸQ\u0011g±\u0019.ÓØnºtöf\u0017×Ó#ÝèûæÝ!²sñáCIƒ§öÞ¿\u0017è\u001C]Æ•óè~\u0018GÂ‡\r\n¯Vò\u0001\u0015*½´Òi£½”ô¦¤ÂC¬”³•\r\n¦á%µª•¯Qæ/—Q\u001ER¡–Î¹ì…\"o¢”*ûDoÁÀ\u0013ø¦‰ª¤ï#Ñjejøk`\u000FRµÌë5y/ƒ®u]žcí¼kœ\fýo-\u000FBG5¸ëJÍ\u001EKø{x\u0003n6‘µ\r\n~;Ë«$¥à¶+¨j\tE¤£–Ò’×RæØ</\u0012Eõ\u0014==Kà˜t¥‰ª8ž\u0014] ˆ½\u0004zÀ»2\u0015Y\b\u0015\\ \u001Bªš=l\u001B>`¥Òj^\r\nµªÐþ™GáÊô­\u001AèkçjU°dTICF²o\u0019I`‰x9Zí\r\nÊJ\u0017”±‚_F¢¡5X‘°]¬XXá\u001Cc,\u0018ò¾*Ý/u\u001C4¹ºË9é:’â]—=FÉ1sA±Æg|‚Ì6Œó2IÕ‚ÇT®iBçkÚ\b°&BpAµ¤½ñ…ÚE×\"ÊLM*S\u001Bg`1\u0005¦bºejÛ™NuUÖ ­†åì\u0001íÖ•A\u0015Å¶ãu\u0019\\–RUHÊ‡6S£ÌT›Rruc²]\u0003ªkr=ökŒ­$c\bì\r\n†Lç}U$ûŽ÷`®\"ÚÝ¹jjåä±¾jEUÓ›¥ÖØ>×Ú8ÖÚŸh-uFÚ¥A¶hä\u001F²Ü©Sk§5\t9S\u0019Îõ†øU±Ú3\"œ¯¬,:8ësŽIl\u0007gEþÔüÍë\\\u0013¾D ´.ºL®\u000EøhØ¾™û\u0019*êå\u0014\u0015Ê7uÿ\u0007|”yŽj¨ÂÁ\u00013&{]âRÎ,¹³·„q‹>eÙ+¾Žu8go‘Ôs\u0014ô4óTú„g©\u0015\u0018æÈÑ£,IœX1 „¬#Ú¥Ž\u001A1£cšr/XÓîc\u0015èÓ¾\u001D±hõs,ZªTt«ÿ9\u0003Uêžkí=k\r\n§Z_3]^Ãûß½å*'ÏllŸá¢©¯<‰ w\u0004Û¹™›vÇ\u001Dpâ\\}Áœ¨\u0016Sý±rž‡ìc®ˆybæÙW-*ò¥óhŽ$×åaæè6r\u001CÔiEÎ’}üêã¤(R>çl™\u001CO&\u001BU\u0002Ç®\u0017s%ûÇ¹I::ê¬ä‹)ÕÍÚŽõïä\u0001;™±TTßF¶\u0019éÀùj^•#yÏàŸ­\u000Fg\u001FBã÷Ê3îðÆ»¥Ç´\u0003À†'½åþUp9 T~\r\n÷]Ã3¯[ì0Î7\u0001Hø6à°rx*¿òE\u0017is§v¨¿;|ô2›¨_ru[S¦ùÜ¹±c5Ý¹[yê#´³Y‚»·=îã1ÎŠú\u0015>sfä,>Î\u000F(³œ—Ö×.˜W.}@öú*ö²ÁD—œ5ó)SÊ2e\u0016ÔŠý@ÄÁÅþà·é2?ú´e?¸Kså)'ç¸Mo:Š›¢/'êŽ\u00104]¶€H“I¬!\u001BJ%{öS\u001A>Oñ™©ð\u001FóæP\u0013¿5‹¦g¨\u0019[f›mOÎ\u001F¿æoî\u0001ÅÛÿ“o¯á}]\u0007à]u:=‰ì\u000Fõ\u0018·\u0014µw^‡ˆÆ\t\u0010‰\u0014ëÊâhSK\u0013³Ñ]‡\u0003gÔZá_“ª|ëšàSïµ·¶iP«1Hœ\u0002»€!?32yê\u0001½oq¾4Ôé¯•¡©Ty\u0015¬Æ?%\f×\u0014\fº4žˆâ\u0013\u000EÂ\u001E_Õ@ýÃ7Xo±B2Ä‰Šôï‰Ÿ’ý\u0017%í¯J\u001A¼õ¾Æ¯ã\u0015Ç4\u0005é\u0004–u+ã8K\u0012h5É‡\u00104d“\u000F xpkÖÀkx\u0003\u0014à1YÚô«Ÿ\u0001PK\u0001\u0002\r\n‘+œO6\t\u0010Commit-remix-debungge-Complite-set-reposentory-master/UT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n‘+œO“\u0006×2\u0001\u0001R\t\u0001]Commit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO\u0019Ç%\u0007²\u0005Ë\fE\t\u0001×Commit-remix-debungge-Complite-set-reposentory-master/Code of conduceUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO¾‰Iýó\u0002œ\u0005<\t\u0001õ\u0006Commit-remix-debungge-Complite-set-reposentory-master/GithubUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œOD˜0Ym\u0002!\u0004=\t\u0001K\r\nCommit-remix-debungge-Complite-set-reposentory-master/LicenceUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO·¤\u0015î¯\u0002\u001F\u0006H\t\u0001\u001C\r\nCommit-remix-debungge-Complite-set-reposentory-master/License History mdUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO—ÌN¾Õ\u0002ä\u0005>\t\u0001:\u0010Commit-remix-debungge-Complite-set-reposentory-master/MarkdownUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO{ïsñ\u001A\u0007v\u0013H\t\u0001t\u0013Commit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œOìB9«\u001C\u0006\u0010O\t\u0001ý\u001ACommit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO'Á8Ñn\u0005\"\u0014B\t\u0001!Commit-remix-debungge-Complite-set-reposentory-master/Package jsonUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œO¤ÛÙx \u000E·_?\t\u0001f'Commit-remix-debungge-Complite-set-reposentory-master/README.mdUT\u0005\u0001ƒX\u0007^PK\u0001\u0002\r\n\b‘+œOß„ïÁ\u000E\u0007q\u0013X\t\u0001l6Commit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UT\u0005\u0001ƒX\u0007^PK\u0005\u0006\f\fÐ\u0005ù=(569160bd23f7b17eb3a40499304b5031e16ddade\r\n\r\n\r\nHomepage URL\r\n\r\nhttps://github.com/ruzyysmartt\r\nThe full URL to your GitHub App’s website.\r\nUser authorization callback URL\r\n\r\nhttps://github.com/ruzyysmartt.gits\r\nThe full URL to redirect to after a user authorizes an installation.\r\n  Request user authorization (OAuth) during installation\r\nRequests that the installing user grants access to their identity during installation of your App\r\nRead our Identifying and authorizing users for GitHub Apps documentation for more information.\r\nSetup URL (optional)\r\n\r\nUnavailable when requesting OAuth during installation.\r\nUsers will be redirected to the 'User authorization callback URL' to complete additional setup.\r\n  Redirect on update\r\nUsers will be redirected …",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/panoramix/commits/83cdb500181a486da3113879215875e779b13df2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T03:27:13Z"
+  },
+  {
+    "id": "11305196816",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4515736486,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "7f42e7b33cc81129cbd91d9e3bf546c8748ac108",
+      "before": "a1f7d534e94d274aebe83defe808979dc5df7e06",
+      "commits": [
+        {
+          "sha": "7f42e7b33cc81129cbd91d9e3bf546c8748ac108",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "bulk dicompile py \n\n$# bulk dicompile py\r\npanoramix decompile complite                          code json source  ABI           Owned by:ruzyysmartt\r\nowned new: ruzyysmartt@gmail.com\r\nApp ID: 50572\r\nUrl: https://github.com/ruzyysmartt/panoramix\r\nClient ID: Iv1.8a73b28dfeeeac4d\r\ncontent:true\r\nClient secret: f96f98ac47e0b993834443a59b8ec85018785855\r\n.pan \r\n@@ -0,0 +1,225 @@\r\n\u001B[38;5;8m#\r\n#  Panoramix 4 Oct 2019 \r\n#  Decompiled source of json avm abi data metadata\u001B[0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe/0x62991A1B4187481C8B5BB49Fa567711e09fF488D\u001B[38;5;8m\r\n# \r\n#  Let's make the world open source \r\n# \u001B[0m\r\n\r\n\u001B[95mconst \u001B[0mNOT_AUDITED = \u001B[1m0\u001B[0m\r\n\u001B[95mconst \u001B[0mMAX_COMMISSION = \u001B[1m9\u001B[0m\r\n\u001B[95mconst \u001B[0mMIN_AUDIT_TIME = \u001B[1m(24 * 3600)\u001B[0m\r\n\u001B[95mconst \u001B[0mMAX_AUDIT_TIME = \u001B[1m(672 * 24 * 3600)\u001B[0m\r\n\r\n\u001B[32mdef \u001B[0mstorage:\r\n  \u001B[32mowner\u001B[0m is addr \u001B[38;5;8mat storage 0\u001B[0m\u001B[38;5;8m\u001B[0m\r\n  \u001B[32mpaused\u001B[0m is uint8 \u001B[38;5;8mat storage 0\u001B[0m\u001B[38;5;8m offset 160\u001B[0m\r\n  \u001B[32mnewContractAddress\u001B[0m is addr \u001B[38;5;8mat storage 1\u001B[0m\u001B[38;5;8m\u001B[0m\r\n  \u001B[32mtotalRequestsAmount\u001B[0m is uint256 \u001B[38;5;8mat storage 2\u001B[0m\u001B[38;5;8m\u001B[0m\r\n  \u001B[32mavailableCommission\u001B[0m is uint256 \u001B[38;5;8mat storage 3\u001B[0m\u001B[38;5;8m\u001B[0m\r\n  \u001B[32mcommission\u001B[0m is uint256 \u001B[38;5;8mat storage 4\u001B[0m\u001B[38;5;8m\u001B[0m\r\n  \u001B[32msolidStampRegisterAddress\u001B[0m is addr \u001B[38;5;8mat storage 5\u001B[0m\u001B[38;5;8m\u001B[0m\r\n  \u001B[32mrewards\u001B[0m is mapping of uint256 \u001B[38;5;8mat storage 6\u001B[0m\r\n  \u001B[32mauditRequests\u001B[0m is mapping of struct \u001B[38;5;8mat storage 7\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mRewards(bytes32 \u001B[32m_param1\u001B[0m): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32mrewards\u001B[0m\u001B[32m[\u001B[0m\u001B[32m_param1\u001B[0m\u001B[32m]\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mAuditRequests(bytes32 \u001B[32m_param1\u001B[0m): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32mauditRequests\u001B[0m\u001B[32m[\u001B[0m\u001B[32m_param1\u001B[0m\u001B[32m]\u001B[0m\u001B[32m.field_0\u001B[0m, \u001B[32mauditRequests\u001B[0m\u001B[32m[\u001B[0m\u001B[32m_param1\u001B[0m\u001B[32m]\u001B[0m\u001B[32m.field_256\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mCommission(): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32mcommission\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mSolidStampRegisterAddress(): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32msolidStampRegisterAddress\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mpaused(): \u001B[38;5;8m# not payable\u001B[0m\r\n  return bool(\u001B[32mpaused\u001B[0m)\r\n\r\n\u001B[95mdef \u001B[0mAvailableCommission(): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32mavailableCommission\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mnewContractAddress(): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32mnewContractAddress\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mowner(): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32mowner\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mTotalRequestsAmount(): \u001B[38;5;8m# not payable\u001B[0m\r\n  return \u001B[32mtotalRequestsAmount\u001B[0m\r\n\r\n\u001B[38;5;8m#\r\n#  Regular functions/= 0xae2b80f7f4d285caa658a285233550d19c8e7847\r\n#\u001B[0m                 =0x62991A1B4187481C8B5BB49Fa567711e09fF488D\r\n         !           =0x8018280076d7fA2cAa1147e441352E8a89e1DDbe\r\n   /                  =0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe\r\n\u001B[95mdef \u001B[0m_fallback()\u001B[95m payable\u001B[0m: \u001B[38;5;8m# default function\u001B[0m\r\n  revert\r\n\r\n\u001B[95mdef \u001B[0mpause(): \u001B[38;5;8m# not payable\u001B[0m\r\n  require caller\u001B[1m == \u001B[0m\u001B[32mowner\u001B[0m\r\n  require not \u001B[32mpaused\u001B[0m\r\n  \u001B[32mpaused\u001B[0m = 1\r\n  \u001B[38;5;8mlog Pause()\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mrenounceOwnership(): \u001B[38;5;8m# not payable\u001B[0m\r\n  require caller\u001B[1m == \u001B[0m\u001B[32mowner\u001B[0m\r\n  \u001B[38;5;8mlog OwnershipRenounced(address previousOwner=owner)\u001B[0m\r\n  \u001B[32mowner\u001B[0m = 0\r\n\r\n\u001B[95mdef \u001B[0msetNewAddress(address \u001B[32m_v2Address\u001B[0m): \u001B[38;5;8m# not payable\u001B[0m\r\n  require caller\u001B[1m == \u001B[0m\u001B[32mowner\u001B[0m\r\n  require \u001B[32mpaused\u001B[0m\r\n  require \u001B[32m_v2Address\u001B[0m\r\n  \u001B[32mnewContractAddress\u001B[0m = \u001B[32m_v2Address\u001B[0m\r\n  \u001B[38;5;8mlog ContractUpgrade(address newContract=_v2Address)\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0munpause(): \u001B[38;5;8m# not payable\u001B[0m\r\n  require caller\u001B[1m == \u001B[0m\u001B[32mowner\u001B[0m\r\n  require \u001B[32mpaused\u001B[0m\r\n  if \u001B[32mnewContractAddress\u001B[0m:\r\n      revert with 0, 'new contract cannot be 0x0'\r\n  require caller\u001B[1m == \u001B[0m\u001B[32mowner\u001B[0m\r\n  require \u001B[32mpaused\u001B[0m\r\n  \u001B[32mpaused\u001B[0m = 0\r\n  \u001B[38;5;8mlog Unpause()\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mtransferOwnership(address \u001B[32m_newOwner\u001B[0m): \u001B[38;5;8m# not payable\u001B[0m\r\n  require caller\u001B[1m == \u001B[0m\u001B[32mowner\u001B[0m\r\n  require \u001B[32m_newOwner\u001B[0m\r\n  \u001B[38;5;8mlog OwnershipTransferred(\u001B[0m\r\n  \u001B[38;5;8m      address previousOwner=owner,\u001B[0m\r\n  \u001B[38;5;8m      address newOwner=_newOwner)\u001B[0m\r\n  \u001B[32mowner\u001B[0m = \u001B[32m_newOwner\u001B[0m\r\n\r\n\u001B[95mdef \u001B[0mchangeCommission(uint256 \u001B[32m_newCommission\u001B[0m): \u001B[38;5;8m# not payable\u001B[0m\r\nOwned by: @ruzyysmartt\r\n\r\nApp ID: 50572\r\n\r\nClient ID: Iv1.8a73b28dfeeeac4d\r\n\r\nClient secret: f96f98ac47e0b993834443a59b8ec85018785855",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/panoramix/commits/7f42e7b33cc81129cbd91d9e3bf546c8748ac108"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-18T03:15:04Z"
+  },
+  {
+    "id": "11290425105",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4507931235,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "a1f7d534e94d274aebe83defe808979dc5df7e06",
+      "before": "b1005235073855ac45a66910a090fbbca8556be5",
+      "commits": [
+        {
+          "sha": "a1f7d534e94d274aebe83defe808979dc5df7e06",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "README md\n\n## Welcome to GitHub Pages\r\n\r\nYou can use the [editor on GitHub](https://github.com/https://github/ruzyysmartt/panoramix.gits) to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n\r\n- Bulleted\r\n- List\r\n\r\n1. Numbered\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/panoramix/commits/a1f7d534e94d274aebe83defe808979dc5df7e06"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T12:09:57Z"
+  },
+  {
+    "id": "11290401142",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4507918621,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "b1005235073855ac45a66910a090fbbca8556be5",
+      "before": "55decf94f2abab90ccae8ddce0771dca6f3184e5",
+      "commits": [
+        {
+          "sha": "b1005235073855ac45a66910a090fbbca8556be5",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "LICENSE (MIT) \n\nLicense\r\nhttps://github.com/ruzyysmartt/ panoramix. gits\r\nCopyright (c) 2019 eveem-org\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/panoramix/commits/b1005235073855ac45a66910a090fbbca8556be5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T12:06:37Z"
+  },
+  {
+    "id": "11290381789",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4507908355,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "55decf94f2abab90ccae8ddce0771dca6f3184e5",
+      "before": "d20c50e64d427dad31467c30b4d5551961bc95b3",
+      "commits": [
+        {
+          "sha": "55decf94f2abab90ccae8ddce0771dca6f3184e5",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "README md\n\n## Welcome to GitHub Pages\r\n\r\nYou can use the [editor on GitHub](https://github.com/https://github/ruzyysmartt/panoramix.gits) to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n\r\n- Bulleted\r\n- List\r\n\r\n1. Numbered\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/panoramix/commits/55decf94f2abab90ccae8ddce0771dca6f3184e5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T12:03:56Z"
+  },
+  {
+    "id": "11290355111",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2020-01-16T12:00:19Z"
+  },
+  {
+    "id": "11289821876",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4507614677,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/ruzyysmartt-patch-1-master",
+      "head": "ef239054502311ea2056ae41a6f1807b49500a75",
+      "before": "4d11750a09503c126054fbd74c40ef4645e0da60",
+      "commits": [
+        {
+          "sha": "ef239054502311ea2056ae41a6f1807b49500a75",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "README md\n\n## Welcome to GitHub Pages\r\n\r\nYou can use the [editor on GitHub](https://github.com/https://github/ruzyysmartt/panoramix.gits) to maintain and preview the content for your website in Markdown files.\r\n\r\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\r\n\r\n### Markdown\r\n\r\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\r\n\r\n```markdown\r\nSyntax highlighted code block\r\n\r\n# Header 1\r\n## Header 2\r\n### Header 3\r\n\r\n- Bulleted\r\n- List\r\n\r\n1. Numbered\r\n2. List\r\n\r\n**Bold** and _Italic_ and `Code` text\r\n\r\n[Link](url) and ![Image](src)\r\n```\r\n\r\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\r\n\r\n### Jekyll Themes\r\n\r\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/Ruzyysmartt-ether-Web3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\r\n\r\n### Support or Contact\r\n\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/panoramix/commits/ef239054502311ea2056ae41a6f1807b49500a75"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T10:49:31Z"
+  },
+  {
+    "id": "11289754132",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4507580076,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/ruzyysmartt-patch-1-master",
+      "head": "4d11750a09503c126054fbd74c40ef4645e0da60",
+      "before": "d20c50e64d427dad31467c30b4d5551961bc95b3",
+      "commits": [
+        {
+          "sha": "4d11750a09503c126054fbd74c40ef4645e0da60",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "LICENSE ( MIT) \n\nUpdate LICENSE\r\n\r\n#License\r\nhttps://github.com/ruzyysmartt/aveem.com/panoramix\r\nCopyright (c) 2019 eveem-org\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ruzyysmartt/panoramix/commits/4d11750a09503c126054fbd74c40ef4645e0da60"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T10:41:20Z"
+  },
+  {
+    "id": "11289714607",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 233572960,
+      "name": "github-com-account-organizations-news/ruzyysmartt-github-panoramix",
+      "url": "https://api.github.com/repos/github-com-account-organizations-news/ruzyysmartt-github-panoramix"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2020-01-16T10:36:30Z",
+    "org": {
+      "id": 59277600,
+      "login": "github-com-account-organizations-news",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/github-com-account-organizations-news",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59277600?"
+    }
+  },
+  {
+    "id": "11289613425",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 230533039,
+      "name": "ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "ref": "ruzyysmartt-patch-1-master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Decompiler at the heart of Eveem.org",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2020-01-16T10:24:29Z"
+  },
+  {
+    "id": "11289541938",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 229570037,
+      "name": "https-github-com-ruzyysmartt/panoramix",
+      "url": "https://api.github.com/repos/https-github-com-ruzyysmartt/panoramix"
+    },
+    "payload": {
+      "push_id": 4507469423,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f3d207fbf792d6f5e2f2ebe210fa6338a79de3a0",
+      "before": "3c9a7291e7c410e4b3739a5e9092e44c0f1f714d",
+      "commits": [
+        {
+          "sha": "f3d207fbf792d6f5e2f2ebe210fa6338a79de3a0",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "panoramix complite\n\n\r\nCreate Login from ruzyysmartt txt Panoramix dicompile complite: 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
+          "distinct": true,
+          "url": "https://api.github.com/repos/https-github-com-ruzyysmartt/panoramix/commits/f3d207fbf792d6f5e2f2ebe210fa6338a79de3a0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T10:16:00Z",
+    "org": {
+      "id": 59094606,
+      "login": "https-github-com-ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/https-github-com-ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59094606?"
+    }
+  },
+  {
+    "id": "11289446207",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 233572960,
+      "name": "github-com-account-organizations-news/ruzyysmartt-github-panoramix",
+      "url": "https://api.github.com/repos/github-com-account-organizations-news/ruzyysmartt-github-panoramix"
+    },
+    "payload": {
+      "push_id": 4507419595,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "b2e27dc19d56a889c679c66a816b1853efe760c7",
+      "before": "cb0a678bd2cb8c119967fa3a2cc8952131c29de6",
+      "commits": [
+        {
+          "sha": "b2e27dc19d56a889c679c66a816b1853efe760c7",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "panoramix complite\n\nCreate Login from ruzyysmartt txt Panoramix dicompile complite: 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
+          "distinct": true,
+          "url": "https://api.github.com/repos/github-com-account-organizations-news/ruzyysmartt-github-panoramix/commits/b2e27dc19d56a889c679c66a816b1853efe760c7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T10:04:40Z",
+    "org": {
+      "id": 59277600,
+      "login": "github-com-account-organizations-news",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/github-com-account-organizations-news",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59277600?"
+    }
+  },
+  {
+    "id": "11287919782",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 231857987,
+      "name": "github-com-account-organizations-news/web3.js",
+      "url": "https://api.github.com/repos/github-com-account-organizations-news/web3.js"
+    },
+    "payload": {
+      "push_id": 4506618141,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/1.x",
+      "head": "f3f99bc0390ffb6f0302ddce5c6eeeedc3748a1b",
+      "before": "d57e431b902f56fd75b81977bd4e7dea63f2e0ed",
+      "commits": [
+        {
+          "sha": "f3f99bc0390ffb6f0302ddce5c6eeeedc3748a1b",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Web3. Min metamask\n\nweb3.min.js metamask ( ruzyysmartt)\t\r\n@ruzyysmartt",
+          "distinct": true,
+          "url": "https://api.github.com/repos/github-com-account-organizations-news/web3.js/commits/f3f99bc0390ffb6f0302ddce5c6eeeedc3748a1b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T06:21:28Z",
+    "org": {
+      "id": 59277600,
+      "login": "github-com-account-organizations-news",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/github-com-account-organizations-news",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59277600?"
+    }
+  },
+  {
+    "id": "11287889469",
+    "type": "PushEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 231857987,
+      "name": "github-com-account-organizations-news/web3.js",
+      "url": "https://api.github.com/repos/github-com-account-organizations-news/web3.js"
+    },
+    "payload": {
+      "push_id": 4506601762,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/1.x",
+      "head": "d57e431b902f56fd75b81977bd4e7dea63f2e0ed",
+      "before": "8520b652f7f9a8f82893d706c2af6ad365ae7b3b",
+      "commits": [
+        {
+          "sha": "d57e431b902f56fd75b81977bd4e7dea63f2e0ed",
+          "author": {
+            "email": "ruzyysmartt@gmail.com",
+            "name": "ruzyysmartt"
+          },
+          "message": "Issue _ template. Md\n\nissue_template.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/github-com-account-organizations-news/web3.js/commits/d57e431b902f56fd75b81977bd4e7dea63f2e0ed"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-01-16T06:15:10Z",
+    "org": {
+      "id": 59277600,
+      "login": "github-com-account-organizations-news",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/github-com-account-organizations-news",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59277600?"
+    }
+  },
+  {
+    "id": "11287865177",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 52005723,
+      "login": "ruzyysmartt",
+      "display_login": "ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52005723?"
+    },
+    "repo": {
+      "id": 234247921,
+      "name": "https-github-com-ruzyysmartt/update-readme",
+      "url": "https://api.github.com/repos/https-github-com-ruzyysmartt/update-readme"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2020-01-16T06:10:02Z",
+    "org": {
+      "id": 59094606,
+      "login": "https-github-com-ruzyysmartt",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/https-github-com-ruzyysmartt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59094606?"
+    }
+  }
+]

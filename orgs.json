@@ -1,0 +1,30 @@
+[
+  {
+    "login": "github-com-account-organizations-news",
+    "id": 59277600,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjU5Mjc3NjAw",
+    "url": "https://api.github.com/orgs/github-com-account-organizations-news",
+    "repos_url": "https://api.github.com/orgs/github-com-account-organizations-news/repos",
+    "events_url": "https://api.github.com/orgs/github-com-account-organizations-news/events",
+    "hooks_url": "https://api.github.com/orgs/github-com-account-organizations-news/hooks",
+    "issues_url": "https://api.github.com/orgs/github-com-account-organizations-news/issues",
+    "members_url": "https://api.github.com/orgs/github-com-account-organizations-news/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/github-com-account-organizations-news/public_members{/member}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/59277600?v=4",
+    "description": null
+  },
+  {
+    "login": "https-github-com-52005723-ruzyysmartt",
+    "id": 59521234,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjU5NTIxMjM0",
+    "url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt",
+    "repos_url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt/repos",
+    "events_url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt/events",
+    "hooks_url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt/hooks",
+    "issues_url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt/issues",
+    "members_url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/https-github-com-52005723-ruzyysmartt/public_members{/member}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/59521234?v=4",
+    "description": null
+  }
+]
