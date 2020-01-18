@@ -1,0 +1,776 @@
+# Commit-remix-debungge-Complite-set-reposentory
+Commit reposentory Complite Update
+👑/my ethereum wallet/ ruzyysmartt
+
+**  *Submitted for verification at Etherscan.io on 2019-07-28 */  pragma solidity 0.5.10; 
+contract Alec {   
+address payable public owner;0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7         
+int256 public guesses_allowed;         
+bytes32 public answer;         
+string public quiz;          
+constructor() payable public {        
+owner = tx.origin;                 
+quiz = "What runs but never walks, has a mouth but never talks, 
+has a choice he cannot make, and is wrong for his own sake?";        
+answer = 0x33a9640cbe967f2bd7a3eff25df2f6e818e74919f3ecb842a0a766dac2479231;               
+guesses_allowed = 1;     }        
+function buy_guess() payable external {      
+require(msg.value >= .2 ether);       
+guesses_allowed++;     }        
+function guess(string calldata attempt) external {       
+if(guesses_allowed <= 0) {         
+return;         }               
+if(owner != tx.origin) {             return;         }                 
+if(keccak256(abi.encode("saltysaltsalt", attempt)) == answer) {           
+// send ether for winning     
+
+0x6080604052326000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506040518060a00160405280607381526020016106fa60739139600390805190602001906100729291906100a9565b507f33a9640cbe967f2bd7a3eff25df2f6e818e74919f3ecb842a0a766dac247923160001b6002819055506001808190555061014e565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100ea57805160ff1916838001178555610118565b82800160010185558215610118579182015b828111156101175782518255916020019190600101906100fc565b5b5090506101259190610129565b5090565b61014b91905b8082111561014757600081600090555060010161012f565b5090565b90565b61059d8061015d6000396000f3fe6080604052600436106100705760003560e01c806385bb7d691161004e57806385bb7d69146101b65780638da5cb5b146101e1578063b533fee714610238578063cd3d1d891461024257610070565b8063130a8acd14610075578063187e167c146100a05780634eee59b314610130575b600080fd5b34801561008157600080fd5b5061008a610259565b6040518082815260200191505060405180910390f35b3480156100ac57600080fd5b506100b561025f565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100f55780820151818401526020810190506100da565b50505050905090810190601f1680156101225780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561013c57600080fd5b506101b46004803603602081101561015357600080fd5b810190808035906020019064010000000081111561017057600080fd5b82018360208201111561018257600080fd5b803590602001918460018302840111640100000000831117156101a457600080fd5b90919293919293905050506102fd565b005b3480156101c257600080fd5b506101cb610481565b6040518082815260200191505060405180910390f35b3480156101ed57600080fd5b506101f6610487565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102406104ac565b005b34801561024e57600080fd5b506102576104d5565b005b60015481565b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102f55780601f106102ca576101008083540402835291602001916102f5565b820191906000526020600020905b8154815290600101906020018083116102d857829003601f168201915b505050505081565b60006001541361030c5761047d565b3273ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16146103655761047d565b60025482826040516020018080602001806020018381038352600d8152602001807f73616c747973616c7473616c74000000000000000000000000000000000000008152506020018381038252858582818152602001925080828437600081840152601f19601f820116905080830192505050945050505050604051602081830303815290604052805190602001201415610469573373ffffffffffffffffffffffffffffffffffffffff166702c68af0bb14000060405180600001905060006040518083038185875af1925050503d8060008114610460576040519150601f19603f3d011682016040523d82523d6000602084013e610465565b606091505b5050505b600160008154809291906001900391905055505b5050565b60025481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6702c68af0bb1400003410156104c157600080fd5b600160008154809291906001019190505550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163273ffffffffffffffffffffffffffffffffffffffff161461052e57600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16fffea265627a7a72305820a984122903a16032ddd1da221217186c5b76ef62644bb285a70956d71c2e740e64736f6c634300050a0032576861742072756e7320627574206e657665722077616c6b732c206861732061206d6f75746820627574206e657665722074616c6b732c2068617320612063686f6963652068652063616e6e6f74206d616b652c20616e642069732077726f6e6720666f7220686973206f776e2073616b653f
+Commit-remix-debungge-Complite-set-reposentory-569160bd23f7b17eb3a40499304b5031e16ddade
+# Commit-remix-debungge-Complite-set-reposentory
+Commit reposentory Complite Update
+
+### Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/ruzyysmartt/0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7/edit/master/README.md)
+ to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruzyysmartt/0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ Fork1https-github-com-ruzyysmartt/fuzzy-enigma
+forked from ruzyysmartt/fuzzy-enigma
+ Code Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+Options
+Collaborators & teams
+Branches
+Webhooks
+Notifications
+Integrations & services
+Deploy keys
+Secrets
+Actions
+Moderation
+Interaction limits
+Reported content
+Webhooks / Manage webhook
+We’ll send a POST request to the URL below with details of any subscribed events. You can also specify which data format you’d like to receive (JSON, x-www-form-urlencoded, etc). More information can be found in our developer documentation.
+
+Payload URL
+
+Content type
+
+Secret
+∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗ — Edit
+SSL verification
+ By default, we verify SSL certificates when delivering payloads.
+
+ Enable SSL verification 
+Disable (not recommended)
+Which events would you like to trigger this webhook?
+Just the push event.
+Send me everything.
+Let me select individual events.
+Active
+We will deliver event details when this hook is triggered.
+
+Update webhookDelete webhook
+Recent Deliveries
+  9833ea00-296b-11ea-829e-d034d8c0f07b…2019-12-28 12:14:28
+ Completed in 0.04 seconds.
+Redeliver
+Request 422 Response
+Headers
+Request URL: https://github.com/ruzyysmartt/fuzzy-enigma
+Request method: POST
+content-type: application/json
+Expect: 
+User-Agent: GitHub-Hookshot/a6f2714
+X-GitHub-Delivery: 9833ea00-296b-11ea-829e-d034d8c0f07b
+X-GitHub-Event: ping
+X-Hub-Signature: sha1=ed9b7fc52fcecdc777e196526c536a643c53ccd7
+Payload
+{
+  "zen": "Practicality beats purity.",
+  "hook_id": 170352388,
+  "hook": {
+    "type": "Repository",
+    "id": 170352388,
+    "name": "web",
+    "active": true,
+    "events": [
+      "*"
+    ],
+    "config": {
+      "content_type": "json",
+      "insecure_ssl": "0",
+      "secret": "********",
+      "url": "https://github.com/ruzyysmartt"
+    },
+    "updated_at": "2019-12-28T12:14:28Z",
+    "created_at": "2019-12-28T12:14:28Z",
+    "url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388",
+    "test_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/test",
+    "ping_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/pings",
+    "last_response": {
+      "code": null,
+      "status": "unused",
+      "message": null
+    }
+  },
+  "repository": {
+    "id": 230604630,
+    "node_id": "MDEwOlJlcG9zaXRvcnkyMzA2MDQ2MzA=",
+    "name": "fuzzy-enigma",
+    "full_name": "https-github-com-ruzyysmartt/fuzzy-enigma",
+    "private": false,
+    "owner": {
+      "login": "https-github-com-ruzyysmartt",
+      "id": 59094606,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU5MDk0NjA2",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/59094606?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/https-github-com-ruzyysmartt",
+      "html_url": "https://github.com/https-github-com-ruzyysmartt",
+      "followers_url": "https://api.github.com/users/https-github-com-ruzyysmartt/followers",
+      "following_url": "https://api.github.com/users/https-github-com-ruzyysmartt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/https-github-com-ruzyysmartt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/https-github-com-ruzyysmartt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/https-github-com-ruzyysmartt/subscriptions",
+      "organizations_url": "https://api.github.com/users/https-github-com-ruzyysmartt/orgs",
+      "repos_url": "https://api.github.com/users/https-github-com-ruzyysmartt/repos",
+      "events_url": "https://api.github.com/users/https-github-com-ruzyysmartt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/https-github-com-ruzyysmartt/received_events",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma",
+    "description": "# # Eveem.org 26 Apr 2019 # Decompiled source of 0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7 # # Let's make the world open source # def storage: owner is addr at storage 0 unknown130a8acd is uint256 at storage 1 answer is uint256 at storage 2 unknown187e167c is array of uint256 at storage 3 def unknown130a8acd(): # not payable return unknown130a8acd def unknown187e167c(): # not payable return unknown187e167c[0 len unknown187e167c.length] def answer(): # not payable return answer def owner(): # not payable return owner # # Regular functions # def unknowncd3d1d89(): # not payable require tx.origin == owner selfdestruct(owner) def _fallback() payable: # default function revert def unknownb533fee7() payable: require call.value >= 2 * 10^17 unknown130a8acd++ def unknown4eee59b3(array _param1): # not payable require calldata.size - 4 >= 32 require _param1 <= 4294967296 require _param1 + 36 <= calldata.size require _param1.length <= 4294967296 and _param1 + _param1.length + 36 <= calldata.size if unknown130a8acd >′ 0: if owner == tx.origin: mem[288 len _param1.length] = _param1[all] mem[_param1.length + 288] = 0 if sha3(64, 128, 13, 'saltysaltsalt', _param1.length, _param1[all], mem[_param1.length + 288 len ceil32(_param1.length) - _param1.length]) == answer: call caller with: value 2 * 10^17 wei gas gas_remaining wei unknown130a8acd--",
+    "fork": true,
+    "url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma",
+    "forks_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/forks",
+    "keys_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/teams",
+    "hooks_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks",
+    "issue_events_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/events",
+    "assignees_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/tags",
+    "blobs_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/languages",
+    "stargazers_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/stargazers",
+    "contributors_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contributors",
+    "subscribers_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscribers",
+    "subscription_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscription",
+    "commits_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/merges",
+    "archive_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/downloads",
+    "issues_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/labels{/name}",
+    "releases_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/deployments",
+    "created_at": "2019-12-28T12:05:13Z",
+    "updated_at": "2019-12-28T12:05:16Z",
+    "pushed_at": "2019-12-28T12:03:30Z",
+    "git_url": "git://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git",
+    "ssh_url": "git@github.com:https-github-com-ruzyysmartt/fuzzy-enigma.git",
+    "clone_url": "https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git",
+    "svn_url": "https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": false,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "master"
+  },
+  "sender": {
+    "login": "ruzyysmartt",
+    "id": 52005723,
+    "node_id": "MDQ6VXNlcjUyMDA1NzIz",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/52005723?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ruzyysmartt",
+    "html_url": "https://github.com/ruzyysmartt",
+    "followers_url": "https://api.github.com/users/ruzyysmartt/followers",
+    "following_url": "https://api.github.com/users/ruzyysmartt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ruzyysmartt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ruzyysmartt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ruzyysmartt/subscriptions",
+    "organizations_url": "https://api.github.com/users/ruzyysmartt/orgs",
+    "repos_url": "https://api.github.com/users/ruzyysmartt/repos",
+    "events_url": "https://api.github.com/users/ruzyysmartt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ruzyysmartt/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@ruzyysmartt 
+Okay, the hook was successfully updated.
+0
+01https-github-com-ruzyysmartt/fuzzy-enigma
+forked from ruzyysmartt/fuzzy-enigma
+ Code Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+Options
+Collaborators & teams
+Branches
+Webhooks
+Notifications
+Integrations & services
+Deploy keys
+Secrets
+Actions
+Moderation
+Interaction limits
+Reported content
+Webhooks / Manage webhook
+We’ll send a POST request to the URL below with details of any subscribed events. You can also specify which data format you’d like to receive (JSON, x-www-form-urlencoded, etc). More information can be found in our developer documentation.
+
+Payload URL
+https://github.com/ruzyysmartt/fuzzy-enigma
+Content type
+
+Secret
+∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗ — 
+SSL verification
+ By default, we verify SSL certificates when delivering payloads.
+
+ Enable SSL verification 
+Disable (not recommended)
+Which events would you like to trigger this webhook?
+Just the push event.
+Send me everything.
+Let me select individual events.
+Active
+We will deliver event details when this hook is triggered.
+
+Recent Deliveries
+  9833ea00-296b-11ea-829e-d034d8c0f07b…2019-12-28 12:14:28
+ Completed in 0.04 seconds.
+Request 422 Response
+Headers
+Request URL: https://github.com/ruzyysmartt/fuzzy-enigma
+Request method: POST
+content-type: application/json
+Expect: 
+User-Agent: GitHub-Hookshot/a6f2714
+X-GitHub-Delivery: 9833ea00-296b-11ea-829e-d034d8c0f07b
+X-GitHub-Event: ping
+X-Hub-Signature: sha1=ed9b7fc52fcecdc777e196526c536a643c53ccd7
+Payload
+{
+  "zen": "Practicality beats purity.",
+  "hook_id": 170352388,
+  "hook": {
+    "type": "Repository",
+    "id": 170352388,
+    "name": "web",
+    "active": true,
+    "events": [
+      "*"
+    ],
+    "config": {
+      "content_type": "json",
+      "insecure_ssl": "0",
+      "secret": "********",
+      "url": "https://github.com/ruzyysmartt"
+    },
+    "updated_at": "2019-12-28T12:14:28Z",
+    "created_at": "2019-12-28T12:14:28Z",
+    "url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388",
+    "test_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/test",
+    "ping_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks/170352388/pings",
+    "last_response": {
+      "code": null,
+      "status": "unused",
+      "message": null
+    }
+  },
+  "repository": {
+    "id": 230604630,
+    "node_id": "MDEwOlJlcG9zaXRvcnkyMzA2MDQ2MzA=",
+    "name": "fuzzy-enigma",
+    "full_name": "https-github-com-ruzyysmartt/fuzzy-enigma",
+    "private": false,
+    "owner": {
+      "login": "https-github-com-ruzyysmartt",
+      "id": 59094606,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU5MDk0NjA2",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/59094606?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/https-github-com-ruzyysmartt",
+      "html_url": "https://github.com/https-github-com-ruzyysmartt",
+      "followers_url": "https://api.github.com/users/https-github-com-ruzyysmartt/followers",
+      "following_url": "https://api.github.com/users/https-github-com-ruzyysmartt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/https-github-com-ruzyysmartt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/https-github-com-ruzyysmartt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/https-github-com-ruzyysmartt/subscriptions",
+      "organizations_url": "https://api.github.com/users/https-github-com-ruzyysmartt/orgs",
+      "repos_url": "https://api.github.com/users/https-github-com-ruzyysmartt/repos",
+      "events_url": "https://api.github.com/users/https-github-com-ruzyysmartt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/https-github-com-ruzyysmartt/received_events",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma",
+    "description": "# # Eveem.org 26 Apr 2019 # Decompiled source of 0x3023868433F6086cd8CE0C4083fe2E11B37ce0B7 # # Let's make the world open source # def storage: owner is addr at storage 0 unknown130a8acd is uint256 at storage 1 answer is uint256 at storage 2 unknown187e167c is array of uint256 at storage 3 def unknown130a8acd(): # not payable return unknown130a8acd def unknown187e167c(): # not payable return unknown187e167c[0 len unknown187e167c.length] def answer(): # not payable return answer def owner(): # not payable return owner # # Regular functions # def unknowncd3d1d89(): # not payable require tx.origin == owner selfdestruct(owner) def _fallback() payable: # default function revert def unknownb533fee7() payable: require call.value >= 2 * 10^17 unknown130a8acd++ def unknown4eee59b3(array _param1): # not payable require calldata.size - 4 >= 32 require _param1 <= 4294967296 require _param1 + 36 <= calldata.size require _param1.length <= 4294967296 and _param1 + _param1.length + 36 <= calldata.size if unknown130a8acd >′ 0: if owner == tx.origin: mem[288 len _param1.length] = _param1[all] mem[_param1.length + 288] = 0 if sha3(64, 128, 13, 'saltysaltsalt', _param1.length, _param1[all], mem[_param1.length + 288 len ceil32(_param1.length) - _param1.length]) == answer: call caller with: value 2 * 10^17 wei gas gas_remaining wei unknown130a8acd--",
+    "fork": true,
+    "url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma",
+    "forks_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/forks",
+    "keys_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/teams",
+    "hooks_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/hooks",
+    "issue_events_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/events",
+    "assignees_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/tags",
+    "blobs_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/languages",
+    "stargazers_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/stargazers",
+    "contributors_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contributors",
+    "subscribers_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscribers",
+    "subscription_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/subscription",
+    "commits_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/merges",
+    "archive_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/downloads",
+    "issues_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/labels{/name}",
+    "releases_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/https-github-com-ruzyysmartt/fuzzy-enigma/deployments",
+    "created_at": "2019-12-28T12:05:13Z",
+    "updated_at": "2019-12-28T12:05:16Z",
+    "pushed_at": "2019-12-28T12:03:30Z",
+    "git_url": "git://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git",
+    "ssh_url": "git@github.com:https-github-com-ruzyysmartt/fuzzy-enigma.git",
+    "clone_url": "https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma.git",
+    "svn_url": "https://github.com/https-github-com-ruzyysmartt/fuzzy-enigma",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": false,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "master"
+  },
+  "sender": {
+    "login": "ruzyysmartt",
+    "id": 52005723,
+    "node_id": "MDQ6VXNlcjUyMDA1NzIz",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/52005723?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ruzyysmartt",
+    "html_url": "https://github.com/ruzyysmartt",
+    "followers_url": "https://api.github.com/users/ruzyysmartt/followers",
+    "following_url": "https://api.github.com/users/ruzyysmartt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ruzyysmartt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ruzyysmartt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ruzyysmartt/subscriptions",
+    "organizations_url": "https://api.github.com/users/ruzyysmartt/orgs",
+    "repos_url": "https://api.github.com/users/ruzyysmartt/repos",
+    "events_url": "https://api.github.com/users/ruzyysmartt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ruzyysmartt/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+commit master:PK
+‘+œO6	Commit-remix-debungge-Complite-set-reposentory-master/UTƒX^PK
+‘+œO“×2R	Commit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUTƒX^
+PK
+‘+œOÇ%²ËE	Commit-remix-debungge-Complite-set-reposentory-master/Code of conduceUTƒX^…WÁŽÛ6½ë+x.\/ä ‡ Ùi’"Èî­èalÑÒ˜")PdŒí×÷Í’½›-º'É"93ï½yÃíÞ›Ï±·æ>³3¿ÅJŽ	Ï?l »îý{óÉ%Jæ3yîº4‘7žeãð‹)!g¼
+ÅÊè(˜‰ÃàJðøDa0Ù¦CqdzüÈÓ¸«;{ ¸s7qeÍlÃ`§8‘9Øt¦p¾AÄ)e^x¦…±Aò™S|²Níä}	œi©‘ˆ´`ib>Ù£±Á%_ÈÄ„<w&S˜I¢Pè%ñ²0íºâ
+>›\PÞÎô¼Ð'9e M?GglŒwîmÈv°¡·µë–9Ù…Ã!„`#% FÉœÂNž{îÙÉó’)—Å,¡'l!z–@JÔ”¨í!?ó$p;ê±(IJ@Ô#e*7éH11^³)šöJîC–jWzEqÄñ	g»Òà+IØ®¤ŠÙ¸?òœI¸§…ÆŸ$0£žÌ',x.™Í»®ûÅ|ÒŽ@´P]©Ñ|9¸	áNº0cLž°s)}	TŠV½T,[jÐ›í©îC!žŒK,
+GKNÅI*½Õô¤¬ü=:À¥ŽÔÓlh¦«v¥RË¦ªzt	çâ¤hëgÉÌÙ›
+¶
+1Óõ¤‰8üŒo
+Â=9”‚S ¯\SŽ“¯J/ û†ì‡H+Pô”ñ#çD+¿
+””Y©©¿Þ†dðœ)ìqæcŠ“·“ÔE*I¨Fôú·	*¥QEÚëiÒ3Ò+fÿà^Bh."É!Nÿ^óFûÑ¨¡eS|ñm}ÕñJÛ³Sœ„xÈ®}¯Íªp¢],ê&J6'`åêiˆãrŠÝÚ×ü‡šBÃ^Ž¨h´\.t¦´ñ <¢¬ŠÔbÝê67ê†ñœÐÛ1Ð¤ÝôHÊË`þ ZS}Û­ùš×…g]¸uÒà&ØÔ	n Úzó¹\^EØèyD³¶ž$ëåŽÓkkº˜¬*¿	[ÁïÀtj…yñ|©Z<¢™aŸúâÿåº¥Jé\àzlF]Ì=Ò\`^òhqdõ¯¯8ÎmrÜ™cô^>;-°Xi¸°ƒòRª8oÌJHFÝMæ+—Õ®ó7ã¼b˜ª<j|êôkS@åX¨ð¹=V(G´Áü³Ò ßgºB“è$ñšÌ‘¼>>qÅ©¥#††žy¢êØ_T~s×=K]Vi0õ«þÅdôTÀ…üœŠr9L0>–Æbk[y‡ñ¶îÓø›“È½i&Ó´Û–7ßu—X:¸¸«ÊÔ»D”­q1 BLI¿FÞÉÌv•†©7´^Ð˜ëxÔõWŒªÒ×kEó	 Þ‹JÕ¬%ôY<ÌhâÚ:†”ÏÐ×¶žO'yÙ›ïVfw››+–`Æ±8öŸK*8¥·'°°Èo-yÛÉÕÍ_tH¥}ƒ±Žm ÔJvÕµ«r°Yt¿ÝZZµ¯NŒu`ÉÝúm¢9&mÿ:2{¨%oÅ ü¿>ýùpÿýÑÜýðé‹ùðñã÷û‡‡¿÷æAïF¸ãî”.Äb Xô„„"¹šˆÓ%¼ðäÖ^§™6á7Ý£´©tu„Üö¡³HƒÈ<¾ÈPº2;ÃýC%p¬’Œ=&K‹Ü†¿³:Û¹úM¢áæˆ+QXäVb—ùlŒûŠ	ð‚¤Ó|Ö’æ•ãÆ"VØ`¨ýC•îf€~Æíp|ÍoìGPb'“\©T§^¨¶Ãµ£[ö27©ï´§WÝÝ`Ý‹U÷¸	ªî›KµqÚìi›‘©QC·^0®7µ©zKf\.Co›P?Ô[úKß³H#×Ë8ö¾öoÄÎü°	Þìßî:à´hC{cÎóòîîîr¹ì×¿ÛÆ}LÃîáîÍÝÛ»#bÿOXúrÌû1{L^üýPK
+‘+œO¾‰Iýóœ<	Commit-remix-debungge-Complite-set-reposentory-master/GithubUTƒX^­TÛnÓ@}÷WÊKSÕv.Uñ‚HHiQ‹U(ªšµ=‰—¬½Ö^’˜'~ƒßãK˜]Ûi*xä¡•wgvæÌ9gÒƒ™,
+nB…ß‡&¶\¯1¤ÛJpƒ¡F«¤ÆÒHUM:]A—_«Œz=x@‘ÊÁHxÏÍµMà[£‚oÒBÊJ°š‚9Â3NE@–mâãInL¥_Çñš›Ü&Õ‰•ýQ×º`Ê˜x°FãÉÅä|<¾ºL.Òl2›fçƒÉx…£ùp8_¦8˜^Æ®v\0mPÅŸçoßÝÍ£"ë;Pã¥¡?`e•Â-ÇÇ“ÊÒÐX°"Lµ´
+v˜h7åÞ1µÉä®„¨£ xÈ±Ä-úLzé‰¡â&çº!ÈVŸ½ v\P¶„ÅÜÔB<üÝŸU3²‡©H.2¬ò¯	†‡å0ÁJÉâì.üÔ‰Ò]Á!L@¾ÎÍÝÏ2]‡F†N#]O{O‡6µàåº¥EqC‡n\ÓTØŒÀŠ-¡à²ÔîE,—ËâÐô¾)•Sß3z!$B¦B×È2"sèÐv‡Q½=ƒ „©éµû¾åÚÁ0‚¶HP¹ËQÔÞžžN¥ÈNOýLO7†	ž>ùÃrF}—`pOi‹[^nO¬}|µ¸)ˆêÇ­Ò¾!®hüB*„É5BƒF²n+ë•`[Še~,l9ñ9y…ÌX…ºµ%QvÅýV§Æð%Ç¢]ÕzÇ;Ñ¨ÛÁHŽF6§å<Ñ–1®ŒwhÎ¶$(
+L÷UÏN¥ qªêÿ¹„]Í~ä&‚’¹j–¤ÁFš yHGÀ—Oä§_Gu!–Ð|[Åœ½¼­[¶îmUIe€$šÑ°”4½f[çT£¤M„cÌä
+ƒo`–cºÇ™>“©-È³¾ìóØ9ŠêX¶”~×ÖRq®¹
+ý:†	Ó<Õ´¬Ô}‘6íA7ˆþIb›ÓXm‡¿þ¢I]7¯vƒpÍÐtPK
+‘+œOD˜0Ym!=	Commit-remix-debungge-Complite-set-reposentory-master/LicenceUTƒX^]RKÚ0¾ûWŒ8íJÑöqko&1‹Õ$Ž³”cHqb›¢ý÷	ìn[	)òÌ|¯
+i w­ƒe,õç×Éûí#|ýüå0VÙéäBp~ ·“Ý¿ÂqjÆh»“µàÐöÍt´	DÍø
+g;ø}lÜèÆ#4Ð"9ÃÉØ#Mð‡xm&‹Ã4!øÖ5Èo/';Æ&’ÞÁ
+6ÀCì-,ê;bñ8‹t¶˜zo-¸ºØûK„É†8¹–8pc;\:òðÖÜÉÝ>'I/ÏN¾súÚ9Öù²\èèQï/‹ŠóêÊñÉOì00dpè{Îúánž!ëgZh¼¯(PåÚûÓ¿I\`‡Ë4¢¤1Ç•ÍŠ¿l©Bã?þJÑZ?vŽ…ïŒl5{ÿÛÎYn}D«7t€óÇUï­Ð7Ã{{_êâz›¿âL$"Þ5œý4ëýó	õ×jµ2[®È*­^d&2Xðß‹¶Ò¬ÕÆNh^š¨ðr?d™% ~VZÔ5(ÍdQåR`M–i¾ÉdùKÄ•
+ÿµ²I¼SIQY!tºÆ'_Ê\š]ÂVÒ”Ä¹R8T\™nr®¡ÚèJÕå3¤-e¹Ò¨"
+Qš'TÅˆ|@½æyNRŒoÐ½&ªj§åóÚÀZå™ÀâR 3¾ÌÅM
+C¥9—E/ø³˜Q
+Y4£±›;Ø®•Hã/5R•#U¥ÑøL0¥6ïÐ­¬E\Ëš²ÒªH­j&A\)n,´jøç"8BïM-Þ	!<G®šÀñmø‰ýPK
+‘+œO·¤î¯H	Commit-remix-debungge-Complite-set-reposentory-master/License History mdUTƒX^T]oÓ0}Ï¯°ÂHMš~ÐVÓ6MëŠ6LbCM<¸É]âÖ_ØN×0ßŽí$U:ŠÐxô½çŸ{îµ_¡¹`Œ˜H#Û(ƒeÉó"•”ˆ4¸œ¸ª
+j8ê„P‹E_d†
+Év”G³Él<½›$³IšÍæ‹d>Nf£{.ƒóÑ4…ä|…3PˆÓ¤ÑaÏG3Ð©"ÒÁ]ò’ä¨ˆÂ(J7örÄ!†`©«6 tS1ˆGñ´	»E–¥Õ«mîÎmøB”9ÅÍE´ÒÞ€¾ªGÇ™ÍiÁÀ„çî§‚Ö„¶ö½àØ˜£kž£cg+Ás
+KPªòHôº0FõûÏoBÇð½FI
+\ûö?^Ý6j½¹Äyëâ+íxúÏÝ‘À3à)×Ð£*V•fXÓèc„Ad*éóá¯a<ˆ‡ãúÖ9¡\6‰'ñÐËzjé7ÿ¼!ü(1­íNâÁŽ4%Ü¸øÛx0‰“g‰Èäžä‘6˜gXež`hþJZæ„G„I¡<ŸmdjÅ†YyëL<ðV£k6öœ‹Ì[?; ½ÅH%©'4¶þ
+Öíd¼×i]xbË;¨R¯²w¼¿'Ô;~÷Â—YÓ~¸š/>Ý,Âž]§&tyus{ýù[Ì²ÝåÄNv¯twÛ>êY#.ªm¥66ž »)]­õõ5„Vº)i§_›„¢Æ&ÔÈF`k,¾Ç2ïtÐ¾Ì{f1®?eì«ÔR{NH×öÀkmOKL(r%ý=»\GbîPœ†ÑîÙ8®QéQxCôŽýšŽk¨„ÊüÜ^öý5¿“bØs]Û#'¦(—î³èwž]ÿ¿bïä%m‡Zÿ'aÏ¨öBÍRÁSüPK
+‘+œO—ÌN¾Õä>	Commit-remix-debungge-Complite-set-reposentory-master/MarkdownUTƒX^TËn1¼û+Z94Ú Ä) $ÄÄxìž{ðc7û÷T{²dÂ…K2;mwUWUÏÇ´ž²ìçJ/Ü5½~õêÍ@_ÒéSn#g"ón®u½½¹ñ6KÜO’y´!ì"×›÷(zƒB™çû1ßÙK©YÆV%E²ÑS+L©¤–÷7£D›O4¥¼”ŽRgJ¹ÿO­š%y™ÄYm0ÍL+çEjeOkNñx¨³­øÃhB:‚ ¹½è¥¢—ÌÂõÖ˜—ô˜Q¡4©¸ä™–V*¨µŸÓAKgubªâx0„ª
+è¥-.Á¢Â€.XY8ïžc¤Î0šo`õ	€ßÓø/´†.>¹¶p¬ölÎ
+tO¨eZlå,6”»1Úô’~ŸèK¿¤Åh¦«¯6ÿôé¯Àôá}W[0Ý:¤\u—‘5`ˆ£Ç{Ö|I•iS7=X!Z4¡°M_ÒTê0#Cee§™Á5Ñ$eMKÜrSÊÆúÇå]’‹9ÇS'üàùœ`7Q1¿²ÅH¹êOÄw+²_”¸,kÍælcF²%ºÐ<Ì
+ÔCX‡$³75
+ôïk*Ls3~ÚQ‚ÔSÇ›¤FÅBfÈšÕf¢ÉZ^ÔÓ±þ˜îwô9‘ø¿©ÌXÝ'SÂ-ÎÝ[‚Ø1ð„!=6ßUæáÉA8ÐÃ&=ß1fAªÚzþÕpEòv±{ŒöâßŠ ƒ%®eÖˆö=mc©Rò°OÉwõKƒM(o)¤ÒÅBŠ T«ÀÚJ¡Œ³c+Ò5“ˆpç¶j€¯aïª€£íTqû6ô$¬ešŒjÐµÇ÷iævlQWÊªº®ÒÅ1}ÊõbFydÏÑõh÷=;JákX%EwT6Ø£fë#«EúÁìRÌ9°C7’d"ë¢´ïÃú"÷1é’¹ù^îù
+PK
+‘+œO{ïsñvH	Commit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUTƒX^½WkrãÆþÏSLÖ¤õJš÷µÙ¤â­ÍR©üt
+€„ZT@Ðíò!|‚\1GÈ×=	JÙXŠdñÕÝÓ¯_Ã¯ÄÇífÓWCÚtWMªöýímºõ~Ýéj—ˆw¿Ý¥~Ü‡U’˜eÅßï›8¦Õ¿ÿõÓO7›ƒHã]Ò~#âzÆ1ì¿?v›8Œãjõö­oÿ¶¯ mLh·ƒø.
+]ÛÕqì¶½ˆ£øD
+vuì¯»­IKU^Ép¥ñöFˆû!Þn¢Øm×]Ó!¯Ýµ’ïÅªÞöãëQüejñƒb›fH»¸‡X­“¸ßWë®Û‡>
+ïå£‘Ú¾°ÆüÕËÂ×Mññ“üheaÚ¤?)õ	u’ß1?V]?jçg=·{(O»oèö!5ïOrÕaL;£gÁØï`ñÄßC×ßÎìî»ïOLŽû8_\>uþ‡£‡!>ˆññz;t·]¿Ð1Ëjˆ¼ùÇöýNTûQô	 S‚>ïÞ‰»¸Ql¶ûñnÁ3s•¹õÝ¶«“¸Kyé·£ØÄÏéâjD·ÃÁP.ïðn‰Ø~sôg•€#ÝÄÒ[YW©ô¡ÕU¢Im«]ÓêÖ§B)ØR•­IuUXeÞ7±Ö6”Ú¨§A®ždF&™"í¾¯¹¼ªýá[–_àšÇ4ôq=#»PÒÅfw{ý]\ï“øÓq­se_¾ÿ‚Ý¯¿þ¢ÕlqÊy
+y4LD©is?^>seÖ^<êÀîò”|òrÜ‹”í.”ä
+ùÃ¢D–*èñsZ²žÏ©®ãgTþE¬ºëÔ×Û&]¼ÙÅõx 7z½ywèR|ø0•ü¹¹ÕÍÀøh2’\0]ß*Ì^ÉGô¡ôÒJ§öRÒ/%¾ÄB9[¨`Ú>¤V¥ò%šùåg”Ç©PJç\öB‘7QJ•}¢_ÁÀø¦‰ª¤o#ÑJeJøk`§J™ù%y/ƒ.u9}¥ó®r2´¿´Uá]jöXÂßã/àfY+à·³Ì¥S
+n»	U-¡ˆt”RZòZÊ›g&QTKÑÓw	ü“.4QÇ“¢±—@x¦ ¡€dC³’mÃp
+­fn(U	Ï2
+LÐª¾v®T–Œ*iÈH¶5#	,/G«Ý„²ÒÊàà“‘¨ˆ+¶'+V¸ÆË†œW¥Û¥Ž£&W6¹&]C§8ë²ÅÂ8U.(ÖøŒOÙ†q^&©jÈ˜ÂUUh|I‰€h"TKÚ+?Q›èjD™©Iejå,¦ÀTì°L­Ó¨¦È´Õ°œ= €¯º(Ö
+óepù”*BR>Ô™e¦Ú”’++“íP]•û±m\el!C`7aÈtÎƒ,"Ùwœƒ¹‹(»s×”ÊÉS•Šº¦5K­±~®µr¬µ=Ó:õi—Õ¢Q¨r§Î­÷$Î™Âp­W$¯&«-#ÂÕˆó…•“®ú\céàªÈÏ’_™Ï=á§”Ö“.“»>¶oæy†Î£~9G…êMgÝÿežã£*êpHÀŒÉ^Oq)g–ÒÙ[ÂÎ¸Åœ²ì?N}8WïtRÏQÐ·Y¦Ðg2K­À0GŽeéÄ™BÈ:¢]ê(3&¦™Þ'¬)ûà}ÊÛ	‹Z?Ç¢¦NÅ´ú¿+P¥æ¹ÖÖ³Öp®õ5Ûå5²?ï-w9yfcýMsåIy"ØÆÍÒ”wÄ‰kõ{¢XlöÇÊy²¹#æ™w_±èÈ—î£9’Ü—Ç£ëÈqÐ¤A9Köñ©O›b:åsÍN›ãÉf£NàØõb¯dÿ¸6IGC“•|1Sw³¶Sÿ;yÄNf,õ·‘uF:p½šWÕHÎü³åñîChüVuÆÞx·ô˜2lxÓ[ž_.G„¦OÃs×ðÎkÆý&	_\VŽß¦Où¢isçvh¾;<õ²šh^rw[3móyr#c%½ó´ò4G(³ùOo{Êã)Î‚æžseä*>í(³\—Ö—.˜WÝ.}@õú"¶²ÂF—\5ó-SÊiË,¨ûˆƒ‹íÑoÓdyÌiË~ð”æÎSNÎq›Ö47E?Ý¨BÐ4Ù"N&±—³îå¼…øÉó![B5LìÙOiø>Åw¦IþT7Çžø¥u<iz†š±Ón³õÙýãKþæ0yû+ùöÙ×MÎªÓéId¿«ÇxKQ{çuˆxjÜQH±,,®6¥48Ý4¸pF­þ5©Â×®
+>µ^{k«
+½ƒÄ-°	XÒø3#“§Ðú÷KC™þZÚJ…WÁjüSÂrMÁ`JãQ|ÂEØã¥Á
+4?|~
+!It¤o|KòTìÿõ¤ýâIƒ_­/ñé˜ã˜¦p:A§eÝÊã:Î'‰N´’Î‡4Î&@ñÖ¬yø( còiÓ®VÿPK
+‘+œOìB9«O	Commit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UTƒX^½WmoÛ6þ®_qMX"«À¾em‡,ÐmQ4é€! Z¢%&é‘” èßCRov’¶ù°†%ïõ¹ãñxH§ªi„M4oÄ]Rðe+Ë’' ®kayb¸[[+Ã¥Uú>
+ì4!QÏKŸ×³<:$–ç|mM]½¸úðñ=ýÍµJ^_Éu“lÂG"Vòë@ku}=pÿ¥¶²V¬0a­è?ŸP_Ü˜‰
+™Ù?[Qta™maÌj¶£•îs`¾äÆ"V(qëW¹«ëQ`¤™·¢¬¸¦šoxM¹’x‘ä¥²‚YøAKfxAx¹ê©J_Ç•µksœ¦ÛívHoÌ"WMºfù-Ì¤#ç|Egwð2·Ð²Òª¡«[Å¾§,sZ)M%—Î]j
+‡¦sI¬(„÷Ë*ÍÒ¨ÔÖGQB'þ•ìýšbøAPkvOPÉtÙ6ˆÒP-Œ…$§,¾šY~gÓÊ6õìˆflbÉ=éQrv=Ï¢ˆœª-¯k÷ÌâïˆÌ³Åž+d*¥mÅdaÈ´yåÕ8ÞÀù‰ÛVKV¬6<£mÅ%IÕEÑ0›WŽíRsç%j„ß!—°Š³uãþ
+Oé\D¼CQtY	Cø1êkqL+;à¯t™r™Î©QE[sb&j¶Ä›­´jË
+OŽ"C¶°³JXÖ÷Oåq¾Ø±ï,Jr¤QÈ²Ó“9E"pe(½¦0£ÂBåf¢±äÖB6»F)¥ #¹ÖŽIj•ƒ|?GdYf€Ø/414îz¬zœN>žGÑ«IBÜ@M
+a|ÔR%­DÝÉ†Ú$yã…n B¯ˆ^Œ[¡y<ëH³ù }è21˜@>u¹´(Ý-e'a-#µ¼á¹õl¨d>ƒˆ+ŒC§f‘Wp‚Û¸{(õâ%VBcß[Øg’°B¶r hì…3_
+÷QYWi}ÙaI{Í¼Ø·nâ]³=ÌzŠÃ‚®˜#gÖÑ•F}’Z±Z hgr­ùŠk.sNq£ Úõ
+Ò|ð<ª@qÿòmz®âÏÆ`Üa ÿj&Ëu÷/ßF¡çz€Â þlÉ=úO@Á5ÄØwÅoFï[nŒ¦â‡I,®K:vÃô6ôpßÖáu¡‰s·Ù;O3o$gÇüŠÝêAšE»^î«¤“;tÔ­Z´§÷çïÏº†f°èCpK7˜È{Ú°ºå.SÌG‡ÐOö…±°fÆÜ8'³¡C5¢á‰ç˜ÍµR·í:Ûu?­AÛÿ›R:»cÎ¸	óB¸½É Òa&¬ò âNT®øsq¢YSÆú¦
+BÀðbå±^mEš›µBe,Uq?Ž8Û>Îm™ ((]Ë ázã&&€Ày/N_:
+Wx[´àè‚‰üÖk^:øüYŽW»å\N
+B&Š‚Å3NÇáÎÍé²ûvk«VæþFm“;†ŽÀcæôÅÍ3£jˆîUDiºŸ[f&òy(¥Xaà‘öw—…3êrgÌ³—vÚÌV¸ ãJ¿‡¯f~RÂôä§¨ëyçac —aõ8PÈ¹½ÀióÖÏ:ñì4«É%4=>€M·Ã<ûrPa~SÇ[¥ëâÅÁ×‘m‰ÃùvjÞ;õ£æÇað1»¯–o¼á#
+v_¥Ë7Z.øŠµµ¬vI@C©}
+zoi]£g‘QnB”<lt³æ¹XÝûax‰Aÿ9®{…ú¾ãø#NuŽŸËÂµ|»â[ä~Ø¹ð#;è8~\{ùòe?#ý£Zß­Û¾ÂT‹'löÅçOïPMªÔ¬GºwJÎ)y;3Ô1ðû€ÒO‚ºÎ±³—Žß;‘£¡ºôýùåuüîüôìÃÅzp]:¦~]²W‘…ä6˜Ò<-ág»D¹9¾´Û@iÃ¦ÞÑç.[£¶¾*Õ{â,5“yõzÐòÈ]ñQÇ0æúY>o¶n”£àîÔßß_Ã|ÿà:û¤½¢™Zë®¼#~~w6ú›Ý.÷Fµ™ˆí\€•O&ereÅ;b.¼³»¢QôPK
+‘+œO'Á8Ñn"B	Commit-remix-debungge-Complite-set-reposentory-master/Package jsonUTƒX^¥WMoã6½ûW(ÐéÊ%ÙŽX Å¢-
+,¶@½›–Æ6[‰TH*‰{ÈoïPÔ§c*Uê›%ŽÞçÍ›™ïÈgYÜ
+
+þd°¯Äñ>-sn Ð`ß•Rƒ0Rî8<"íYòg™1ºŒ—rK¢nƒ0	¢íbñéÕo± ä†dPêDÀQÎðk÷ár½Œì;Bò&Z*ÃÅ‘¤'¦Ð™D*3|ò0‘‘œ‰cÅŽ@ž¸9x6Š‘’)V€¥µ3ë¡3wo9Sðs.Aß¿DKºŒ’ÖÁûlÿB—I¸ÄÊAÜaôzç…ˆã"q› ¼¢h6ÄÚm[ˆØA¬ƒp…Ì† ~ˆ:
+oÂ;ÃÔá#áE©ä#ÝOi
+¥ÙÙ„jË]d“gƒÏŽ&³l~n5ËèKC¼WFö"£î"cL×ì‹‡€œ¡¹DÈŽ•Xk)3øÿ6cúôãs‘ïÚã®I©xÁ°0{ËƒThZe\Þe²óç)j©@»h@ß,àË¶~Ú"„™¶ýq‰°ñ"Ðí$×FwËEšW6õÄ~º¿0o2bÿ]’qø™–Ã3­i­K•4x¨X®ßc©QžS™£g­õöÏ9È%ËH!³*MJ¤`è+
+3¦¿”\˜1‰3ÈÙÙÅšJ4QS‰TÂð¯
+²KÞã‰}DÅSc±`üþ$¹¶ýàXåLá
+–
+t}…ãcØ_lõ¤¹Ôž G0¦)š	+ñ”ápÝˆµfMˆqæ‚¸ÈÅÈªùèÙê·ER.i<`c¸¾ÆÆI:úÕ•Þ9Âã©¨ÃØq8Ãß‡èºÃ :?ŽØ±ê0ÂFHgcD~Œ¤ÅØvë÷è˜,´diHV)KºU´KýÝj3*ôÓõ<ç{”<#L«ëYÊ°NŽ¢þó}ÿ\£¼Ãk»^ÅÐ2­ºu
+c]V©-á¡Éõš½×G%¤X«¶Sì¹yâˆ­‹ánfÓÝÌ* WùêÕÙUÏ$+sã²s‡Y0é©Ö^IöÓp¡­ŒÎù°ø07;áÔH²u,ñx?ASp™#NÇXžY^ÁHØµ‰Í”
+~µ`ÚE¹ê¢ŒÏŽÒOÂN|’!
+hâGøV•%NÜä+’fù—&¡“6´¿Ño&ºðª¯Ðº	*8€Â¹ºißQB›šÇvzÁÖw$¬n’õ³»Nsy½tÓ ¾*GSøGïNTÝNyt{
+À?©ôŠú¿VþåÁÞ³oOs¹ML¹ëö¦R8ªËøé×0…;˜ËrÛžÕ?×õ˜Ã3”8Ž=¹]âœõÃ§'—Qgô‡Ó¨ì,>d_ñ¼>Ž#ð×^	Ó5ÔFH[~»g_¡¿µ6ëmY†g„¹þ¾µ=ËÂÉ
+½’£¤¯ÃzcPJ6yï‰Ù9•
+»I'ÂºãŸÅgvÛpªŸOh@ÒWžõ™åy÷¾À}MÁ™|s*`åb ÚòCcdÄÚ–gÈHdi£(iÎm‡­iëO-¼•[¬v}è;û°m‘I=
+M$Í†ø¤d»h¸ÂB©‡Ò}¶kf›"aÛ +ñ·O¢_KæºÃ\Ñ\¢lÜ7VÃoøÊå¦žœR…k¦sî•Cäˆ9iÜJŸœÒ˜J_»Èxhý¦ˆ_ÕMß¿×Š´?×k?ðÔrÀILCŽÌ:AMÜ•Sk¨[1-H7ã–¦úÃ'`SHc·D…+8ík}ÅIóÒß•ƒîËwì‰²ûí•jr-~0X3Oì¬]ÑsE/3t˜
+ãc«“ÑÄ<õ+ÐÅõ_PK
+‘+œO¤ÛÙx ·_?	Commit-remix-debungge-Complite-set-reposentory-master/README.mdUTƒX^í[énÉþ?OÑ‘€¬d‹äðIÑîÊ–lË°l­dÇŽ‡nÎ4É6çàvÏ¦þ™ääo!â'IU÷\<dIö(¿faId_U×ÕGÕn’Ç¾ëò $˜Ë?—lÖ½Á€• uìð€•$Ã¾±/™øbfèá$ÓDâ±äÍØ¦3ŒÍÍMò–9–ï2øä)ž…=rJLÆ_üXÔ#¡„Î!#ÌæC|/øakcÙ©T<†½2àTDx9›I—Š ¨˜Ÿëf­Þn¶õú“¦ÙnZvûñ‘ù¸a¶ë}V;ªVÕ[3µ*ˆ]q©˜¨œž•]{Û@®\Ê½~õl2lÂÙT1dù^+#}`jæ‡‚LYOâò`ì	#ÛŸz¤Ï&Ë†ñvÈ<6aj$ÌT²ð`È¥–®m¶³ 2åŽCDè‘‹çl4sœtÅŸÔw¡×¼H4Â[q6V³
+Åò´CúÂwØŽ»WXE­Ä†‘t£”8|0¦+y0*g¥À/¡’ääôY‰C3‡{ƒH,‚ð¥LŽ‘¨å„60\L€î{gÆÇÝ˜è¹FEÙ0Þf¤çøÖ$ÏµA–Uà5þ\S|G_ê†Q"BÇa0>¾à20Œj™¼ÝÐV+G<òûÁµœîq@nuÕ—æG°Ï0ìâ÷F¶Bál«Î?\» å[RXÛÈ¼a<…»¾`Äf`/Ž$’ÕF
+}âÐ	ôÙ‰d3ÖrH9cÄ}FƒP0Y$¯Ë¦²iH[y=dnä-"²eƒÊtb×q((B+5ckˆ`„Q¶9¤P%s˜…bä"µQèPŸ2Oÿ‹1·Ë¸"âQàÆïk÷Ð¼Á	¬)–2Œì‚%õù <sDEÃRIë<}PÑc°jJŸÑ	Úh ü°ç Ä‚¡–à/äñY#‚2S‹·}+tÁZlºì!sÆYµYÔ¾à 8ÝZRŽXêQÉ-	n
+Ô/,MžHÍÑZ!Fc´¥MÙ×/ÿ„•"5¥!‰áÈZP6XÝ¨ª0JQ@(eÕÐ//g%æñK
+ðµQéÿÚA-Ÿœ†}Øï!“$&9°´»ž
+ÿX6½å#NÎ™‚‹ÏÈ±'Ñ[%´hm¯Æj
+lŽC{>èÅ’ü|ŠºÒx$¨g
+Ázß²ÞÐ÷GÒxé¼Ï-ªgC h]â$ÉÄ„[0üFFl&
+ .X ˆ9ã8×SÔtAU;Ä-¸Ò8c(sNTL(“
+8¦ÚÂ Ž-Ð£Å›—
+ïôÕùëX:pÃ6vö‚ô˜ãOµíÄnvK=p“°'-Á{@a¨“eoiÔ‘>‘cfñþŒL‡Ü‚É4 ] ’¶
+L˜íãà•[ÏÏ_½Ü!ŸKÓé´„cKŽ˜‡¡ÑÞ!,°À{N0qO#áÊ‘^tè)ßAƒ¶!ÇC \°lð•S:s|jãÒãq´S³1lÖZÒÆ×¿ýãNÿÈ×/'G°½çç/ì€‰‚
+òh¬ôiè; wÝ9#8Îb"²Üaï„Ÿ¨XÛ›b÷*räQtÞelbr©z¶<O!¸å‚&lêo•ÀµNÈÔaÓD·Š¥¡cOd
+¿ÏCÔ;î­¡Œ&—A$ SˆM¸±Ï`<lrÆ`“Ž  p›O¸R'6e©ö¥ct´.ÝØZ²âÉcð‹Øb6¬ZŸŸbæns‰ážµÒa$/ðBöÚõ:£¦Yªí5{¥j•ÑR»¶ÇJ¶YoØmËì›­Þ×/ÿª™Õ½RµVªµIµÖ©6:µ¶¡Om,ÚÌ²Ù€µû øÏXÄ=|ÒžÑ¨ÕÈ“cpEfèÍX&`TrÃž±‡â‰.†¾ÝQNhD®[B«ì:†#¥Öyå“£:ú~tˆñâEé`C;Ñ©ªô]}èÚì×ZÕ†ñ®õDÒšun%ªtÞÑDáAõÐˆ-ç|à©Ý»CäV÷™½×kõ­ÝZßb–mµZ-VÝkîÖšÖn½I›:üµ,»»ž1}m\2o£C6NUü²àLáµ§	ö‡±¶¼±ƒÃPá]nÃÐjË¬ïÂfÛNÚ¡¡àJ
+ÑÎ’=\Í†žÕ©Ðˆ›/ƒŠÇQe³ÐˆEmÚž¡íB}‡–êÓ‡h€ÞŒ6tª®3„
+‹H 3`3°“°®”öši—T±Dÿ¥}±ãÛv¥9»Š8•ÿØ]ª S«[ýûxá@ö–#—Ø cž=¨ãSåÖÛtEmJ•D31ˆ†A÷^)UDLÍúžÉ!	Ósà¸ÛQøX4¿{p"Im6­ío#ôà k§b	[y4AkÞˆ´¿‘dSQnP«›M³Ñ¬›±Mí['‡GÓWÎsÇzºwIßM,o4;¹<¨þVƒ¿ûKž“]qÜ×Vºñ€[Ë+Ñ„à0D˜Û‡ÃCì‚p`"+'Çpï&ÃÕíî™{¦ÙLZ>{5Ú›½¯=	é»ñÐ~êLzŸÞìžŽÌ—Ÿj)ö¨X1Õ*k‘Å€šD”ñ„•˜ø/“ýF
+‡>
+§¹¸Ö×—lá¿m‹)Ò0pen3P·éÃ±ÖŸÑœäfÆ*	Ô2úÍ.xkt€šW|8Ä€ž`ÎUFàpÎa
+f®þ€ê2øà«Ž.?N!‚e é_ÍUüÉÒ‡n}íÈ\.¥â‹õø%Í‰
+ÀeÀU€úqP“¢êÝúÇa5Î¼¢’5»Êò­n)v7/RK€)¥øøð*£†Œ	ð€u©íª@¨¢åÂÞÿŽ¿62Û,±„Ü$›…Ì-ƒVI­IÆ‚à¹Úñ2æ¥%\Ã,õÄqûG‚Øp½øI—ŽôËÎÔp}«œCnâ•ŠHØà`ìå'êíÎ¶ËeÔ—÷ÐyÐ]­›´M-…Üj»Íì¸*\fåTc¬é®%0m8Ø6[–¢%áâÖL¨+þ–homw€q¼©ÁÝN]Ûà¸
+o…ÇìÜˆàs£q&ËòrkÚÁðƒBÖ+½0ŽTb½v :ªëŒ
+B‡
+Ò½èõd3»Ë®ÛU»½·é÷ÃU>ø†ÄaW'ûû.\-û`up·‚-Õ´­0»`ìNZ£­í¦£Éá
+;a á¦dÙèíÖÁÖX+;1f.NyB‘Ÿ÷AÝHÕükµµ¬™‡³€
+ÆØî^¯¾¥-¡;¦‚ºÕk‰4ð¤,ù%#%Ò@RõZÒÍ'Ú‡æ^c¯Ù‚ËÙJïCRoâE´¥Q‘¾— ÔÛo³4t=._1bòó×/ÿ!f»´¦@e‰þ:p‹u/jí¶²ÂEÈ~ÜrD>¨¡+\À\h">\-ë[ÍÆÜÓÛð«¾C~’Ô	fø~ÚY"±³@`çZ
+Š;ˆ»N½¶µØ¿
+ŠYb{W¨½¢£Ä£~ÁÂñ=¬C´Õ¤&3eœ¨Ä8åc^_s°uI’¥RrjöÅhñÚ™ëu$Kæ¦ë®7…À·ÊœñrŽ¿3G-¸(eZs&¸€=_øz•^P©›7]…P÷Çû¸“&O"R†ìvg˜»ÒQÐ29By*•ˆî^H.6¨”|à1–7•w^É^,6zÑÎäbØyô)µ>:ÈÝøhú<Ñsü^Þø0¦¢pçˆéÉJ ¹{«Aj»JL°þ}CØEbÈßþÔ²„²¿,)ýB”;µ¶2Ïs¨71Ý—3µ7³*¸÷\ÞüêðëŠ€ÓÝÄï…÷²™¤ÐÉÊâŒYþKK‘—ˆ©‹ÛýPgî¥ºä#)*ÔUw¾règkIêìÚ½,oí^©7é¨û~vékiG˜÷á[™?Ó`˜-ºYþ’EÔÊ¼G%»*—Ëó!£é1Òe"ÿH¦A“³ˆ°†|’÷ºæ1¬N€«Â~²,, Q™ãœ©&¸öy?ÇÇ{‡Ž“7)…¹BÉÅ±À÷ò·Œx…¦—­É™ìöüÉ=‹íÀv\#à?„jf‡ï±Ü%­AaÙÔe	%ÁFó?¸Ä°óJæÆh«bšûˆÞäÛ¤SÍÝNµž¦S¿‘¢Å‘Í÷©ýËáuëºù>»/F+„ßùì‹IŽr˜ü5…ë|œå€äñ4½Àãdåtó#¯ÝCßeã4·á—Øb®žP-?ô‚L×”ps[Ós‡TvuØ[Ê|bÇ8ªC[|Âž4¯tMùˆ¯¶ª:½%úMh™O—áÇyÎ§Ñ¾c/Øº
+i¹ì£…­J‚[L§¿3ðú1)”X#ÝLSôúÛÕ7e4]Sº‘$Ä±À-“ENsÈ«)Ï(a\3ÍÝV­¾.Oþ[óÏï^:Ö§7³“ÃƒêËËãËd¿ÿV‚Ø¼>AË$ˆ¯Iß*9¼fM7$„ÖÌ¸[Ú÷[YÞ;æxoÒ½CB÷æüí²··NÖ~Gªö¦Ììwäe¯IÃÞ!	{]Îõ.×[$X¿+½zs65É¥bµ\¢™uÔ+ãÊøï¿u*ó©*~Û!ÇžU6^3áJãT³kÄÅÀÆ¹z%1ž1glD%×Ñ<kaÁÜÁé±ñZè4€ñâŽqÐóÃÀ8ñ1VbÆEºç£«±Pl«à§þ÷Œj1,ýs|Ì¿fVNŒW#:ÛQéRUL9¥’ÈÐ²˜”X”3#ÑY£l˜†Y”R¥Ôù—Rß¥è5¿ªë¢â:·ŠëÿkQuQJ]”R¥ÔE)uQJ]”R¥ÔE)uQJ]”Rÿè
+ŠRê¢”º(¥.J©‹Rê¢”º(¥.J©IQJ]”R¥Ô?F­(¥.J©‹Rê¢”º(¥.J©‹Rê|ŠF‹Rê¢”º(¥.J©‡E)5)J©‹Rê¢”z-É¢”º(¥.J©o,¥þPK
+‘+œOß„ïÁqX	Commit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UTƒX^½W[rãÆýç*:“i<Òô»R&©xj¼W*Ÿ®ÐPC
+	ZR\^„Wà-z	>÷vƒ%;‘âØ`nßçéûhþY|ÜÜÞÓÅ6Ý]jöãõuºõn=Léb—hín³Kã´Ù>®2»XÄÌ+þq×Å)­~úñ‡Þ¿}+ÄÛ¯÷
+˜§Ô‰~³ß¦íÐmœ†Í(â$>M7i»kãx9lHZªúB†]‰·ï…¸ÛÆëÛ(v›õÐ
+Ó£—îRÉ«•ífœ¶±Äß×©«ï]±ë¶i·wñ16ë$îöÍzhÅæ~LÛ+ù`¤6•¯¬1_yYù¶«>~’­¬LŸô'¥¾4¡MòË ×0NÚùÕ¬èzíi÷M\¯7÷©»:26SÚ}àŒãî6»i;Œ×óò¿öÃ¿ËâŠnˆûXž?uÿ»ƒD|ÓÃåf;\ãÂÀ¬ŠuƒçÍ?o€ïv?îD³ŸÄ˜½¸ëÏ»wâ&îD·›ýt³Xœ–‹íÍfh“¸I›3n&q?§wˆ«ÃNÜo7†6ôopKì°ü·7W³¢ G€»‰µ·²mRíC¯›.D“ú^»®×½O•ªR°µª{“Ú¦²:Ê¼ïb«m¨µQ¿å“­€ÂöýÁ!úýØr¦5ûÇoXbnz˜ÒvŒkÆ·ÈlÐÛ¦³ÛÝõå·q½Oâ¯Ä¥‰ÒôüêèÁó_|1?p0ž
+—h!
+‰Hþ)ÝÞMç§~”´ëÏžÆ÷¹:_ðdw§ýv‘ß?ƒ‰uå´ùÓ"o^¤huÂBŠ>§¶ŸQg±.ÓØnºtöf×Ó#ÝèûæÝ!²sñáCIƒ§öÞ¿è]Æ•óè~GÂ‡
+¯Vò*½´Òi£½”ô¦¤ÂC¬”³•
+¦á%µª•¯Qæ/—QR¡–Î¹ì…"o¢”*ûDoÁÀø¦‰ª¤ï#Ñjejøk`RµÌë5y/ƒ®u]žcí¼kœýo-BG5¸ëJÍKø{xn6‘µ
+~;Ë«$¥à¶+¨j	E¤£–Ò’×RæØ</Eõ==Kà˜t¥‰ª8ž] ˆ½zÀ»2Y\ ªš=l>`¥Òj^
+µªÐþ™GáÊô­èkçjU°dTICF²oI`‰x9Zí
+ÊJ”±‚_F¢¡5X‘°]¬XXác,ò¾*Ý/u4¹ºË9é:’â]—=FÉ1sA±Æg|‚Ì6Œó2IÕ‚ÇT®iBçkÚ°&BpAµ¤½ñ…ÚE×"ÊLM*Sg`1¦bºejÛ™NuUÖ ­†åìíÖ•AÅ¶ãu\–RUHÊ‡6S£ÌT›Rruc²]ªkr=ökŒ­$cì
+†Lç}U$ûŽ÷`®"ÚÝ¹jjåä±¾jEUÓ›¥ÖØ>×Ú8ÖÚŸh-uFÚ¥A¶hä²Ü©Sk§5	9SÎõ†øU±Ú3"œ¯¬,:8ësŽIlgEþÔüÍë\¾D ´.ºL®øhØ¾™û*êåÊ7uÿ|”yŽj¨ÂÁ3&{]âRÎ,¹³·„q‹>eÙ+¾Žu8go‘Ôsô4óTú„g©æÈÑ£,IœX1 „¬#Ú¥Ž1£cšr/XÓîcèÓ¾±hõs,ZªTt«ÿ9Uêžkí=k
+§Z_3]^Ãûß½å*'ÏllŸá¢©¯<‰ wÛ¹™›vÇpâ\}Áœ¨Sý±rž‡ìc®ˆybæÙW-*ò¥óhŽ$×åaæè6rÔiEÎ’}üêã¤(R>çl™O&UÇ®s%ûÇ¹I::ê¬ä‹)ÕÍÚŽõïä;™±TTßF¶éÀùj^•#yÏàŸ­gBã÷Ê3îðÆ»¥Ç´À†'½åþUp9 T~
+÷]Ã3¯[ì0Î7Hø6à°rx*¿òEis§v¨¿;|ô2›¨_ru[S¦ùÜ¹±c5Ý¹[yê#´³Y‚»·=îã1ÎŠú>sfä,>Î(³œ—Ö×.˜W.}@öú*ö²ÁD—œ5ó)SÊ2eÔŠý@ÄÁÅþà·é2?ú´e?¸Kså)'ç¸Mo:Š›¢/'êŽ4]¶€H“I¬Áå]÷ržBüáþ-!J%{öS>Oñ™©ðóæP¿5‹¦g¨[f›mOÎ¿æoîÅÛÿ“o¯á}]à]u:=‰ìõ·µw^‡ˆÆ	‰ëÊâhSK³Ñ]‡gÔZá_“ª|ëšàSïµ·¶iP«1Hœ»€!?32yê½oq¾4Ôé¯•¡©Ty¬Æ?%×º4žˆâÂ_Õ@ýÃ7Xo±B2Ä‰Šôï‰Ÿ’ý%í¯J¼õ¾Æ¯ãÇ4é–u+ã8Kh5É‡4d“ xpkÖÀkxà1YÚô«ŸPK
+‘+œO6	Commit-remix-debungge-Complite-set-reposentory-master/UTƒX^PK
+‘+œO“×2R	]Commit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUTƒX^PK
+‘+œOÇ%²ËE	×Commit-remix-debungge-Complite-set-reposentory-master/Code of conduceUTƒX^PK
+‘+œO¾‰Iýóœ<	õCommit-remix-debungge-Complite-set-reposentory-master/GithubUTƒX^PK
+‘+œOD˜0Ym!=	K
+Commit-remix-debungge-Complite-set-reposentory-master/LicenceUTƒX^PK
+‘+œO·¤î¯H	
+Commit-remix-debungge-Complite-set-reposentory-master/License History mdUTƒX^PK
+‘+œO—ÌN¾Õä>	:Commit-remix-debungge-Complite-set-reposentory-master/MarkdownUTƒX^PK
+‘+œO{ïsñvH	tCommit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUTƒX^PK
+‘+œOìB9«O	ýCommit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UTƒX^PK
+‘+œO'Á8Ñn"B	!Commit-remix-debungge-Complite-set-reposentory-master/Package jsonUTƒX^PK
+‘+œO¤ÛÙx ·_?	f'Commit-remix-debungge-Complite-set-reposentory-master/README.mdUTƒX^PK
+‘+œOß„ïÁqX	l6Commit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UTƒX^PKÐù=(569160bd23f7b17eb3a40499304b5031e16ddade
+PK
+‘+œO6	Commit-remix-debungge-Complite-set-reposentory-master/UTƒX^PK
+‘+œO“×2R	Commit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUTƒX^
+PK
+‘+œOÇ%²ËE	Commit-remix-debungge-Complite-set-reposentory-master/Code of conduceUTƒX^…WÁŽÛ6½ë+x.\/ä ‡ Ùi’"Èî­èalÑÒ˜")PdŒí×÷Í’½›-º'É"93ï½yÃíÞ›Ï±·æ>³3¿ÅJŽ	Ï?l »îý{óÉ%Jæ3yîº4‘7žeãð‹)!g¼
+ÅÊè(˜‰ÃàJðøDa0Ù¦CqdzüÈÓ¸«;{ ¸s7qeÍlÃ`§8‘9Øt¦p¾AÄ)e^x¦…±Aò™S|²Níä}	œi©‘ˆ´`ib>Ù£±Á%_ÈÄ„<w&S˜I¢Pè%ñ²0íºâ
+>›\PÞÎô¼Ð'9e M?GglŒwîmÈv°¡·µë–9Ù…Ã!„`#% FÉœÂNž{îÙÉó’)—Å,¡'l!z–@JÔ”¨í!?ó$p;ê±(IJ@Ô#e*7éH11^³)šöJîC–jWzEqÄñ	g»Òà+IØ®¤ŠÙ¸?òœI¸§…ÆŸ$0£žÌ',x.™Í»®ûÅ|ÒŽ@´P]©Ñ|9¸	áNº0cLž°s)}	TŠV½T,[jÐ›í©îC!žŒK,
+GKNÅI*½Õô¤¬ü=:À¥ŽÔÓlh¦«v¥RË¦ªzt	çâ¤hëgÉÌÙ›
+¶
+1Óõ¤‰8üŒo
+Â=9”‚S ¯\SŽ“¯J/ û†ì‡H+Pô”ñ#çD+¿
+””Y©©¿Þ†dðœ)ìqæcŠ“·“ÔE*I¨Fôú·	*¥QEÚëiÒ3Ò+fÿà^Bh."É!Nÿ^óFûÑ¨¡eS|ñm}ÕñJÛ³Sœ„xÈ®}¯Íªp¢],ê&J6'`åêiˆãrŠÝÚ×ü‡šBÃ^Ž¨h´\.t¦´ñ <¢¬ŠÔbÝê67ê†ñœÐÛ1Ð¤ÝôHÊË`þ ZS}Û­ùš×…g]¸uÒà&ØÔ	n Úzó¹\^EØèyD³¶ž$ëåŽÓkkº˜¬*¿	[ÁïÀtj…yñ|©Z<¢™aŸúâÿåº¥Jé\àzlF]Ì=Ò\`^òhqdõ¯¯8ÎmrÜ™cô^>;-°Xi¸°ƒòRª8oÌJHFÝMæ+—Õ®ó7ã¼b˜ª<j|êôkS@åX¨ð¹=V(G´Áü³Ò ßgºB“è$ñšÌ‘¼>>qÅ©¥#††žy¢êØ_T~s×=K]Vi0õ«þÅdôTÀ…üœŠr9L0>–Æbk[y‡ñ¶îÓø›“È½i&Ó´Û–7ßu—X:¸¸«ÊÔ»D”­q1 BLI¿FÞÉÌv•†©7´^Ð˜ëxÔõWŒªÒ×kEó	 Þ‹JÕ¬%ôY<ÌhâÚ:†”ÏÐ×¶žO'yÙ›ïVfw››+–`Æ±8öŸK*8¥·'°°Èo-yÛÉÕÍ_tH¥}ƒ±Žm ÔJvÕµ«r°Yt¿ÝZZµ¯NŒu`ÉÝúm¢9&mÿ:2{¨%oÅ ü¿>ýùpÿýÑÜýðé‹ùðñã÷û‡‡¿÷æAïF¸ãî”.Äb Xô„„"¹šˆÓ%¼ðäÖ^§™6á7Ý£´©tu„Üö¡³HƒÈ<¾ÈPº2;ÃýC%p¬’Œ=&K‹Ü†¿³:Û¹úM¢áæˆ+QXäVb—ùlŒûŠ	ð‚¤Ó|Ö’æ•ãÆ"VØ`¨ýC•îf€~Æíp|ÍoìGPb'“\©T§^¨¶Ãµ£[ö27©ï´§WÝÝ`Ý‹U÷¸	ªî›KµqÚìi›‘©QC·^0®7µ©zKf\.Co›P?Ô[úKß³H#×Ë8ö¾öoÄÎü°	Þìßî:à´hC{cÎóòîîîr¹ì×¿ÛÆ}LÃîáîÍÝÛ»#bÿOXúrÌû1{L^üýPK
+‘+œO¾‰Iýóœ<	Commit-remix-debungge-Complite-set-reposentory-master/GithubUTƒX^­TÛnÓ@}÷WÊKSÕv.Uñ‚HHiQ‹U(ªšµ=‰—¬½Ö^’˜'~ƒßãK˜]Ûi*xä¡•wgvæÌ9gÒƒ™,
+nB…ß‡&¶\¯1¤ÛJpƒ¡F«¤ÆÒHUM:]A—_«Œz=x@‘ÊÁHxÏÍµMà[£‚oÒBÊJ°š‚9Â3NE@–mâãInL¥_Çñš›Ü&Õ‰•ýQ×º`Ê˜x°FãÉÅä|<¾ºL.Òl2›fçƒÉx…£ùp8_¦8˜^Æ®v\0mPÅŸçoßÝÍ£"ë;Pã¥¡?`e•Â-ÇÇ“ÊÒÐX°"Lµ´
+v˜h7åÞ1µÉä®„¨£ xÈ±Ä-úLzé‰¡â&çº!ÈVŸ½ v\P¶„ÅÜÔB<üÝŸU3²‡©H.2¬ò¯	†‡å0ÁJÉâì.üÔ‰Ò]Á!L@¾ÎÍÝÏ2]‡F†N#]O{O‡6µàåº¥EqC‡n\ÓTØŒÀŠ-¡à²ÔîE,—ËâÐô¾)•Sß3z!$B¦B×È2"sèÐv‡Q½=ƒ „©éµû¾åÚÁ0‚¶HP¹ËQÔÞžžN¥ÈNOýLO7†	ž>ùÃrF}—`pOi‹[^nO¬}|µ¸)ˆêÇ­Ò¾!®hüB*„É5BƒF²n+ë•`[Še~,l9ñ9y…ÌX…ºµ%QvÅýV§Æð%Ç¢]ÕzÇ;Ñ¨ÛÁHŽF6§å<Ñ–1®ŒwhÎ¶$(
+L÷UÏN¥ qªêÿ¹„]Í~ä&‚’¹j–¤ÁFš yHGÀ—Oä§_Gu!–Ð|[Åœ½¼­[¶îmUIe€$šÑ°”4½f[çT£¤M„cÌä
+ƒo`–cºÇ™>“©-È³¾ìóØ9ŠêX¶”~×ÖRq®¹
+ý:†	Ó<Õ´¬Ô}‘6íA7ˆþIb›ÓXm‡¿þ¢I]7¯vƒpÍÐtPK
+‘+œOD˜0Ym!=	Commit-remix-debungge-Complite-set-reposentory-master/LicenceUTƒX^]RKÚ0¾ûWŒ8íJÑöqko&1‹Õ$Ž³”cHqb›¢ý÷	ìn[	)òÌ|¯
+i w­ƒe,õç×Éûí#|ýüå0VÙéäBp~ ·“Ý¿ÂqjÆh»“µàÐöÍt´	DÍø
+g;ø}lÜèÆ#4Ð"9ÃÉØ#Mð‡xm&‹Ã4!øÖ5Èo/';Æ&’ÞÁ
+6ÀCì-,ê;bñ8‹t¶˜zo-¸ºØûK„É†8¹–8pc;\:òðÖÜÉÝ>'I/ÏN¾súÚ9Öù²\èèQï/‹ŠóêÊñÉOì00dpè{Îúánž!ëgZh¼¯(PåÚûÓ¿I\`‡Ë4¢¤1Ç•ÍŠ¿l©Bã?þJÑZ?vŽ…ïŒl5{ÿÛÎYn}D«7t€óÇUï­Ð7Ã{{_êâz›¿âL$"Þ5œý4ëýó	õ×jµ2[®È*­^d&2Xðß‹¶Ò¬ÕÆNh^š¨ðr?d™% ~VZÔ5(ÍdQåR`M–i¾ÉdùKÄ•
+ÿµ²I¼SIQY!tºÆ'_Ê\š]ÂVÒ”Ä¹R8T\™nr®¡ÚèJÕå3¤-e¹Ò¨"
+Qš'TÅˆ|@½æyNRŒoÐ½&ªj§åóÚÀZå™ÀâR 3¾ÌÅM
+C¥9—E/ø³˜Q
+Y4£±›;Ø®•Hã/5R•#U¥ÑøL0¥6ïÐ­¬E\Ëš²ÒªH­j&A\)n,´jøç"8BïM-Þ	!<G®šÀñmø‰ýPK
+‘+œO·¤î¯H	Commit-remix-debungge-Complite-set-reposentory-master/License History mdUTƒX^T]oÓ0}Ï¯°ÂHMš~ÐVÓ6MëŠ6LbCM<¸É]âÖ_ØN×0ßŽí$U:ŠÐxô½çŸ{îµ_¡¹`Œ˜H#Û(ƒeÉó"•”ˆ4¸œ¸ª
+j8ê„P‹E_d†
+Év”G³Él<½›$³IšÍæ‹d>Nf£{.ƒóÑ4…ä|…3PˆÓ¤ÑaÏG3Ð©"ÒÁ]ò’ä¨ˆÂ(J7örÄ!†`©«6 tS1ˆGñ´	»E–¥Õ«mîÎmøB”9ÅÍE´ÒÞ€¾ªGÇ™ÍiÁÀ„çî§‚Ö„¶ö½àØ˜£kž£cg+Ás
+KPªòHôº0FõûÏoBÇð½FI
+\ûö?^Ý6j½¹Äyëâ+íxúÏÝ‘À3à)×Ð£*V•fXÓèc„Ad*éóá¯a<ˆ‡ãúÖ9¡\6‰'ñÐËzjé7ÿ¼!ü(1­íNâÁŽ4%Ü¸øÛx0‰“g‰Èäžä‘6˜gXež`hþJZæ„G„I¡<ŸmdjÅ†YyëL<ðV£k6öœ‹Ì[?; ½ÅH%©'4¶þ
+Öíd¼×i]xbË;¨R¯²w¼¿'Ô;~÷Â—YÓ~¸š/>Ý,Âž]§&tyus{ýù[Ì²ÝåÄNv¯twÛ>êY#.ªm¥66ž »)]­õõ5„Vº)i§_›„¢Æ&ÔÈF`k,¾Ç2ïtÐ¾Ì{f1®?eì«ÔR{NH×öÀkmOKL(r%ý=»\GbîPœ†ÑîÙ8®QéQxCôŽýšŽk¨„ÊüÜ^öý5¿“bØs]Û#'¦(—î³èwž]ÿ¿bïä%m‡Zÿ'aÏ¨öBÍRÁSüPK
+‘+œO—ÌN¾Õä>	Commit-remix-debungge-Complite-set-reposentory-master/MarkdownUTƒX^TËn1¼û+Z94Ú Ä) $ÄÄxìž{ðc7û÷T{²dÂ…K2;mwUWUÏÇ´ž²ìçJ/Ü5½~õêÍ@_ÒéSn#g"ón®u½½¹ñ6KÜO’y´!ì"×›÷(zƒB™çû1ßÙK©YÆV%E²ÑS+L©¤–÷7£D›O4¥¼”ŽRgJ¹ÿO­š%y™ÄYm0ÍL+çEjeOkNñx¨³­øÃhB:‚ ¹½è¥¢—ÌÂõÖ˜—ô˜Q¡4©¸ä™–V*¨µŸÓAKgubªâx0„ª
+è¥-.Á¢Â€.XY8ïžc¤Î0šo`õ	€ßÓø/´†.>¹¶p¬ölÎ
+tO¨eZlå,6”»1Úô’~ŸèK¿¤Åh¦«¯6ÿôé¯Àôá}W[0Ý:¤\u—‘5`ˆ£Ç{Ö|I•iS7=X!Z4¡°M_ÒTê0#Cee§™Á5Ñ$eMKÜrSÊÆúÇå]’‹9ÇS'üàùœ`7Q1¿²ÅH¹êOÄw+²_”¸,kÍælcF²%ºÐ<Ì
+ÔCX‡$³75
+ôïk*Ls3~ÚQ‚ÔSÇ›¤FÅBfÈšÕf¢ÉZ^ÔÓ±þ˜îwô9‘ø¿©ÌXÝ'SÂ-ÎÝ[‚Ø1ð„!=6ßUæáÉA8ÐÃ&=ß1fAªÚzþÕpEòv±{ŒöâßŠ ƒ%®eÖˆö=mc©Rò°OÉwõKƒM(o)¤ÒÅBŠ T«ÀÚJ¡Œ³c+Ò5“ˆpç¶j€¯aïª€£íTqû6ô$¬ešŒjÐµÇ÷iævlQWÊªº®ÒÅ1}ÊõbFydÏÑõh÷=;JákX%EwT6Ø£fë#«EúÁìRÌ9°C7’d"ë¢´ïÃú"÷1é’¹ù^îù
+PK
+‘+œO{ïsñvH	Commit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUTƒX^½WkrãÆþÏSLÖ¤õJš÷µÙ¤â­ÍR©üt
+€„ZT@Ðíò!|‚\1GÈ×=	JÙXŠdñÕÝÓ¯_Ã¯ÄÇífÓWCÚtWMªöýímºõ~Ýéj—ˆw¿Ý¥~Ü‡U’˜eÅßï›8¦Õ¿ÿõÓO7›ƒHã]Ò~#âzÆ1ì¿?v›8Œãjõö­oÿ¶¯ mLh·ƒø.
+]ÛÕqì¶½ˆ£øD
+vuì¯»­IKU^Ép¥ñöFˆû!Þn¢Øm×]Ó!¯Ýµ’ïÅªÞöãëQüejñƒb›fH»¸‡X­“¸ßWë®Û‡>
+ïå£‘Ú¾°ÆüÕËÂ×Mññ“üheaÚ¤?)õ	u’ß1?V]?jçg=·{(O»oèö!5ïOrÕaL;£gÁØï`ñÄßC×ßÎìî»ïOLŽû8_\>uþ‡£‡!>ˆññz;t·]¿Ð1Ëjˆ¼ùÇöýNTûQô	 S‚>ïÞ‰»¸Ql¶ûñnÁ3s•¹õÝ¶«“¸Kyé·£ØÄÏéâjD·ÃÁP.ïðn‰Ø~sôg•€#ÝÄÒ[YW©ô¡ÕU¢Im«]ÓêÖ§B)ØR•­IuUXeÞ7±Ö6”Ú¨§A®ždF&™"í¾¯¹¼ªýá[–_àšÇ4ôq=#»PÒÅfw{ý]\ï“øÓq­se_¾ÿ‚Ý¯¿þ¢ÕlqÊy
+y4LD©is?^>seÖ^<êÀîò”|òrÜ‹”í.”ä
+ùÃ¢D–*èñsZ²žÏ©®ãgTþE¬ºëÔ×Û&]¼ÙÅõx 7z½ywèR|ø0•ü¹¹ÕÍÀøh2’\0]ß*Ì^ÉGô¡ôÒJ§öRÒ/%¾ÄB9[¨`Ú>¤V¥ò%šùåg”Ç©PJç\öB‘7QJ•}¢_ÁÀø¦‰ª¤o#ÑJeJøk`§J™ù%y/ƒ.u9}¥ó®r2´¿´Uá]jöXÂßã/àfY+à·³Ì¥S
+n»	U-¡ˆt”RZòZÊ›g&QTKÑÓw	ü“.4QÇ“¢±—@x¦ ¡€dC³’mÃp
+­fn(U	Ï2
+LÐª¾v®T–Œ*iÈH¶5#	,/G«Ý„²ÒÊàà“‘¨ˆ+¶'+V¸ÆË†œW¥Û¥Ž£&W6¹&]C§8ë²ÅÂ8U.(ÖøŒOÙ†q^&©jÈ˜ÂUUh|I‰€h"TKÚ+?Q›èjD™©Iejå,¦ÀTì°L­Ó¨¦È´Õ°œ= €¯º(Ö
+óepù”*BR>Ô™e¦Ú”’++“íP]•û±m\el!C`7aÈtÎƒ,"Ùwœƒ¹‹(»s×”ÊÉS•Šº¦5K­±~®µr¬µ=Ó:õi—Õ¢Q¨r§Î­÷$Î™Âp­W$¯&«-#ÂÕˆó…•“®ú\céàªÈÏ’_™Ï=á§”Ö“.“»>¶oæy†Î£~9G…êMgÝÿežã£*êpHÀŒÉ^Oq)g–ÒÙ[ÂÎ¸Åœ²ì?N}8WïtRÏQÐ·Y¦Ðg2K­À0GŽeéÄ™BÈ:¢]ê(3&¦™Þ'¬)ûà}ÊÛ	‹Z?Ç¢¦NÅ´ú¿+P¥æ¹ÖÖ³Öp®õ5Ûå5²?ï-w9yfcýMsåIy"ØÆÍÒ”wÄ‰kõ{¢XlöÇÊy²¹#æ™w_±èÈ—î£9’Ü—Ç£ëÈqÐ¤A9Köñ©O›b:åsÍN›ãÉf£NàØõb¯dÿ¸6IGC“•|1Sw³¶Sÿ;yÄNf,õ·‘uF:p½šWÕHÎü³åñîChüVuÆÞx·ô˜2lxÓ[ž_.G„¦OÃs×ðÎkÆý&	_\VŽß¦Où¢isçvh¾;<õ²šh^rw[3móyr#c%½ó´ò4G(³ùOo{Êã)Î‚æžseä*>í(³\—Ö—.˜WÝ.}@õú"¶²ÂF—\5ó-SÊiË,¨ûˆƒ‹íÑoÓdyÌiË~ð”æÎSNÎq›Ö47E?Ý¨BÐ4Ù"N&±—³îå¼…øÉó![B5LìÙOiø>Åw¦IþT7Çžø¥u<iz†š±Ón³õÙýãKþæ0yû+ùöÙ×MÎªÓéId¿«ÇxKQ{çuˆxjÜQH±,,®6¥48Ý4¸pF­þ5©Â×®
+>µ^{k«
+½ƒÄ-°	XÒø3#“§Ðú÷KC™þZÚJ…WÁjüSÂrMÁ`JãQ|ÂEØã¥Á
+4?|~
+!It¤o|KòTìÿõ¤ýâIƒ_­/ñé˜ã˜¦p:A§eÝÊã:Î'‰N´’Î‡4Î&@ñÖ¬yø( còiÓ®VÿPK
+‘+œOìB9«O	Commit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UTƒX^½WmoÛ6þ®_qMX"«À¾em‡,ÐmQ4é€! Z¢%&é‘” èßCRov’¶ù°†%ïõ¹ãñxH§ªi„M4oÄ]Rðe+Ë’' ®kayb¸[[+Ã¥Uú>
+ì4!QÏKŸ×³<:$–ç|mM]½¸úðñ=ýÍµJ^_Éu“lÂG"Vòë@ku}=pÿ¥¶²V¬0a­è?ŸP_Ü˜‰
+™Ù?[Qta™maÌj¶£•îs`¾äÆ"V(qëW¹«ëQ`¤™·¢¬¸¦šoxM¹’x‘ä¥²‚YøAKfxAx¹ê©J_Ç•µksœ¦ÛívHoÌ"WMºfù-Ì¤#ç|Egwð2·Ð²Òª¡«[Å¾§,sZ)M%—Î]j
+‡¦sI¬(„÷Ë*ÍÒ¨ÔÖGQB'þ•ìýšbøAPkvOPÉtÙ6ˆÒP-Œ…$§,¾šY~gÓÊ6õìˆflbÉ=éQrv=Ï¢ˆœª-¯k÷ÌâïˆÌ³Åž+d*¥mÅdaÈ´yåÕ8ÞÀù‰ÛVKV¬6<£mÅ%IÕEÑ0›WŽíRsç%j„ß!—°Š³uãþ
+Oé\D¼CQtY	Cø1êkqL+;à¯t™r™Î©QE[sb&j¶Ä›­´jË
+OŽ"C¶°³JXÖ÷Oåq¾Ø±ï,Jr¤QÈ²Ó“9E"pe(½¦0£ÂBåf¢±äÖB6»F)¥ #¹ÖŽIj•ƒ|?GdYf€Ø/414îz¬zœN>žGÑ«IBÜ@M
+a|ÔR%­DÝÉ†Ú$yã…n B¯ˆ^Œ[¡y<ëH³ù }è21˜@>u¹´(Ý-e'a-#µ¼á¹õl¨d>ƒˆ+ŒC§f‘Wp‚Û¸{(õâ%VBcß[Øg’°B¶r hì…3_
+÷QYWi}ÙaI{Í¼Ø·nâ]³=ÌzŠÃ‚®˜#gÖÑ•F}’Z±Z hgr­ùŠk.sNq£ Úõ
+Ò|ð<ª@qÿòmz®âÏÆ`Üa ÿj&Ëu÷/ßF¡çz€Â þlÉ=úO@Á5ÄØwÅoFï[nŒ¦â‡I,®K:vÃô6ôpßÖáu¡‰s·Ù;O3o$gÇüŠÝêAšE»^î«¤“;tÔ­Z´§÷çïÏº†f°èCpK7˜È{Ú°ºå.SÌG‡ÐOö…±°fÆÜ8'³¡C5¢á‰ç˜ÍµR·í:Ûu?­AÛÿ›R:»cÎ¸	óB¸½É Òa&¬ò âNT®øsq¢YSÆú¦
+BÀðbå±^mEš›µBe,Uq?Ž8Û>Îm™ ((]Ë ázã&&€Ày/N_:
+Wx[´àè‚‰üÖk^:øüYŽW»å\N
+B&Š‚Å3NÇáÎÍé²ûvk«VæþFm“;†ŽÀcæôÅÍ3£jˆîUDiºŸ[f&òy(¥Xaà‘öw—…3êrgÌ³—vÚÌV¸ ãJ¿‡¯f~RÂôä§¨ëyçac —aõ8PÈ¹½ÀióÖÏ:ñì4«É%4=>€M·Ã<ûrPa~SÇ[¥ëâÅÁ×‘m‰ÃùvjÞ;õ£æÇað1»¯–o¼á#
+v_¥Ë7Z.øŠµµ¬vI@C©}
+zoi]£g‘QnB”<lt³æ¹XÝûax‰Aÿ9®{…ú¾ãø#NuŽŸËÂµ|»â[ä~Ø¹ð#;è8~\{ùòe?#ý£Zß­Û¾ÂT‹'löÅçOïPMªÔ¬GºwJÎ)y;3Ô1ðû€ÒO‚ºÎ±³—Žß;‘£¡ºôýùåuüîüôìÃÅzp]:¦~]²W‘…ä6˜Ò<-ág»D¹9¾´Û@iÃ¦ÞÑç.[£¶¾*Õ{â,5“yõzÐòÈ]ñQÇ0æúY>o¶n”£àîÔßß_Ã|ÿà:û¤½¢™Zë®¼#~~w6ú›Ý.÷Fµ™ˆí\€•O&ereÅ;b.¼³»¢QôPK
+‘+œO'Á8Ñn"B	Commit-remix-debungge-Complite-set-reposentory-master/Package jsonUTƒX^¥WMoã6½ûW(ÐéÊ%ÙŽX Å¢-
+,¶@½›–Æ6[‰TH*‰{ÈoïPÔ§c*Uê›%ŽÞçÍ›™ïÈgYÜ
+
+þd°¯Äñ>-sn Ð`ß•Rƒ0Rî8<"íYòg™1ºŒ—rK¢nƒ0	¢íbñéÕo± ä†dPêDÀQÎðk÷ár½Œì;Bò&Z*ÃÅ‘¤'¦Ð™D*3|ò0‘‘œ‰cÅŽ@ž¸9x6Š‘’)V€¥µ3ë¡3wo9Sðs.Aß¿DKºŒ’ÖÁûlÿB—I¸ÄÊAÜaôzç…ˆã"q› ¼¢h6ÄÚm[ˆØA¬ƒp…Ì† ~ˆ:
+oÂ;ÃÔá#áE©ä#ÝOi
+¥ÙÙ„jË]d“gƒÏŽ&³l~n5ËèKC¼WFö"£î"cL×ì‹‡€œ¡¹DÈŽ•Xk)3øÿ6cúôãs‘ïÚã®I©xÁ°0{ËƒThZe\Þe²óç)j©@»h@ß,àË¶~Ú"„™¶ýq‰°ñ"Ðí$×FwËEšW6õÄ~º¿0o2bÿ]’qø™–Ã3­i­K•4x¨X®ßc©QžS™£g­õöÏ9È%ËH!³*MJ¤`è+
+3¦¿”\˜1‰3ÈÙÙÅšJ4QS‰TÂð¯
+²KÞã‰}DÅSc±`üþ$¹¶ýàXåLá
+–
+t}…ãcØ_lõ¤¹Ôž G0¦)š	+ñ”ápÝˆµfMˆqæ‚¸ÈÅÈªùèÙê·ER.i<`c¸¾ÆÆI:úÕ•Þ9Âã©¨ÃØq8Ãß‡èºÃ :?ŽØ±ê0ÂFHgcD~Œ¤ÅØvë÷è˜,´diHV)KºU´KýÝj3*ôÓõ<ç{”<#L«ëYÊ°NŽ¢þó}ÿ\£¼Ãk»^ÅÐ2­ºu
+c]V©-á¡Éõš½×G%¤X«¶Sì¹yâˆ­‹ánfÓÝÌ* WùêÕÙUÏ$+sã²s‡Y0é©Ö^IöÓp¡­ŒÎù°ø07;áÔH²u,ñx?ASp™#NÇXžY^ÁHØµ‰Í”
+~µ`ÚE¹ê¢ŒÏŽÒOÂN|’!
+hâGøV•%NÜä+’fù—&¡“6´¿Ño&ºðª¯Ðº	*8€Â¹ºißQB›šÇvzÁÖw$¬n’õ³»Nsy½tÓ ¾*GSøGïNTÝNyt{
+À?©ôŠú¿VþåÁÞ³oOs¹ML¹ëö¦R8ªËøé×0…;˜ËrÛžÕ?×õ˜Ã3”8Ž=¹]âœõÃ§'—Qgô‡Ó¨ì,>d_ñ¼>Ž#ð×^	Ó5ÔFH[~»g_¡¿µ6ëmY†g„¹þ¾µ=ËÂÉ
+½’£¤¯ÃzcPJ6yï‰Ù9•
+»I'ÂºãŸÅgvÛpªŸOh@ÒWžõ™åy÷¾À}MÁ™|s*`åb ÚòCcdÄÚ–gÈHdi£(iÎm‡­iëO-¼•[¬v}è;û°m‘I=
+M$Í†ø¤d»h¸ÂB©‡Ò}¶kf›"aÛ +ñ·O¢_KæºÃ\Ñ\¢lÜ7VÃoøÊå¦žœR…k¦sî•Cäˆ9iÜJŸœÒ˜J_»Èxhý¦ˆ_ÕMß¿×Š´?×k?ðÔrÀILCŽÌ:AMÜ•Sk¨[1-H7ã–¦úÃ'`SHc·D…+8ík}ÅIóÒß•ƒîËwì‰²ûí•jr-~0X3Oì¬]ÑsE/3t˜
+ãc«“ÑÄ<õ+ÐÅõ_PK
+‘+œO¤ÛÙx ·_?	Commit-remix-debungge-Complite-set-reposentory-master/README.mdUTƒX^í[énÉþ?OÑ‘€¬d‹äðIÑîÊ–lË°l­dÇŽ‡nÎ4É6çàvÏ¦þ™ääo!â'IU÷\<dIö(¿faId_U×ÕGÕn’Ç¾ëò $˜Ë?—lÖ½Á€• uìð€•$Ã¾±/™øbfèá$ÓDâ±äÍØ¦3ŒÍÍMò–9–ï2øä)ž…=rJLÆ_üXÔ#¡„Î!#ÌæC|/øakcÙ©T<†½2àTDx9›I—Š ¨˜Ÿëf­Þn¶õú“¦ÙnZvûñ‘ù¸a¶ë}V;ªVÕ[3µ*ˆ]q©˜¨œž•]{Û@®\Ê½~õl2lÂÙT1dù^+#}`jæ‡‚LYOâò`ì	#ÛŸz¤Ï&Ë†ñvÈ<6aj$ÌT²ð`È¥–®m¶³ 2åŽCDè‘‹çl4sœtÅŸÔw¡×¼H4Â[q6V³
+Åò´CúÂwØŽ»WXE­Ä†‘t£”8|0¦+y0*g¥À/¡’ääôY‰C3‡{ƒH,‚ð¥LŽ‘¨å„60\L€î{gÆÇÝ˜è¹FEÙ0Þf¤çøÖ$ÏµA–Uà5þ\S|G_ê†Q"BÇa0>¾à20Œj™¼ÝÐV+G<òûÁµœîq@nuÕ—æG°Ï0ìâ÷F¶Bál«Î?\» å[RXÛÈ¼a<…»¾`Äf`/Ž$’ÕF
+}âÐ	ôÙ‰d3ÖrH9cÄ}FƒP0Y$¯Ë¦²iH[y=dnä-"²eƒÊtb×q((B+5ckˆ`„Q¶9¤P%s˜…bä"µQèPŸ2Oÿ‹1·Ë¸"âQàÆïk÷Ð¼Á	¬)–2Œì‚%õù <sDEÃRIë<}PÑc°jJŸÑ	Úh ü°ç Ä‚¡–à/äñY#‚2S‹·}+tÁZlºì!sÆYµYÔ¾à 8ÝZRŽXêQÉ-	n
+Ô/,MžHÍÑZ!Fc´¥MÙ×/ÿ„•"5¥!‰áÈZP6XÝ¨ª0JQ@(eÕÐ//g%æñK
+ðµQéÿÚA-Ÿœ†}Øï!“$&9°´»ž
+ÿX6½å#NÎ™‚‹ÏÈ±'Ñ[%´hm¯Æj
+lŽC{>èÅ’ü|ŠºÒx$¨g
+Ázß²ÞÐ÷GÒxé¼Ï-ªgC h]â$ÉÄ„[0üFFl&
+ .X ˆ9ã8×SÔtAU;Ä-¸Ò8c(sNTL(“
+8¦ÚÂ Ž-Ð£Å›—
+ïôÕùëX:pÃ6vö‚ô˜ãOµíÄnvK=p“°'-Á{@a¨“eoiÔ‘>‘cfñþŒL‡Ü‚É4 ] ’¶
+L˜íãà•[ÏÏ_½Ü!ŸKÓé´„cKŽ˜‡¡ÑÞ!,°À{N0qO#áÊ‘^tè)ßAƒ¶!ÇC \°lð•S:s|jãÒãq´S³1lÖZÒÆ×¿ýãNÿÈ×/'G°½çç/ì€‰‚
+òh¬ôiè; wÝ9#8Îb"²Üaï„Ÿ¨XÛ›b÷*räQtÞelbr©z¶<O!¸å‚&lêo•ÀµNÈÔaÓD·Š¥¡cOd
+¿ÏCÔ;î­¡Œ&—A$ SˆM¸±Ï`<lrÆ`“Ž  p›O¸R'6e©ö¥ct´.ÝØZ²âÉcð‹Øb6¬ZŸŸbæns‰ážµÒa$/ðBöÚõ:£¦Yªí5{¥j•ÑR»¶ÇJ¶YoØmËì›­Þ×/ÿª™Õ½RµVªµIµÖ©6:µ¶¡Om,ÚÌ²Ù€µû øÏXÄ=|ÒžÑ¨ÕÈ“cpEfèÍX&`TrÃž±‡â‰.†¾ÝQNhD®[B«ì:†#¥Öyå“£:ú~tˆñâEé`C;Ñ©ªô]}èÚì×ZÕ†ñ®õDÒšun%ªtÞÑDáAõÐˆ-ç|à©Ý»CäV÷™½×kõ­ÝZßb–mµZ-VÝkîÖšÖn½I›:üµ,»»ž1}m\2o£C6NUü²àLáµ§	ö‡±¶¼±ƒÃPá]nÃÐjË¬ïÂfÛNÚ¡¡àJ
+ÑÎ’=\Í†žÕ©Ðˆ›/ƒŠÇQe³ÐˆEmÚž¡íB}‡–êÓ‡h€ÞŒ6tª®3„
+‹H 3`3°“°®”öši—T±Dÿ¥}±ãÛv¥9»Š8•ÿØ]ª S«[ýûxá@ö–#—Ø cž=¨ãSåÖÛtEmJ•D31ˆ†A÷^)UDLÍúžÉ!	Ósà¸ÛQøX4¿{p"Im6­ío#ôà k§b	[y4AkÞˆ´¿‘dSQnP«›M³Ñ¬›±Mí['‡GÓWÎsÇzºwIßM,o4;¹<¨þVƒ¿ûKž“]qÜ×Vºñ€[Ë+Ñ„à0D˜Û‡ÃCì‚p`"+'Çpï&ÃÕíî™{¦ÙLZ>{5Ú›½¯=	é»ñÐ~êLzŸÞìžŽÌ—Ÿj)ö¨X1Õ*k‘Å€šD”ñ„•˜ø/“ýF
+‡>
+§¹¸Ö×—lá¿m‹)Ò0pen3P·éÃ±ÖŸÑœäfÆ*	Ô2úÍ.xkt€šW|8Ä€ž`ÎUFàpÎa
+f®þ€ê2øà«Ž.?N!‚e é_ÍUüÉÒ‡n}íÈ\.¥â‹õø%Í‰
+ÀeÀU€úqP“¢êÝúÇa5Î¼¢’5»Êò­n)v7/RK€)¥øøð*£†Œ	ð€u©íª@¨¢åÂÞÿŽ¿62Û,±„Ü$›…Ì-ƒVI­IÆ‚à¹Úñ2æ¥%\Ã,õÄqûG‚Øp½øI—ŽôËÎÔp}«œCnâ•ŠHØà`ìå'êíÎ¶ËeÔ—÷ÐyÐ]­›´M-…Üj»Íì¸*\fåTc¬é®%0m8Ø6[–¢%áâÖL¨+þ–homw€q¼©ÁÝN]Ûà¸
+o…ÇìÜˆàs£q&ËòrkÚÁðƒBÖ+½0ŽTb½v :ªëŒ
+B‡
+Ò½èõd3»Ë®ÛU»½·é÷ÃU>ø†ÄaW'ûû.\-û`up·‚-Õ´­0»`ìNZ£­í¦£Éá
+;a á¦dÙèíÖÁÖX+;1f.NyB‘Ÿ÷AÝHÕükµµ¬™‡³€
+ÆØî^¯¾¥-¡;¦‚ºÕk‰4ð¤,ù%#%Ò@RõZÒÍ'Ú‡æ^c¯Ù‚ËÙJïCRoâE´¥Q‘¾— ÔÛo³4t=._1bòó×/ÿ!f»´¦@e‰þ:p‹u/jí¶²ÂEÈ~ÜrD>¨¡+\À\h">\-ë[ÍÆÜÓÛð«¾C~’Ô	fø~ÚY"±³@`çZ
+Š;ˆ»N½¶µØ¿
+ŠYb{W¨½¢£Ä£~ÁÂñ=¬C´Õ¤&3eœ¨Ä8åc^_s°uI’¥RrjöÅhñÚ™ëu$Kæ¦ë®7…À·ÊœñrŽ¿3G-¸(eZs&¸€=_øz•^P©›7]…P÷Çû¸“&O"R†ìvg˜»ÒQÐ29By*•ˆî^H.6¨”|à1–7•w^É^,6zÑÎäbØyô)µ>:ÈÝøhú<Ñsü^Þø0¦¢pçˆéÉJ ¹{«Aj»JL°þ}CØEbÈßþÔ²„²¿,)ýB”;µ¶2Ïs¨71Ý—3µ7³*¸÷\ÞüêðëŠ€ÓÝÄï…÷²™¤ÐÉÊâŒYþKK‘—ˆ©‹ÛýPgî¥ºä#)*ÔUw¾règkIêìÚ½,oí^©7é¨û~vékiG˜÷á[™?Ó`˜-ºYþ’EÔÊ¼G%»*—Ëó!£é1Òe"ÿH¦A“³ˆ°†|’÷ºæ1¬N€«Â~²,, Q™ãœ©&¸öy?ÇÇ{‡Ž“7)…¹BÉÅ±À÷ò·Œx…¦—­É™ìöüÉ=‹íÀv\#à?„jf‡ï±Ü%­AaÙÔe	%ÁFó?¸Ä°óJæÆh«bšûˆÞäÛ¤SÍÝNµž¦S¿‘¢Å‘Í÷©ýËáuëºù>»/F+„ßùì‹IŽr˜ü5…ë|œå€äñ4½Àãdåtó#¯ÝCßeã4·á—Øb®žP-?ô‚L×”ps[Ós‡TvuØ[Ê|bÇ8ªC[|Âž4¯tMùˆ¯¶ª:½%úMh™O—áÇyÎ§Ñ¾c/Øº
+i¹ì£…­J‚[L§¿3ðú1)”X#ÝLSôúÛÕ7e4]Sº‘$Ä±À-“ENsÈ«)Ï(a\3ÍÝV­¾.Oþ[óÏï^:Ö§7³“ÃƒêËËãËd¿ÿV‚Ø¼>AË$ˆ¯Iß*9¼fM7$„ÖÌ¸[Ú÷[YÞ;æxoÒ½CB÷æüí²··NÖ~Gªö¦Ììwäe¯IÃÞ!	{]Îõ.×[$X¿+½zs65É¥bµ\¢™uÔ+ãÊøï¿u*ó©*~Û!ÇžU6^3áJãT³kÄÅÀÆ¹z%1ž1glD%×Ñ<kaÁÜÁé±ñZè4€ñâŽqÐóÃÀ8ñ1VbÆEºç£«±Pl«à§þ÷Œj1,ýs|Ì¿fVNŒW#:ÛQéRUL9¥’ÈÐ²˜”X”3#ÑY£l˜†Y”R¥Ôù—Rß¥è5¿ªë¢â:·ŠëÿkQuQJ]”R¥ÔE)uQJ]”R¥ÔE)uQJ]”Rÿè
+ŠRê¢”º(¥.J©‹Rê¢”º(¥.J©IQJ]”R¥Ô?F­(¥.J©‹Rê¢”º(¥.J©‹Rê|ŠF‹Rê¢”º(¥.J©‡E)5)J©‹Rê¢”z-É¢”º(¥.J©o,¥þPK
+‘+œOß„ïÁqX	Commit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UTƒX^½W[rãÆýç*:“i<Òô»R&©xj¼W*Ÿ®ÐPC
+	ZR\^„Wà-z	>÷vƒ%;‘âØ`nßçéûhþY|ÜÜÞÓÅ6Ý]jöãõuºõn=Léb—hín³Kã´Ù>®2»XÄÌ+þq×Å)­~úñ‡Þ¿}+ÄÛ¯÷
+˜§Ô‰~³ß¦íÐmœ†Í(â$>M7i»kãx9lHZªúB†]‰·ï…¸ÛÆëÛ(v›õÐ
+Ó£—îRÉ«•ífœ¶±Äß×©«ï]±ë¶i·wñ16ë$îöÍzhÅæ~LÛ+ù`¤6•¯¬1_yYù¶«>~’­¬LŸô'¥¾4¡MòË ×0NÚùÕ¬èzíi÷M\¯7÷©»:26SÚ}àŒãî6»i;Œ×óò¿öÃ¿ËâŠnˆûXž?uÿ»ƒD|ÓÃåf;\ãÂÀ¬ŠuƒçÍ?o€ïv?îD³ŸÄ˜½¸ëÏ»wâ&îD·›ýt³Xœ–‹íÍfh“¸I›3n&q?§wˆ«ÃNÜo7†6ôopKì°ü·7W³¢ G€»‰µ·²mRíC¯›.D“ú^»®×½O•ªR°µª{“Ú¦²:Ê¼ïb«m¨µQ¿å“­€ÂöýÁ!úýØr¦5ûÇoXbnz˜ÒvŒkÆ·ÈlÐÛ¦³ÛÝõå·q½Oâ¯Ä¥‰ÒôüêèÁó_|1?p0ž
+—h!
+‰Hþ)ÝÞMç§~”´ëÏžÆ÷¹:_ðdw§ýv‘ß?ƒ‰uå´ùÓ"o^¤huÂBŠ>§¶ŸQg±.ÓØnºtöf×Ó#ÝèûæÝ!²sñáCIƒ§öÞ¿è]Æ•óè~GÂ‡
+¯Vò*½´Òi£½”ô¦¤ÂC¬”³•
+¦á%µª•¯Qæ/—QR¡–Î¹ì…"o¢”*ûDoÁÀø¦‰ª¤ï#Ñjejøk`RµÌë5y/ƒ®u]žcí¼kœýo-BG5¸ëJÍKø{xn6‘µ
+~;Ë«$¥à¶+¨j	E¤£–Ò’×RæØ</Eõ==Kà˜t¥‰ª8ž] ˆ½zÀ»2Y\ ªš=l>`¥Òj^
+µªÐþ™GáÊô­èkçjU°dTICF²oI`‰x9Zí
+ÊJ”±‚_F¢¡5X‘°]¬XXác,ò¾*Ý/u4¹ºË9é:’â]—=FÉ1sA±Æg|‚Ì6Œó2IÕ‚ÇT®iBçkÚ°&BpAµ¤½ñ…ÚE×"ÊLM*Sg`1¦bºejÛ™NuUÖ ­†åìíÖ•AÅ¶ãu\–RUHÊ‡6S£ÌT›Rruc²]ªkr=ökŒ­$cì
+†Lç}U$ûŽ÷`®"ÚÝ¹jjåä±¾jEUÓ›¥ÖØ>×Ú8ÖÚŸh-uFÚ¥A¶hä²Ü©Sk§5	9SÎõ†øU±Ú3"œ¯¬,:8ësŽIlgEþÔüÍë\¾D ´.ºL®øhØ¾™û*êåÊ7uÿ|”yŽj¨ÂÁ3&{]âRÎ,¹³·„q‹>eÙ+¾Žu8go‘Ôsô4óTú„g©æÈÑ£,IœX1 „¬#Ú¥Ž1£cšr/XÓîcèÓ¾±hõs,ZªTt«ÿ9Uêžkí=k
+§Z_3]^Ãûß½å*'ÏllŸá¢©¯<‰ wÛ¹™›vÇpâ\}Áœ¨Sý±rž‡ìc®ˆybæÙW-*ò¥óhŽ$×åaæè6rÔiEÎ’}üêã¤(R>çl™O&UÇ®s%ûÇ¹I::ê¬ä‹)ÕÍÚŽõïä;™±TTßF¶éÀùj^•#yÏàŸ­gBã÷Ê3îðÆ»¥Ç´À†'½åþUp9 T~
+÷]Ã3¯[ì0Î7Hø6à°rx*¿òEis§v¨¿;|ô2›¨_ru[S¦ùÜ¹±c5Ý¹[yê#´³Y‚»·=îã1ÎŠú>sfä,>Î(³œ—Ö×.˜W.}@öú*ö²ÁD—œ5ó)SÊ2eÔŠý@ÄÁÅþà·é2?ú´e?¸Kså)'ç¸Mo:Š›¢/'êŽ4]¶€H“I¬Áå]÷ržBüáþ-!J%{öS>Oñ™©ðóæP¿5‹¦g¨[f›mOÎ¿æoîÅÛÿ“o¯á}]à]u:=‰ìõ·µw^‡ˆÆ	‰ëÊâhSK³Ñ]‡gÔZá_“ª|ëšàSïµ·¶iP«1Hœ»€!?32yê½oq¾4Ôé¯•¡©Ty¬Æ?%×º4žˆâÂ_Õ@ýÃ7Xo±B2Ä‰Šôï‰Ÿ’ý%í¯J¼õ¾Æ¯ãÇ4é–u+ã8Kh5É‡4d“ xpkÖÀkxà1YÚô«ŸPK
+‘+œO6	Commit-remix-debungge-Complite-set-reposentory-master/UTƒX^PK
+‘+œO“×2R	]Commit-remix-debungge-Complite-set-reposentory-master/#Eveem org. Decompile sourceUTƒX^PK
+‘+œOÇ%²ËE	×Commit-remix-debungge-Complite-set-reposentory-master/Code of conduceUTƒX^PK
+‘+œO¾‰Iýóœ<	õCommit-remix-debungge-Complite-set-reposentory-master/GithubUTƒX^PK
+‘+œOD˜0Ym!=	K
+Commit-remix-debungge-Complite-set-reposentory-master/LicenceUTƒX^PK
+‘+œO·¤î¯H	
+Commit-remix-debungge-Complite-set-reposentory-master/License History mdUTƒX^PK
+‘+œO—ÌN¾Õä>	:Commit-remix-debungge-Complite-set-reposentory-master/MarkdownUTƒX^PK
+‘+œO{ïsñvH	tCommit-remix-debungge-Complite-set-reposentory-master/My ethereum walletUTƒX^PK
+‘+œOìB9«O	ýCommit-remix-debungge-Complite-set-reposentory-master/Npm version( LICENSE MIT)UTƒX^PK
+‘+œO'Á8Ñn"B	!Commit-remix-debungge-Complite-set-reposentory-master/Package jsonUTƒX^PK
+‘+œO¤ÛÙx ·_?	f'Commit-remix-debungge-Complite-set-reposentory-master/README.mdUTƒX^PK
+‘+œOß„ïÁqX	l6Commit-remix-debungge-Complite-set-reposentory-master/Verifycation pragma solidity 0.5.1UTƒX^PKÐù=(569160bd23f7b17eb3a40499304b5031e16ddade
+
